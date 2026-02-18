@@ -1,0 +1,36 @@
+Data Schema for Sports Project
+
+User
+	ID
+	Name
+	Password
+	
+Sport
+	ID
+	Sport Name (Soccer / Hockey)
+	
+Team
+	ID
+	Sport . ID
+	Name
+	City
+	Abbreviation
+	Logo(reference to where image is stored)
+	
+Player
+	ID
+	Team . ID
+	First Name
+	Last Name
+	Position
+	Jersey Number
+	
+Game
+	ID
+	Sport . ID
+	Home Team . ID
+	Away Team . ID
+	Game Date and Time
+	Home Score
+	Away Score
+	Status (scheduled / final)
