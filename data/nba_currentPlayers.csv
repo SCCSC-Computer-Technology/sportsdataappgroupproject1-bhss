@@ -1,0 +1,516 @@
+name,team,team_abbrev,position,height,height_in,weight_lb,years_in_league,birth_year,birth_loc,draft_year,draft_round,draft_pick,player_id,headshot_url
+Christian Koloko,Atlanta Hawks,ATL,C,Jul-00,84,230,4,2001,"Douala, Cameroon",2022,2,3,kolokch01,https://cdn.nba.com/headshots/nba/latest/260x190/1631132.png
+Jock Landale,Atlanta Hawks,ATL,C,11-Jun,83,255,8,1996,"Melbourne, Australia",2018,0,0,landajo01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629111.png
+Mouhamed Gueye,Atlanta Hawks,ATL,C,10-Jun,82,210,3,2003,"Dakar, Senegal",2023,2,9,gueyemo02,https://cdn.nba.com/headshots/nba/latest/260x190/1631243.png
+Onyeka Okongwu,Atlanta Hawks,ATL,C,8-Jun,80,235,6,2001,"Chino Hills, CA",2020,1,6,okongon01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630168.png
+Jalen Johnson,Atlanta Hawks,ATL,F,9-Jun,81,219,5,2002,"Wausau, WI",2021,1,20,johnsja05,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630552.png
+C.J. McCollum,Atlanta Hawks,ATL,G,3-Jun,75,190,13,1992,"Canton, OH",2013,1,10,mccolcj01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203468.png
+Dyson Daniels,Atlanta Hawks,ATL,G,7-Jun,79,199,4,2003,"Bendigo, Australia",2022,1,8,daniedy01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630700.png
+Gabe Vincent,Atlanta Hawks,ATL,G,3-Jun,75,200,8,1996,"Modesto, CA - Country: Nigeria",2018,0,0,vincega01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629216.png
+Keaton Wallace,Atlanta Hawks,ATL,G,4-Jun,76,195,5,1999,"Richardson, TX",2021,0,0,wallake01,https://cdn.nba.com/headshots/nba/latest/260x190/1630811.png
+Buddy Hield,Atlanta Hawks,ATL,GF,4-Jun,76,220,10,1993,"Freeport, Bahamas",2016,1,6,hieldbu01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627741.png
+Nickeil Alexander-Walker,Atlanta Hawks,ATL,GF,5-Jun,77,205,7,1999,"Toronto, Canada",2019,1,17,alexani01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629638.png
+Asa Newell,Atlanta Hawks,ATL,PF,10-Jun,82,220,1,2006,"Atlanta, GA",2025,1,23,newelas01,https://cdn.nba.com/headshots/nba/latest/260x190/1642854.png
+Jonathan Kuminga,Atlanta Hawks,ATL,PF,7-Jun,79,225,5,2003,"Kinshasa, Democratic Republic of the Congo",2021,1,7,kuminjo01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630228.png
+RayJ Dennis,Atlanta Hawks,ATL,PG,2-Jun,74,180,2,2001,"Oswego, IL",2024,0,0,dennira01,https://cdn.nba.com/headshots/nba/latest/260x190/1642484.png
+Caleb Houstan,Atlanta Hawks,ATL,SF,8-Jun,80,205,4,2003,"Milton, Canada",2022,2,2,houstca01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631216.png
+Corey Kispert,Atlanta Hawks,ATL,SF,6-Jun,78,224,5,1999,"Edmonds, WA",2021,1,15,kispeco01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630557.png
+Zaccharie Risacher,Atlanta Hawks,ATL,SF,8-Jun,80,215,2,2005,"Malaga, Spain - Country: France",2024,1,1,risacza01,https://cdn.nba.com/headshots/nba/latest/260x190/1642258.png
+Nikola Djurisic,Atlanta Hawks,ATL,SG,8-Jun,80,215,2,2004,"Gent, Belgium - Country: Serbia",2024,2,13,djurini01,https://cdn.nba.com/headshots/nba/latest/260x190/1642365.png
+Danny Wolf,Brooklyn Nets,BKN,C,11-Jun,83,250,1,2004,"Glencoe, IL",2025,1,27,wolfda01,https://cdn.nba.com/headshots/nba/latest/260x190/1642874.png
+Day'Ron Sharpe,Brooklyn Nets,BKN,C,11-Jun,83,265,5,2002,"Greenville, NC",2021,1,29,sharpda01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630549.png
+Nic Claxton,Brooklyn Nets,BKN,C,11-Jun,83,215,7,1999,"Greenville, SC",2019,2,1,claxtni01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629651.png
+Chaney Johnson,Brooklyn Nets,BKN,F,7-Jun,79,220,1,2002,"Alabaster, AL",2025,0,0,johnsch06,https://cdn.nba.com/headshots/nba/latest/260x190/1643052.png
+Jalen Wilson,Brooklyn Nets,BKN,F,7-Jun,79,225,3,2001,"Denton, TX",2023,2,21,wilsoja03,https://cdn.nba.com/headshots/nba/latest/260x190/1630592.png
+Noah Clowney,Brooklyn Nets,BKN,F,10-Jun,82,210,3,2005,"Roebuck, SC",2023,1,21,clownno01,https://cdn.nba.com/headshots/nba/latest/260x190/1641730.png
+Nolan Traore,Brooklyn Nets,BKN,G,4-Jun,76,185,1,2006,"Creteil, France",2025,1,19,traorno01,https://cdn.nba.com/headshots/nba/latest/260x190/1642849.png
+Drake Powell,Brooklyn Nets,BKN,GF,6-Jun,78,200,1,2006,"Pittsboro, NC",2025,1,22,poweldr01,https://cdn.nba.com/headshots/nba/latest/260x190/1642962.png
+Egor Demin,Brooklyn Nets,BKN,GF,9-Jun,81,200,1,2006,"Moscow, Russia",2025,1,8,demineg01,https://cdn.nba.com/headshots/nba/latest/260x190/1642856.png
+Josh Minott,Brooklyn Nets,BKN,GF,8-Jun,80,205,4,2002,"Boca Raton, FL",2022,2,15,minotjo01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631169.png
+Terance Mann,Brooklyn Nets,BKN,GF,5-Jun,77,215,7,1997,"Lowell, MA",2019,2,18,mannte01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629611.png
+E.J. Liddell,Brooklyn Nets,BKN,PF,7-Jun,79,240,4,2001,"Bellevile, IL",2022,2,11,liddeej01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630604.png
+Michael Porter Jr.,Brooklyn Nets,BKN,SF,10-Jun,82,218,8,1999,"Columbia, MO",2018,1,14,portemi01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629008.png
+Ziaire Williams,Brooklyn Nets,BKN,SF,8-Jun,80,185,5,2002,"Lancaster, CA",2021,1,10,willizi02,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630533.png
+Ben Saraf,Brooklyn Nets,BKN,SG,6-Jun,78,200,1,2006,"Johannesburg, South Africa - Country: Israel",2025,1,26,sarafbe01,https://cdn.nba.com/headshots/nba/latest/260x190/1642879.png
+Ochai Agbaji,Brooklyn Nets,BKN,SG,5-Jun,77,210,4,2000,"Kansas City, MO",2022,1,14,agbajoc01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630534.png
+Tyson Etienne,Brooklyn Nets,BKN,SG,2-Jun,74,185,4,2000,"Englewood, NJ",2022,0,0,etienty01,https://cdn.nba.com/headshots/nba/latest/260x190/1630623.png
+Amari Williams,Boston Celtics,BOS,C,11-Jun,83,250,1,2002,"Nottingham, England",2025,2,16,william01,https://cdn.nba.com/headshots/nba/latest/260x190/1642873.png
+Luka Garza,Boston Celtics,BOS,C,10-Jun,82,243,5,1999,"Washington, DC",2021,2,22,garzalu01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630568.png
+Neemias Queta,Boston Celtics,BOS,C,Jul-00,84,248,5,2000,"Barreiro, Portugal",2021,2,9,quetane01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629674.png
+Nikola Vucevic,Boston Celtics,BOS,C,10-Jun,82,260,15,1991,"Morges, Switzerland - Country: Montenegro",2011,1,16,vucevni01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202696.png
+Jayson Tatum,Boston Celtics,BOS,F,8-Jun,80,210,9,1998,"St. Louis, MO",2017,1,3,tatumja01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628369.png
+Max Shulga,Boston Celtics,BOS,G,5-Jun,77,210,1,2003,"Kiev, Ukraine",2025,2,27,shulgma01,https://cdn.nba.com/headshots/nba/latest/260x190/1642917.png
+Hugo Gonzalez,Boston Celtics,BOS,GF,6-Jun,78,200,1,2006,"Madrid, Spain",2025,1,28,gonzahu01,https://cdn.nba.com/headshots/nba/latest/260x190/1642864.png
+Jaylen Brown,Boston Celtics,BOS,GF,6-Jun,78,223,10,1997,"Marietta, GA",2016,1,3,brownja02,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627759.png
+Ron Harper Jr.,Boston Celtics,BOS,GF,6-Jun,78,245,4,2000,"Franklin Lakes, NJ",2022,0,0,harpero02,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631199.png
+Payton Pritchard,Boston Celtics,BOS,PG,1-Jun,73,195,6,1998,"Tualatin, OR",2020,1,26,pritcpa01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630202.png
+Jordan Walsh,Boston Celtics,BOS,SF,7-Jun,79,205,3,2003,"Dallas, TX",2023,2,8,walshjo01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1641775.png
+Sam Hauser,Boston Celtics,BOS,SF,7-Jun,79,217,5,1998,"Green Bay, WI",2021,0,0,hausesa01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630573.png
+Baylor Scheierman,Boston Celtics,BOS,SG,7-Jun,79,205,2,2001,"Aurora, NE",2024,1,30,scheiba01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631248.png
+Derrick White,Boston Celtics,BOS,SG,4-Jun,76,190,9,1995,"Parker, CO",2017,1,29,whitede01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628401.png
+John Tonje,Boston Celtics,BOS,SG,5-Jun,77,218,1,2001,"Omaha, NE",2025,2,23,tonjejo01,https://cdn.nba.com/headshots/nba/latest/260x190/1642910.png
+P.J. Hall,Charlotte Hornets,CHA,C,10-Jun,82,238,2,2002,"Chicago, IL",2024,0,0,hallpj01,https://cdn.nba.com/headshots/nba/latest/260x190/1641790.png
+Ryan Kalkbrenner,Charlotte Hornets,CHA,C,1-Jul,85,257,1,2002,"St. Louis, MO",2025,2,4,kalkbry01,https://cdn.nba.com/headshots/nba/latest/260x190/1641750.png
+Brandon Miller,Charlotte Hornets,CHA,F,9-Jun,81,200,3,2003,"Antioch, TN",2023,1,2,millebr02,https://cdn.nba.com/headshots/nba/latest/260x190/1641706.png
+Grant Williams,Charlotte Hornets,CHA,F,6-Jun,78,236,7,1999,"Houston, TX",2019,1,22,willigr01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629684.png
+Miles Bridges,Charlotte Hornets,CHA,F,6-Jun,78,225,8,1998,"Flint, MI",2018,1,12,bridgmi02,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628970.png
+Tidjane Salaun,Charlotte Hornets,CHA,F,9-Jun,81,203,2,2006,"Paris, France",2024,1,6,salauti01,https://cdn.nba.com/headshots/nba/latest/260x190/1642275.png
+Moussa Diabate,Charlotte Hornets,CHA,FC,10-Jun,82,210,4,2002,"Paris, France",2022,2,13,diabamo01,https://cdn.nba.com/headshots/nba/latest/260x190/1631217.png
+Xavier Tillman,Charlotte Hornets,CHA,FC,8-Jun,80,245,6,1999,"Grand Rapids, MI",2020,2,5,tillmxa01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630214.png
+Coby White,Charlotte Hornets,CHA,G,4-Jun,76,195,7,2000,"Goldsboro, NC",2019,1,7,whiteco01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629632.png
+Josh Green,Charlotte Hornets,CHA,GF,5-Jun,77,200,6,2001,"Sydney, Australia",2020,1,18,greenjo02,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630182.png
+Kon Knueppel,Charlotte Hornets,CHA,GF,5-Jun,77,215,1,2006,"Milwaukee, WI",2025,1,4,knuepko01,https://cdn.nba.com/headshots/nba/latest/260x190/1642851.png
+Pat Connaughton,Charlotte Hornets,CHA,GF,5-Jun,77,209,11,1993,"Arlington, MA",2015,2,11,connapa01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626192.png
+LaMelo Ball,Charlotte Hornets,CHA,PG,6-Jun,78,180,6,2002,"Los Angeles, CA",2020,1,3,ballla01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630163.png
+Tre Mann,Charlotte Hornets,CHA,PG,3-Jun,75,178,5,2001,"Gainesville, FL",2021,1,18,manntr01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630544.png
+Liam McNeeley,Charlotte Hornets,CHA,SF,7-Jun,79,215,1,2006,"Richardson, TX",2025,1,29,mcneeli01,https://cdn.nba.com/headshots/nba/latest/260x190/1642862.png
+Tosan Evbuomwan,Charlotte Hornets,CHA,SF,8-Jun,80,217,3,2001,"Newcastle, England",2023,0,0,evbuoto01,https://cdn.nba.com/headshots/nba/latest/260x190/1641787.png
+Antonio Reeves,Charlotte Hornets,CHA,SG,6-Jun,78,195,2,2001,"Chicago, IL",2024,2,17,reevean01,https://cdn.nba.com/headshots/nba/latest/260x190/1641810.png
+Sion James,Charlotte Hornets,CHA,SG,6-Jun,78,220,1,2003,"Sugar Hill, GA",2025,2,3,jamessi01,https://cdn.nba.com/headshots/nba/latest/260x190/1642883.png
+Nick Richards,Chicago Bulls,CHI,C,Jul-00,84,245,6,1998,"Kingston, Jamaica",2020,2,12,richani01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630208.png
+Leonard Miller,Chicago Bulls,CHI,F,10-Jun,82,210,3,2004,"Fort Erie, Canada",2023,2,3,millele01,https://cdn.nba.com/headshots/nba/latest/260x190/1631159.png
+Matas Buzelis,Chicago Bulls,CHI,F,9-Jun,81,190,2,2005,"Hinsdale, IL - Country: Lithuania",2024,1,11,buzelma01,https://cdn.nba.com/headshots/nba/latest/260x190/1641824.png
+Jalen Smith,Chicago Bulls,CHI,FC,10-Jun,82,215,6,2000,"Baltimore, MD",2020,1,10,smithja04,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630188.png
+Lachlan Olbrich,Chicago Bulls,CHI,FC,10-Jun,82,235,1,2004,"Adelaide, Australia",2025,2,25,olbrila01,https://cdn.nba.com/headshots/nba/latest/260x190/1642950.png
+Zach Collins,Chicago Bulls,CHI,FC,11-Jun,83,250,9,1998,"Las Vegas, NV",2017,1,10,colliza01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628380.png
+Anfernee Simons,Chicago Bulls,CHI,G,3-Jun,75,181,8,1999,"Altamonte Springs, FL",2018,1,24,simonan01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629014.png
+Collin Sexton,Chicago Bulls,CHI,G,1-Jun,73,190,8,1999,"Atlanta, GA",2018,1,8,sextoco01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629012.png
+Isaac Okoro,Chicago Bulls,CHI,GF,6-Jun,78,225,6,2001,"Atlanta, GA",2020,1,5,okorois01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630171.png
+Josh Giddey,Chicago Bulls,CHI,GF,8-Jun,80,205,5,2003,"Melbourne, Australia",2021,1,6,giddejo01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630581.png
+Guerschon Yabusele,Chicago Bulls,CHI,PF,8-Jun,80,260,10,1996,"Dreux, France",2016,1,16,yabusgu01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627824.png
+Noa Essengue,Chicago Bulls,CHI,PF,10-Jun,82,200,1,2007,"Orleans, France",2025,1,12,essenno01,https://cdn.nba.com/headshots/nba/latest/260x190/1642855.png
+Patrick Williams,Chicago Bulls,CHI,PF,7-Jun,79,215,6,2002,"Charlotte, NC",2020,1,4,willipa01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630172.png
+Mac McClung,Chicago Bulls,CHI,PG,2-Jun,74,185,5,1999,"Gate City, VA",2021,0,0,mccluma01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630644.png
+Rob Dillingham,Chicago Bulls,CHI,PG,2-Jun,74,175,2,2005,"Hickory, NC",2024,1,8,dilliro01,https://cdn.nba.com/headshots/nba/latest/260x190/1642265.png
+Tre Jones,Chicago Bulls,CHI,PG,1-Jun,73,185,6,2000,"Saint Paul, MN",2020,2,11,jonestr01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630200.png
+Yuki Kawamura,Chicago Bulls,CHI,PG,8-May,68,159,3,2001,"Yanai, Japan",2023,0,0,kawamyu01,https://cdn.nba.com/headshots/nba/latest/260x190/1642530.png
+Jaden Ivey,Chicago Bulls,CHI,SG,4-Jun,76,195,4,2002,"Mishawaka, IN",2022,1,5,iveyja01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631093.png
+Jarrett Allen,Cleveland Cavaliers,CLE,C,11-Jun,83,243,9,1998,"San Diego, CA",2017,1,22,allenja01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628386.png
+Thomas Bryant,Cleveland Cavaliers,CLE,C,10-Jun,82,248,9,1998,"Rochester, NY",2017,2,12,bryanth01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628418.png
+Evan Mobley,Cleveland Cavaliers,CLE,FC,11-Jun,83,215,5,2001,"San Diego, CA",2021,1,3,mobleev01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630596.png
+Larry Nance Jr.,Cleveland Cavaliers,CLE,FC,7-Jun,79,245,11,1993,"Akron, OH",2015,1,27,nancela02,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626204.png
+Nae'Qwan Tomlin,Cleveland Cavaliers,CLE,FC,10-Jun,82,210,2,2001,"New York, NY",2024,0,0,tomlina01,https://cdn.nba.com/headshots/nba/latest/260x190/1641772.png
+Dennis Schroder,Cleveland Cavaliers,CLE,G,1-Jun,73,172,13,1994,"Braunschweig, Germany",2013,1,17,schrode01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203471.png
+Donovan Mitchell,Cleveland Cavaliers,CLE,G,3-Jun,75,215,9,1997,"Greenwich, CT",2017,1,13,mitchdo01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628378.png
+James Harden,Cleveland Cavaliers,CLE,G,5-Jun,77,220,17,1990,"Los Angeles, CA",2009,1,3,hardeja01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201935.png
+Tyrese Proctor,Cleveland Cavaliers,CLE,G,6-Jun,78,185,1,2004,"Canberra, Australia",2025,2,19,proctty01,https://cdn.nba.com/headshots/nba/latest/260x190/1642878.png
+Max Strus,Cleveland Cavaliers,CLE,GF,5-Jun,77,215,7,1996,"Hickory Hills, IL",2019,0,0,strusma01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629622.png
+Tristan Enaruna,Cleveland Cavaliers,CLE,GF,8-Jun,80,220,2,2001,"Almere, Netherlands",2024,0,0,enarutr01,https://cdn.nba.com/headshots/nba/latest/260x190/1642400.png
+Dean Wade,Cleveland Cavaliers,CLE,PF,9-Jun,81,228,7,1997,"Wichita, KS",2019,0,0,wadede01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629731.png
+Craig Porter Jr.,Cleveland Cavaliers,CLE,PG,2-Jun,74,178,3,2000,"Terre Haute, IN",2023,0,0,portecr01,https://cdn.nba.com/headshots/nba/latest/260x190/1641854.png
+Emanuel Miller,Cleveland Cavaliers,CLE,SF,6-Jun,78,215,2,2000,"Unionville, Canada",2024,0,0,milleem01,https://cdn.nba.com/headshots/nba/latest/260x190/1641801.png
+Jaylon Tyson,Cleveland Cavaliers,CLE,SF,7-Jun,79,215,2,2003,"Plano, TX",2024,1,20,tysonja01,https://cdn.nba.com/headshots/nba/latest/260x190/1642281.png
+Riley Minix,Cleveland Cavaliers,CLE,SF,7-Jun,79,230,2,2001,"Vero Beach, FL",2024,0,0,minixri01,https://cdn.nba.com/headshots/nba/latest/260x190/1642434.png
+Keon Ellis,Cleveland Cavaliers,CLE,SG,6-Jun,78,175,4,2000,"Leesburg, FL",2022,0,0,elliske01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631165.png
+Sam Merrill,Cleveland Cavaliers,CLE,SG,4-Jun,76,205,6,1996,"Salt Lake City, UT",2020,2,30,merrisa01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630241.png
+Daniel Gafford,Dallas Mavericks,DAL,C,9-Jun,81,234,7,1999,"El Dorado, AR",2019,2,8,gaffoda01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629655.png
+Dereck Lively II,Dallas Mavericks,DAL,C,Jul-00,84,230,3,2004,"Bellefonte, PA",2023,1,12,livelde01,https://cdn.nba.com/headshots/nba/latest/260x190/1641726.png
+Dwight Powell,Dallas Mavericks,DAL,C,10-Jun,82,240,12,1992,"Toronto, Canada",2014,2,15,poweldw01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203939.png
+Moussa Cisse,Dallas Mavericks,DAL,C,11-Jun,83,220,1,2003,"Conakry, Guinea",2025,0,0,cissemo01,https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4701208.png&w=350&h=254
+Caleb Martin,Dallas Mavericks,DAL,F,5-Jun,77,205,7,1996,"Mocksville, NC",2019,0,0,martica02,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628997.png
+Cooper Flagg,Dallas Mavericks,DAL,F,8-Jun,80,205,1,2007,"Newport, ME",2025,1,1,flaggco01,https://cdn.nba.com/headshots/nba/latest/260x190/1642843.png
+Khris Middleton,Dallas Mavericks,DAL,F,7-Jun,79,222,14,1992,"Charleston, SC",2012,2,9,middlkh01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203114.png
+Marvin Bagley III,Dallas Mavericks,DAL,FC,11-Jun,83,235,8,1999,"Phoenix, AZ",2018,1,2,baglema01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628963.png
+AJ Johnson,Dallas Mavericks,DAL,G,5-Jun,77,160,2,2005,"Woodland Hills, CA",2024,1,23,johnsaj01,https://cdn.nba.com/headshots/nba/latest/260x190/1642358.png
+Klay Thompson,Dallas Mavericks,DAL,GF,6-Jun,78,215,15,1990,"Los Angeles, CA",2011,1,11,thompkl01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202691.png
+P.J. Washington,Dallas Mavericks,DAL,PF,7-Jun,79,230,7,1999,"Frisco, TX",2019,1,12,washipj01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629023.png
+Brandon Williams,Dallas Mavericks,DAL,PG,2-Jun,74,190,5,2000,"Encino, CA",2021,0,0,willibr03,https://cdn.nba.com/headshots/nba/latest/260x190/1630314.png
+Kyrie Irving,Dallas Mavericks,DAL,PG,2-Jun,74,195,15,1992,"Melbourne, Australia - Country: USA",2011,1,1,irvinky01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202681.png
+Ryan Nembhard,Dallas Mavericks,DAL,PG,Jun-00,72,180,1,2003,"Vaughan, Canada",2025,0,0,nembhry01,https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4433629.png&w=350&h=254
+Tyus Jones,Dallas Mavericks,DAL,PG,Jun-00,72,196,11,1996,"Burnsville, MN",2015,1,24,jonesty01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626145.png
+Naji Marshall,Dallas Mavericks,DAL,SF,7-Jun,79,220,6,1998,"Atlantic City, NJ",2020,0,0,marshna01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630230.png
+Max Christie,Dallas Mavericks,DAL,SG,7-Jun,79,184,4,2003,"Arlington Heights, IL",2022,2,5,chrisma02,https://cdn.nba.com/headshots/nba/latest/260x190/1631108.png
+Miles Kelly,Dallas Mavericks,DAL,SG,6-Jun,78,180,1,2003,"Stone Mountain, GA",2025,0,0,kellymi02,https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4696317.png&w=350&h=254
+Jonas Valanciunas,Denver Nuggets,DEN,C,11-Jun,83,265,15,1992,"Utena, Lithuania",2011,1,5,valanjo01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202685.png
+Nikola Jokic,Denver Nuggets,DEN,C,11-Jun,83,284,12,1995,"Sombor, Serbia",2014,2,11,jokicni01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203999.png
+Aaron Gordon,Denver Nuggets,DEN,F,8-Jun,80,235,12,1996,"San Jose, CA",2014,1,4,gordoaa01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203932.png
+DaRon Holmes II,Denver Nuggets,DEN,FC,10-Jun,82,220,2,2003,"Goodyear, AZ",2024,1,22,holmeda01,https://cdn.nba.com/headshots/nba/latest/260x190/1641747.png
+Zeke Nnaji,Denver Nuggets,DEN,FC,9-Jun,81,240,6,2001,"Hopkins, MN",2020,1,22,nnajize01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630192.png
+Bruce Brown Jr.,Denver Nuggets,DEN,G,4-Jun,76,202,8,1997,"Boston, MA",2018,2,12,brownbr01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628971.png
+Jamal Murray,Denver Nuggets,DEN,G,3-Jun,75,215,10,1997,"Kitchner, Canada",2016,1,7,murraja01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627750.png
+Christian Braun,Denver Nuggets,DEN,GF,6-Jun,78,205,4,2001,"Overland Park, KS",2022,1,21,braunch01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631128.png
+Spencer Jones,Denver Nuggets,DEN,GF,7-Jun,79,225,2,2001,"Shawnee Mission, KS",2024,0,0,jonessp01,https://cdn.nba.com/headshots/nba/latest/260x190/1642461.png
+Tim Hardaway Jr.,Denver Nuggets,DEN,GF,5-Jun,77,205,13,1992,"Miami, FL",2013,1,24,hardati02,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203501.png
+Cameron Johnson,Denver Nuggets,DEN,PF,8-Jun,80,210,7,1996,"Moon Township, PA",2019,1,11,johnsca02,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629661.png
+Jalen Pickett,Denver Nuggets,DEN,PG,4-Jun,76,209,3,2000,"Rochester, NY",2023,2,2,pickeja02,https://cdn.nba.com/headshots/nba/latest/260x190/1629618.png
+Julian Strawther,Denver Nuggets,DEN,SF,7-Jun,79,205,3,2002,"Las Vegas, NV",2023,1,29,strawju01,https://cdn.nba.com/headshots/nba/latest/260x190/1631124.png
+Peyton Watson,Denver Nuggets,DEN,SF,8-Jun,80,200,4,2003,"Long Beach, CA",2022,1,30,watsope01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631212.png
+Curtis Jones,Denver Nuggets,DEN,SG,4-Jun,76,190,1,2002,"Saint Paul, MN",2025,0,0,jonescu01,https://cdn.nba.com/headshots/nba/latest/260x190/1642938.png
+Tamar Bates,Denver Nuggets,DEN,SG,6-Jun,78,195,1,2003,"Kansas City, KS",2025,0,0,batesta01,https://cdn.nba.com/headshots/nba/latest/260x190/1642926.png
+Isaac Jones,Detroit Pistons,DET,C,9-Jun,81,242,2,2001,"Spanaway, WA",2024,0,0,jonesis01,https://cdn.nba.com/headshots/nba/latest/260x190/1642403.png
+Isaiah Stewart,Detroit Pistons,DET,C,8-Jun,80,250,6,2001,"Rochester, NY",2020,1,16,stewais01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630191.png
+Jalen Duren,Detroit Pistons,DET,C,9-Jun,81,220,4,2004,"Philadelphia, PA",2022,1,13,durenja01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631105.png
+Ron Holland II,Detroit Pistons,DET,F,8-Jun,80,200,2,2005,"Duncanville, TX",2024,1,5,hollaro01,https://cdn.nba.com/headshots/nba/latest/260x190/1641842.png
+Paul Reed,Detroit Pistons,DET,FC,9-Jun,81,210,6,1999,"Orlando, FL",2020,2,28,reedpa01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630194.png
+Tolu Smith,Detroit Pistons,DET,FC,11-Jun,83,245,2,1998,"Bay St. Louis, MS",2024,0,0,smithto05,https://cdn.nba.com/headshots/nba/latest/260x190/1642449.png
+Cade Cunningham,Detroit Pistons,DET,G,6-Jun,78,220,5,2002,"Arlington, TX",2021,1,1,cunnica01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630595.png
+Marcus Sasser,Detroit Pistons,DET,G,2-Jun,74,195,3,2001,"Dallas, TX",2023,1,25,sassema01,https://cdn.nba.com/headshots/nba/latest/260x190/1631204.png
+Ausar Thompson,Detroit Pistons,DET,GF,7-Jun,79,215,3,2003,"Fort Lauderdale, FL",2023,1,5,thompau01,https://cdn.nba.com/headshots/nba/latest/260x190/1641709.png
+Caris LeVert,Detroit Pistons,DET,GF,6-Jun,78,205,10,1995,"Columbus, OH",2016,1,20,leverca01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627747.png
+Duncan Robinson,Detroit Pistons,DET,GF,7-Jun,79,215,8,1994,"York, ME",2018,0,0,robindu01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629130.png
+Javonte Green,Detroit Pistons,DET,GF,5-Jun,77,205,11,1994,"Petersburg, VA",2015,0,0,greenja02,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629750.png
+Bobi Klintman,Detroit Pistons,DET,PF,10-Jun,82,225,2,2003,"Malmo, Sweden",2024,2,7,klintbo01,https://cdn.nba.com/headshots/nba/latest/260x190/1641752.png
+Tobias Harris,Detroit Pistons,DET,PF,8-Jun,80,226,15,1993,"Islip, NY",2011,1,19,harrito02,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202699.png
+Daniss Jenkins,Detroit Pistons,DET,PG,3-Jun,75,165,2,2002,"Dallas, TX",2024,0,0,jenkida01,https://cdn.nba.com/headshots/nba/latest/260x190/1642450.png
+Wendell Moore Jr.,Detroit Pistons,DET,SF,5-Jun,77,216,4,2002,"Richmond, VA",2022,1,26,moorewe01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631111.png
+Chaz Lanier,Detroit Pistons,DET,SG,4-Jun,76,206,1,2002,"Nashville, TN",2025,2,7,laniech01,https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4700852.png&w=350&h=254
+Kevin Huerter,Detroit Pistons,DET,SG,7-Jun,79,190,8,1999,"Albany, NY",2018,1,19,huertke01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628989.png
+Al Horford,Golden State Warriors,GSW,C,9-Jun,81,240,19,1986,"Puerto Plata, Dominican Republic",2007,1,3,horfoal01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201143.png
+Kristaps Porzingis,Golden State Warriors,GSW,C,3-Jul,87,240,11,1996,"Ventspils, Latvia",2015,1,4,porzikr01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/204001.png
+Malevy Leons,Golden State Warriors,GSW,C,9-Jun,81,210,2,2000,"IJmuiden, Netherlands",2024,0,0,leonsma01,https://cdn.nba.com/headshots/nba/latest/260x190/1642502.png
+Quinten Post,Golden State Warriors,GSW,C,Jul-00,84,235,2,2000,"Amsterdam, Netherlands",2024,2,22,postqu01,https://cdn.nba.com/headshots/nba/latest/260x190/1642366.png
+Jimmy Butler,Golden State Warriors,GSW,F,7-Jun,79,230,15,1990,"Houston, TX",2011,1,30,butleji01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202710.png
+De'Anthony Melton,Golden State Warriors,GSW,G,2-Jun,74,200,8,1998,"North Hollywood, CA",2018,2,16,meltode01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629001.png
+Gary Payton II,Golden State Warriors,GSW,G,3-Jun,75,195,10,1993,"Las Vegas, NV",2016,0,0,paytoga02,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627780.png
+Pat Spencer,Golden State Warriors,GSW,G,3-Jun,75,205,6,1997,"Davidsonville, MD",2020,0,0,spencpa01,https://cdn.nba.com/headshots/nba/latest/260x190/1630311.png
+Brandin Podziemski,Golden State Warriors,GSW,GF,5-Jun,77,205,3,2003,"Muskego, WI",2023,1,19,podzibr01,https://cdn.nba.com/headshots/nba/latest/260x190/1641764.png
+Moses Moody,Golden State Warriors,GSW,GF,5-Jun,77,211,5,2002,"Little Rock, AR",2021,1,14,moodymo01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630541.png
+Draymond Green,Golden State Warriors,GSW,PF,6-Jun,78,230,14,1990,"Saginaw, MI",2012,2,5,greendr01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203110.png
+LJ Cryer,Golden State Warriors,GSW,PG,1-Jun,73,202,1,2002,"New Orleans, LA",2025,0,0,cryerlj01,https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4433149.png&w=350&h=254
+Stephen Curry,Golden State Warriors,GSW,PG,2-Jun,74,185,17,1988,"Akron, OH",2009,1,7,curryst01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201939.png
+Gui Santos,Golden State Warriors,GSW,SF,8-Jun,80,209,4,2002,"Brasilia, Brazil",2022,2,25,santogu01,https://cdn.nba.com/headshots/nba/latest/260x190/1630611.png
+Nate Williams,Golden State Warriors,GSW,SG,5-Jun,77,206,4,1999,"Rochester, NY",2022,0,0,willije02,https://cdn.nba.com/headshots/nba/latest/260x190/1631466.png
+Seth Curry,Golden State Warriors,GSW,SG,2-Jun,74,185,13,1991,"Charlotte, NC",2013,0,0,curryse01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203552.png
+Will Richard,Golden State Warriors,GSW,SG,4-Jun,76,206,1,2003,"Fairburn, GA",2025,2,26,richawi02,https://cdn.nba.com/headshots/nba/latest/260x190/1642954.png
+Alperen Sengun,Houston Rockets,HOU,C,10-Jun,82,243,5,2003,"Giresun, Turkey",2021,1,16,sengual01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630578.png
+Clint Capela,Houston Rockets,HOU,C,10-Jun,82,240,12,1994,"Geneva, Switzerland",2014,1,25,capelca01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203991.png
+Steven Adams,Houston Rockets,HOU,C,11-Jun,83,265,13,1994,"Rotorua, New Zealand",2013,1,12,adamsst01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203500.png
+Dorian Finney-Smith,Houston Rockets,HOU,F,7-Jun,79,220,10,1993,"Portsmouth, VA",2016,0,0,finnedo01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627827.png
+Jae'Sean Tate,Houston Rockets,HOU,F,4-Jun,76,230,8,1996,"Toledo, OH",2018,0,0,tateja01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630256.png
+Jeff Green,Houston Rockets,HOU,F,8-Jun,80,235,19,1987,"Cheverly, MD",2007,1,5,greenje02,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201145.png
+Kevin Durant,Houston Rockets,HOU,F,10-Jun,82,240,19,1989,"Washington, DC",2007,1,2,duranke01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201142.png
+Tari Eason,Houston Rockets,HOU,F,8-Jun,80,215,4,2001,"Los Angeles, CA",2022,1,17,easonta01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631106.png
+Amen Thompson,Houston Rockets,HOU,GF,7-Jun,79,215,3,2003,"Fort Lauderdale, FL",2023,1,4,thompam01,https://cdn.nba.com/headshots/nba/latest/260x190/1641708.png
+Jabari Smith Jr.,Houston Rockets,HOU,PF,10-Jun,82,210,4,2003,"Fayetteville, GA",2022,1,3,smithja05,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631095.png
+Aaron Holiday,Houston Rockets,HOU,PG,Jun-00,72,185,8,1997,"Ruston, LA",2018,1,23,holidaa01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628988.png
+Fred VanVleet,Houston Rockets,HOU,PG,1-Jun,73,197,10,1994,"Rockford, IL",2016,0,0,vanvlfr01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627832.png
+JD Davison,Houston Rockets,HOU,PG,3-Jun,75,175,4,2003,"Letohatchee, AL",2022,2,23,davisjd01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631120.png
+Reed Sheppard,Houston Rockets,HOU,PG,3-Jun,75,180,2,2004,"London, KY",2024,1,3,sheppre01,https://cdn.nba.com/headshots/nba/latest/260x190/1642263.png
+Tristen Newton,Houston Rockets,HOU,PG,5-Jun,77,190,2,2001,"El Paso, TX",2024,2,19,newtotr01,https://cdn.nba.com/headshots/nba/latest/260x190/1641803.png
+Isaiah Crawford,Houston Rockets,HOU,SF,6-Jun,78,220,2,2001,"Fort Worth, TX",2024,0,0,crawfis01,https://cdn.nba.com/headshots/nba/latest/260x190/1642384.png
+Josh Okogie,Houston Rockets,HOU,SG,4-Jun,76,213,8,1999,"Lagos, Nigeria",2018,1,20,okogijo01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629006.png
+Ivica Zubac,Indiana Pacers,IND,C,Jul-00,84,240,10,1997,"Mostar, Bosnia and Herzegovina - Country: Croatia",2016,2,2,zubaciv01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627826.png
+Jay Huff,Indiana Pacers,IND,C,1-Jul,85,240,5,1999,"Durham, NC",2021,0,0,huffja01,https://cdn.nba.com/headshots/nba/latest/260x190/1630643.png
+Micah Potter,Indiana Pacers,IND,C,10-Jun,82,250,5,1998,"Mentor, OH",2021,0,0,pottemi01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630695.png
+Pascal Siakam,Indiana Pacers,IND,FC,8-Jun,80,230,10,1994,"Douala, Cameroon",2016,1,27,siakapa01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627783.png
+Andrew Nembhard,Indiana Pacers,IND,G,4-Jun,76,190,4,2000,"Aurora, Canada",2022,2,1,nembhan01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629614.png
+Ben Sheppard,Indiana Pacers,IND,G,6-Jun,78,190,3,2002,"Atlanta, GA",2023,1,26,sheppbe01,https://cdn.nba.com/headshots/nba/latest/260x190/1641767.png
+Johnny Furphy,Indiana Pacers,IND,GF,7-Jun,79,200,2,2005,"Melbourne, Australia",2024,2,5,furphjo01,https://cdn.nba.com/headshots/nba/latest/260x190/1642277.png
+Kam Jones,Indiana Pacers,IND,GF,5-Jun,77,200,1,2002,"Cordova, TN",2025,2,8,joneska03,https://cdn.nba.com/headshots/nba/latest/260x190/1642880.png
+Jarace Walker,Indiana Pacers,IND,PF,8-Jun,80,240,3,2004,"Susquehanna, PA",2023,1,8,walkeja02,https://cdn.nba.com/headshots/nba/latest/260x190/1641716.png
+Kobe Brown,Indiana Pacers,IND,PF,8-Jun,80,250,3,2000,"Hunstville, AL",2023,1,30,brownko01,https://cdn.nba.com/headshots/nba/latest/260x190/1641738.png
+Obi Toppin,Indiana Pacers,IND,PF,9-Jun,81,220,6,1998,"Brooklyn, NY",2020,1,8,toppiob01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630167.png
+Quenton Jackson,Indiana Pacers,IND,PG,5-Jun,77,175,4,1999,"Los Angeles, CA",2022,0,0,jacksqu01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631245.png
+T.J. McConnell,Indiana Pacers,IND,PG,1-Jun,73,190,11,1992,"Pittsburgh, PA",2015,0,0,mccontj01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/204456.png
+Tyrese Haliburton,Indiana Pacers,IND,PG,5-Jun,77,185,6,2000,"Oshkosh, WI",2020,1,12,halibty01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630169.png
+Aaron Nesmith,Indiana Pacers,IND,SF,5-Jun,77,215,6,2000,"Charleston, SC",2020,1,14,nesmiaa01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630174.png
+Ethan Thompson,Indiana Pacers,IND,SG,5-Jun,77,190,5,1999,"Torrance, CA",2021,0,0,thompet01,https://cdn.nba.com/headshots/nba/latest/260x190/1630679.png
+Taelon Peter,Indiana Pacers,IND,SG,4-Jun,76,185,1,2002,"Russellville, AR",2025,2,24,peterta01,https://cdn.nba.com/headshots/nba/latest/260x190/1643007.png
+Brook Lopez,Los Angeles Clippers,LAC,C,Jul-00,84,282,18,1988,"North Hollywood, CA",2008,1,10,lopezbr01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201572.png
+Yanic Konan Niederhauser,Los Angeles Clippers,LAC,C,11-Jun,83,242,1,2003,"Fraschels, Switzerland",2025,1,30,konanya01,https://cdn.nba.com/headshots/nba/latest/260x190/1642949.png
+Derrick Jones Jr.,Los Angeles Clippers,LAC,F,6-Jun,78,210,10,1997,"Chester, PA",2016,0,0,jonesde02,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627884.png
+Isaiah Jackson,Los Angeles Clippers,LAC,FC,10-Jun,82,205,5,2002,"Detroit, MI",2021,1,22,jacksis01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630543.png
+Bennedict Mathurin,Los Angeles Clippers,LAC,GF,7-Jun,79,195,4,2002,"Montreal, Canada",2022,1,6,mathube01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631097.png
+Bogdan Bogdanovic,Los Angeles Clippers,LAC,GF,6-Jun,78,220,12,1993,"Belgrade, Serbia",2014,1,27,bogdabo01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203992.png
+Jordan Miller,Los Angeles Clippers,LAC,GF,7-Jun,79,195,3,2000,"Purcellville, VA",2023,2,18,millejo02,https://cdn.nba.com/headshots/nba/latest/260x190/1641757.png
+Kawhi Leonard,Los Angeles Clippers,LAC,GF,7-Jun,79,225,15,1992,"Los Angeles, CA",2011,1,15,leonaka01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202695.png
+Kobe Sanders,Los Angeles Clippers,LAC,GF,9-Jun,81,207,1,2002,"San Diego, CA",2025,2,20,sandeko01,https://cdn.nba.com/headshots/nba/latest/260x190/1642920.png
+John Collins,Los Angeles Clippers,LAC,PF,9-Jun,81,235,9,1998,"Layton, UT",2017,1,19,collijo01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628381.png
+Nicolas Batum,Los Angeles Clippers,LAC,PF,9-Jun,81,230,18,1989,"Lisieux, France",2008,1,25,batumni01,https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3416.png
+Darius Garland,Los Angeles Clippers,LAC,PG,1-Jun,73,192,7,2000,"Gary, IN",2019,1,5,garlada01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629636.png
+Kris Dunn,Los Angeles Clippers,LAC,PG,3-Jun,75,205,10,1994,"New London, CT",2016,1,5,dunnkr01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627739.png
+TyTy Washington Jr.,Los Angeles Clippers,LAC,PG,3-Jun,75,185,4,2003,"Phoenix, AZ",2022,1,29,washity02,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631102.png
+Bradley Beal,Los Angeles Clippers,LAC,SG,4-Jun,76,207,14,1994,"St. Louis, MO",2012,1,3,bealbr01,https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6580.png
+Cam Christie,Los Angeles Clippers,LAC,SG,6-Jun,78,190,2,2006,"Rolling Meadows, IL",2024,2,16,chrisca02,https://cdn.nba.com/headshots/nba/latest/260x190/1642353.png
+Deandre Ayton,Los Angeles Lakers,LAL,C,11-Jun,83,250,8,1999,"Nassau, Bahamas",2018,1,1,aytonde01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629028.png
+Drew Timme,Los Angeles Lakers,LAL,C,10-Jun,82,235,3,2001,"Richardson, TX",2023,0,0,timmedr01,https://cdn.nba.com/headshots/nba/latest/260x190/1631166.png
+Jaxson Hayes,Los Angeles Lakers,LAL,C,11-Jun,83,220,7,2000,"Norman, OK",2019,1,8,hayesja02,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629637.png
+LeBron James,Los Angeles Lakers,LAL,F,9-Jun,81,250,23,1985,"Akron, OH",2003,1,1,jamesle01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/2544.png
+Maxi Kleber,Los Angeles Lakers,LAL,FC,10-Jun,82,240,12,1992,"Wurzburg, Germany",2014,0,0,klebima01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628467.png
+Bronny James,Los Angeles Lakers,LAL,G,2-Jun,74,210,2,2005,"Cleveland, OH",2024,2,25,jamesbr02,https://cdn.nba.com/headshots/nba/latest/260x190/1642355.png
+Chris Manon,Los Angeles Lakers,LAL,G,5-Jun,77,195,1,2002,"Milford, NJ",2025,0,0,manonch01,https://cdn.nba.com/headshots/nba/latest/260x190/1643024.png
+Luka Doncic,Los Angeles Lakers,LAL,G,7-Jun,79,230,8,1999,"Ljubljana, Slovenia",2018,1,3,doncilu01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/1610612742/2018/260x190/1629029.png
+Marcus Smart,Los Angeles Lakers,LAL,G,4-Jun,76,220,12,1994,"Flower Mound, TX",2014,1,6,smartma01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203935.png
+Adou Thiero,Los Angeles Lakers,LAL,GF,8-Jun,80,218,1,2004,"Leetsdale, PA",2025,2,6,thierad01,https://cdn.nba.com/headshots/nba/latest/260x190/1642876.png
+Austin Reaves,Los Angeles Lakers,LAL,GF,5-Jun,77,197,5,1998,"Philadelphia, PA",2021,0,0,reaveau01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630559.png
+Jake LaRavia,Los Angeles Lakers,LAL,GF,8-Jun,80,235,4,2002,"Pasadena, CA",2022,1,19,laravja01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631222.png
+Jarred Vanderbilt,Los Angeles Lakers,LAL,PF,9-Jun,81,214,8,1999,"Houston, TX",2018,2,11,vandeja01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629020.png
+Rui Hachimura,Los Angeles Lakers,LAL,PF,8-Jun,80,230,7,1998,"Toyama, Japan",2019,1,9,hachiru01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629060.png
+Dalton Knecht,Los Angeles Lakers,LAL,SG,6-Jun,78,204,2,2001,"Thornton, CO",2024,1,17,knechda01,https://cdn.nba.com/headshots/nba/latest/260x190/1642261.png
+Kobe Bufkin,Los Angeles Lakers,LAL,SG,4-Jun,76,195,3,2004,"Grand Rapids, MI",2023,1,15,bufkiko01,https://cdn.nba.com/headshots/nba/latest/260x190/1641723.png
+Luke Kennard,Los Angeles Lakers,LAL,SG,5-Jun,77,206,9,1997,"Franklin, OH",2017,1,12,kennalu01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628379.png
+Nick Smith Jr.,Los Angeles Lakers,LAL,SG,5-Jun,77,185,3,2004,"Sherwood, AR",2023,1,27,smithni01,https://cdn.nba.com/headshots/nba/latest/260x190/1641733.png
+Zach Edey,Memphis Grizzlies,MEM,C,4-Jul,88,305,2,2002,"Ontario, Canada",2024,1,9,edeyza01,https://cdn.nba.com/headshots/nba/latest/260x190/1641744.png
+Taylor Hendricks,Memphis Grizzlies,MEM,F,9-Jun,81,210,3,2004,"Fort Lauderdale, FL",2023,1,9,hendrta01,https://cdn.nba.com/headshots/nba/latest/260x190/1641707.png
+Santi Aldama,Memphis Grizzlies,MEM,FC,11-Jun,83,215,5,2001,"Las Palmas, Spain",2021,1,30,aldamsa01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630583.png
+Ty Jerome,Memphis Grizzlies,MEM,G,5-Jun,77,195,7,1998,"New York City, NY",2019,1,24,jeromty01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629660.png
+Walter Clayton Jr.,Memphis Grizzlies,MEM,G,2-Jun,74,195,1,2003,"Lake Wales, FL",2025,1,18,claytwa01,https://cdn.nba.com/headshots/nba/latest/260x190/1642383.png
+Cedric Coward,Memphis Grizzlies,MEM,GF,6-Jun,78,206,1,2004,"Fresno, California",2025,1,11,cowarce01,https://cdn.nba.com/headshots/nba/latest/260x190/1642907.png
+Jaylen Wells,Memphis Grizzlies,MEM,GF,8-Jun,80,205,2,2004,"Sacramento, CA",2024,2,9,wellsja01,https://cdn.nba.com/headshots/nba/latest/260x190/1642377.png
+Kentavious Caldwell-Pope,Memphis Grizzlies,MEM,GF,5-Jun,77,204,13,1993,"Thomaston, GA",2013,1,8,caldwke01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203484.png
+Brandon Clarke,Memphis Grizzlies,MEM,PF,8-Jun,80,215,7,1997,"Vancouver, Canada",2019,1,21,clarkbr01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629634.png
+GG Jackson II,Memphis Grizzlies,MEM,PF,9-Jun,81,210,3,2005,"Camden, SC",2023,2,15,jacksgg01,https://cdn.nba.com/headshots/nba/latest/260x190/1641713.png
+Kyle Anderson,Memphis Grizzlies,MEM,PF,9-Jun,81,230,12,1994,"New York, NY",2014,1,30,anderky01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203937.png
+Olivier-Maxence Prosper,Memphis Grizzlies,MEM,PF,8-Jun,80,230,3,2003,"Montreal, Canada",2023,1,24,prospol01,https://cdn.nba.com/headshots/nba/latest/260x190/1641765.png
+Ja Morant,Memphis Grizzlies,MEM,PG,3-Jun,75,174,7,2000,"Dalzell, SC",2019,1,2,moranja01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629630.png
+Javon Small,Memphis Grizzlies,MEM,PG,3-Jun,75,195,1,2003,"Indianapolis, IN",2025,2,18,smallja01,https://cdn.nba.com/headshots/nba/latest/260x190/1642914.png
+Scotty Pippen Jr.,Memphis Grizzlies,MEM,PG,1-Jun,73,185,4,2001,"Chatsworth, CA",2022,0,0,pippesc02,https://cdn.nba.com/headshots/nba/latest/260x190/1630590.png
+Cam Spencer,Memphis Grizzlies,MEM,SG,4-Jun,76,205,2,2000,"Davidsonville, MD",2024,2,23,spencca01,https://cdn.nba.com/headshots/nba/latest/260x190/1642285.png
+Jahmai Mashack,Memphis Grizzlies,MEM,SG,4-Jun,76,203,1,2003,"Rancho Cucamonga, CA",2025,2,29,mashaja01,https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4683934.png&w=350&h=254
+Bam Adebayo,Miami Heat,MIA,C,9-Jun,81,255,9,1998,"Gatesville, NC",2017,1,14,adebaba01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628389.png
+Vladislav Goldin,Miami Heat,MIA,C,2-Jul,86,250,1,2001,"Nalchik, Russia",2025,0,0,goldivl01,https://cdn.nba.com/headshots/nba/latest/260x190/1642884.png
+Andrew Wiggins,Miami Heat,MIA,F,7-Jun,79,197,12,1995,"Toronto, Canada",2014,1,1,wiggian01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203952.png
+Nikola Jovic,Miami Heat,MIA,F,10-Jun,82,209,4,2003,"Leicester, England - Country: Serbia",2022,1,27,jovicni01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631107.png
+Terry Rozier,Miami Heat,MIA,G,1-Jun,73,190,11,1994,"Youngstown, OH",2015,1,16,roziete01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626179.png
+Tyler Herro,Miami Heat,MIA,G,5-Jun,77,195,7,2000,"Milwaukee, WI",2019,1,13,herroty01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629639.png
+Jaime Jaquez Jr.,Miami Heat,MIA,GF,7-Jun,79,225,3,2001,"Camarillo, CA",2023,1,18,jaqueja01,https://cdn.nba.com/headshots/nba/latest/260x190/1631170.png
+Norman Powell,Miami Heat,MIA,GF,3-Jun,75,215,11,1994,"San Diego, CA",2015,2,16,powelno01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626181.png
+Kel'el Ware,Miami Heat,MIA,PF,Jul-00,84,210,2,2004,"North Little Rock, AR",2024,1,15,wareke01,https://cdn.nba.com/headshots/nba/latest/260x190/1642276.png
+Davion Mitchell,Miami Heat,MIA,PG,Jun-00,72,202,5,1999,"Hinesville, GA",2021,1,9,mitchda01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630558.png
+Jahmir Young,Miami Heat,MIA,PG,4-Jun,76,209,2,2001,"Upper Marlboro, MD",2024,0,0,youngja05,https://cdn.nba.com/headshots/nba/latest/260x190/1642443.png
+Kasparas Jakucionis,Miami Heat,MIA,PG,6-Jun,78,205,1,2006,"Vilnius, Lithuania",2025,1,20,jakucka01,https://cdn.nba.com/headshots/nba/latest/260x190/1642857.png
+Keshad Johnson,Miami Heat,MIA,SF,7-Jun,79,225,2,2001,"Oakland, CA",2024,0,0,johnske10,https://cdn.nba.com/headshots/nba/latest/260x190/1642352.png
+Simone Fontecchio,Miami Heat,MIA,SF,8-Jun,80,209,9,1996,"Pescara, Italy",2017,0,0,fontesi01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631323.png
+Dru Smith,Miami Heat,MIA,SG,3-Jun,75,200,5,1998,"Evansville, IN",2021,0,0,smithdr01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630696.png
+Myron Gardner,Miami Heat,MIA,SG,6-Jun,78,220,3,2001,"Detroit, MI",2023,0,0,gardnmy01,https://cdn.nba.com/headshots/nba/latest/260x190/1642066.png
+Pelle Larsson,Miami Heat,MIA,SG,5-Jun,77,215,2,2001,"Nacka, Sweden",2024,2,14,larsspe01,https://cdn.nba.com/headshots/nba/latest/260x190/1641796.png
+Jericho Sims,Milwaukee Bucks,MIL,C,9-Jun,81,250,5,1999,"Minneapolis, MN",2021,2,28,simsje01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630579.png
+Myles Turner,Milwaukee Bucks,MIL,C,11-Jun,83,250,11,1996,"Bedford, TX",2015,1,11,turnemy01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626167.png
+Ousmane Dieng,Milwaukee Bucks,MIL,F,9-Jun,81,195,4,2003,"Villeneuve-sur-Lot, France",2022,1,11,diengou01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631172.png
+Taurean Prince,Milwaukee Bucks,MIL,F,7-Jun,79,218,10,1995,"San Antonio, TX",2016,1,12,princta02,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627752.png
+Thanasis Antetokounmpo,Milwaukee Bucks,MIL,F,6-Jun,78,219,12,1993,"Athens, Greece",2014,2,21,antetth01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203648.png
+Bobby Portis,Milwaukee Bucks,MIL,FC,10-Jun,82,250,11,1995,"Little Rock, AR",2015,1,22,portibo01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626171.png
+Andre Jackson Jr.,Milwaukee Bucks,MIL,G,6-Jun,78,210,3,2002,"Amsterdam, NY",2023,2,6,jacksan01,https://cdn.nba.com/headshots/nba/latest/260x190/1641748.png
+Cam Thomas,Milwaukee Bucks,MIL,G,5-Jun,77,210,5,2002,"Yokosuka, Japan - Country: USA",2021,1,27,thomaca02,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630560.png
+Gary Trent Jr.,Milwaukee Bucks,MIL,GF,5-Jun,77,209,8,1999,"Columbus, OH",2018,2,7,trentga02,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629107.png
+Giannis Antetokounmpo,Milwaukee Bucks,MIL,PF,11-Jun,83,242,13,1995,"Athens, Greece",2013,1,15,antetgi01,https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3032977.png&w=350&h=254
+Kyle Kuzma,Milwaukee Bucks,MIL,PF,9-Jun,81,221,9,1996,"Flint, MI",2017,1,27,kuzmaky01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628398.png
+Pete Nance,Milwaukee Bucks,MIL,PF,10-Jun,82,225,3,2000,"Richfield, OH",2023,0,0,nancepe01,https://cdn.nba.com/headshots/nba/latest/260x190/1631250.png
+Ryan Rollins,Milwaukee Bucks,MIL,PG,4-Jun,76,180,4,2003,"Detroit, MI",2022,2,14,rolliry01,https://cdn.nba.com/headshots/nba/latest/260x190/1631157.png
+Alex Antetokounmpo,Milwaukee Bucks,MIL,SF,5-Jun,77,214,5,2002,"Athens, Greece",2021,0,0,antetal01,https://cdn.nba.com/headshots/nba/latest/260x190/1630828.png
+A.J. Green,Milwaukee Bucks,MIL,SG,4-Jun,76,190,4,2000,"Cedar Falls, IA",2022,0,0,greenaj01,https://cdn.nba.com/headshots/nba/latest/260x190/1631260.png
+Gary Harris,Milwaukee Bucks,MIL,SG,4-Jun,76,210,12,1995,"Fishers, IN",2014,1,19,harriga01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203914.png
+Kevin Porter Jr.,Milwaukee Bucks,MIL,SG,4-Jun,76,203,7,2000,"South Seattle, WA",2019,1,30,porteke02,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629645.png
+Joan Beringer,Minnesota Timberwolves,MIN,C,10-Jun,82,230,1,2007,"Selestat, France",2025,1,17,berinjo01,https://cdn.nba.com/headshots/nba/latest/260x190/1642866.png
+Naz Reid,Minnesota Timberwolves,MIN,C,9-Jun,81,264,7,2000,"Neptune City, NJ",2019,0,0,reidna01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629675.png
+Rocco Zikarsky,Minnesota Timberwolves,MIN,C,3-Jul,87,227,1,2007,"Sunshine Coast, Australia",2025,2,15,zikarro01,https://cdn.nba.com/headshots/nba/latest/260x190/1642911.png
+Rudy Gobert,Minnesota Timberwolves,MIN,C,1-Jul,85,258,13,1993,"Saint-Quentin, France",2013,1,27,goberru01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203497.png
+Enrique Freeman,Minnesota Timberwolves,MIN,F,7-Jun,79,206,2,2001,"Cleveland, OH",2024,2,20,freemen01,https://cdn.nba.com/headshots/nba/latest/260x190/1642402.png
+Joe Ingles,Minnesota Timberwolves,MIN,F,8-Jun,80,220,12,1988,"Happy Valley, Australia",2014,0,0,inglejo01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/204060.png
+Ayo Dosunmu,Minnesota Timberwolves,MIN,G,4-Jun,76,200,5,2000,"Chicago, IL",2021,2,8,dosunay01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630245.png
+Bones Hyland,Minnesota Timberwolves,MIN,G,2-Jun,74,169,5,2001,"Wilmington, DE",2021,1,26,hylanbo01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630538.png
+Anthony Edwards,Minnesota Timberwolves,MIN,GF,4-Jun,76,225,6,2002,"Atlanta, GA",2020,1,1,edwaran01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630162.png
+Terrence Shannon Jr.,Minnesota Timberwolves,MIN,GF,6-Jun,78,215,2,2001,"Chicago, IL",2024,1,27,shannte01,https://cdn.nba.com/headshots/nba/latest/260x190/1630545.png
+Julius Randle,Minnesota Timberwolves,MIN,PF,8-Jun,80,250,12,1995,"Dallas, TX",2014,1,7,randlju01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203944.png
+Mike Conley,Minnesota Timberwolves,MIN,PG,1-Jun,73,175,19,1988,"Fayetteville, AR",2007,1,4,conlemi01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201144.png
+Jaden McDaniels,Minnesota Timberwolves,MIN,SF,9-Jun,81,185,6,2001,"Federal Way, WA",2020,1,28,mcdanja02,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630183.png
+Julian Phillips,Minnesota Timberwolves,MIN,SF,8-Jun,80,200,3,2004,"Blythewood, SC",2023,2,5,phillju01,https://cdn.nba.com/headshots/nba/latest/260x190/1641763.png
+Donte DiVincenzo,Minnesota Timberwolves,MIN,SG,4-Jun,76,203,8,1997,"Newark, DE",2018,1,17,divindo01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628978.png
+Jaylen Clark,Minnesota Timberwolves,MIN,SG,5-Jun,77,210,3,2002,"Corona, CA",2023,2,23,clarkja02,https://cdn.nba.com/headshots/nba/latest/260x190/1641740.png
+Johnny Juzang,Minnesota Timberwolves,MIN,SG,6-Jun,78,210,4,2001,"Los Angeles, CA",2022,0,0,juzanjo01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630548.png
+DeAndre Jordan,New Orleans Pelicans,NOP,C,11-Jun,83,265,18,1989,"Houston, TX",2008,2,5,jordade01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201599.png
+Hunter Dickinson,New Orleans Pelicans,NOP,C,1-Jul,85,255,1,2001,"Alexandria, GA",2025,0,0,dickihu01,https://cdn.nba.com/headshots/nba/latest/260x190/1630621.png
+Karlo Matkovic,New Orleans Pelicans,NOP,C,10-Jun,82,231,4,2001,"Livno, Bosnia and Herzegovina",2022,2,22,matkoka01,https://cdn.nba.com/headshots/nba/latest/260x190/1631255.png
+Kevon Looney,New Orleans Pelicans,NOP,C,9-Jun,81,222,11,1996,"Milwaukee, WI",2015,1,30,looneke01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626172.png
+Yves Missi,New Orleans Pelicans,NOP,C,Jul-00,84,235,2,2004,"Brussels, Belgium - Country: Cameroon",2024,1,21,missiyv01,https://cdn.nba.com/headshots/nba/latest/260x190/1642274.png
+Herbert Jones,New Orleans Pelicans,NOP,F,6-Jun,78,206,5,1999,"Northport, AL",2021,2,5,joneshe01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630529.png
+Saddiq Bey,New Orleans Pelicans,NOP,F,7-Jun,79,215,6,1999,"Charlotte, NC",2020,1,19,beysa01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630180.png
+Trey Murphy III,New Orleans Pelicans,NOP,F,8-Jun,80,206,5,2000,"Durham, NC",2021,1,17,murphtr02,https://cdn.nba.com/headshots/nba/latest/260x190/1630530.png
+Dejounte Murray,New Orleans Pelicans,NOP,G,4-Jun,76,180,10,1997,"Seattle, WA",2016,1,29,murrade01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627749.png
+Jordan Poole,New Orleans Pelicans,NOP,G,4-Jun,76,194,7,1999,"Milwaukee, WI",2019,1,28,poolejo01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629673.png
+Jordan Hawkins,New Orleans Pelicans,NOP,GF,5-Jun,77,195,3,2002,"Gaithersburg, MD",2023,1,14,hawkijo01,https://cdn.nba.com/headshots/nba/latest/260x190/1641722.png
+Derik Queen,New Orleans Pelicans,NOP,PF,10-Jun,82,250,1,2005,"Baltimore, MD",2025,1,13,queende01,https://cdn.nba.com/headshots/nba/latest/260x190/1642852.png
+Zion Williamson,New Orleans Pelicans,NOP,PF,7-Jun,79,284,7,2001,"Salisbury, NC",2019,1,1,willizi01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629627.png
+Jeremiah Fears,New Orleans Pelicans,NOP,PG,4-Jun,76,190,1,2007,"Joliet, IL",2025,1,7,fearsje01,https://cdn.nba.com/headshots/nba/latest/260x190/1642847.png
+Bryce McGowens,New Orleans Pelicans,NOP,SG,7-Jun,79,179,4,2003,"Pendleton, SC",2022,2,10,mcgowbr01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631121.png
+Micah Peavy,New Orleans Pelicans,NOP,SG,7-Jun,79,215,1,2002,"Houston, TX",2025,2,10,peavymi01,https://cdn.nba.com/headshots/nba/latest/260x190/1642877.png
+Trey Alexander,New Orleans Pelicans,NOP,SG,4-Jun,76,190,2,2003,"Oklahoma City, OK",2024,0,0,alexatr01,https://cdn.nba.com/headshots/nba/latest/260x190/1641725.png
+Ariel Hukporti,New York Knicks,NYK,C,Jul-00,84,251,2,2002,"Stralsund, Germany",2024,2,28,hukpoar01,https://cdn.nba.com/headshots/nba/latest/260x190/1630574.png
+Karl-Anthony Towns,New York Knicks,NYK,C,11-Jun,83,248,11,1996,"Piscataway, NJ",2015,1,1,townska01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626157.png
+Mitchell Robinson,New York Knicks,NYK,C,Jul-00,84,240,8,1998,"New Orleans, LA",2018,2,6,robinmi01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629011.png
+Trey Jemison,New York Knicks,NYK,C,10-Jun,82,260,3,2000,"Birmingham, AL",2023,0,0,jemistr01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1641998.png
+Dillon Jones,New York Knicks,NYK,F,6-Jun,78,235,2,2002,"Columbia, SC",2024,1,26,jonesdi01,https://cdn.nba.com/headshots/nba/latest/260x190/1641794.png
+Mohamed Diawara,New York Knicks,NYK,FC,9-Jun,81,225,1,2005,"Paris, France",2025,2,21,diawamo01,https://cdn.nba.com/headshots/nba/latest/260x190/1642885.png
+Josh Hart,New York Knicks,NYK,GF,5-Jun,77,215,9,1995,"Silver Spring, MD",2017,1,30,hartjo01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628404.png
+Mikal Bridges,New York Knicks,NYK,GF,6-Jun,78,209,8,1997,"Malvern, PA",2018,1,10,bridgmi01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628969.png
+OG Anunoby,New York Knicks,NYK,GF,7-Jun,79,232,9,1998,"London, England",2017,1,23,anunoog01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628384.png
+Pacome Dadiet,New York Knicks,NYK,GF,7-Jun,79,190,2,2006,"Aubagne, France",2024,1,25,dadiepa01,https://cdn.nba.com/headshots/nba/latest/260x190/1642359.png
+Jeremy Sochan,New York Knicks,NYK,PF,9-Jun,81,230,4,2003,"Southampton, England - Country: Poland",2022,1,9,sochaje01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631110.png
+Jalen Brunson,New York Knicks,NYK,PG,1-Jun,73,190,8,1997,"New Brunswick, NJ",2018,2,3,brunsja01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628973.png
+Jose Alvarado,New York Knicks,NYK,PG,Jun-00,72,179,5,1998,"Brooklyn, NY",2021,0,0,alvarjo01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630631.png
+Miles McBride,New York Knicks,NYK,PG,1-Jun,73,195,5,2001,"Cincinnati, OH",2021,2,6,mcbrimi01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630540.png
+Tyler Kolek,New York Knicks,NYK,PG,3-Jun,75,195,2,2001,"Cumberland, RI",2024,2,4,kolekty01,https://cdn.nba.com/headshots/nba/latest/260x190/1642278.png
+Jordan Clarkson,New York Knicks,NYK,SG,4-Jun,76,194,12,1992,"Tampa, FL - Country: Philippines",2014,2,16,clarkjo01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203903.png
+Kevin McCullar Jr.,New York Knicks,NYK,SG,6-Jun,78,210,2,2001,"San Antonio, TX",2024,2,26,mcculke01,https://cdn.nba.com/headshots/nba/latest/260x190/1641755.png
+Landry Shamet,New York Knicks,NYK,SG,4-Jun,76,190,8,1997,"Kansas City, MO",2018,1,26,shamela01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629013.png
+Branden Carlson,Oklahoma City Thunder,OKC,C,Jul-00,84,220,2,1999,"South Jordan, UT",2024,0,0,carlsbr01,https://cdn.nba.com/headshots/nba/latest/260x190/1642382.png
+Chet Holmgren,Oklahoma City Thunder,OKC,C,11-Jun,83,195,4,2003,"Minneapolis, MN",2022,1,2,holmgch01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631096.png
+Isaiah Hartenstein,Oklahoma City Thunder,OKC,C,Jul-00,84,250,9,1998,"Eugene, OR - Country: Germany",2017,2,13,harteis01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628392.png
+Jaylin Williams,Oklahoma City Thunder,OKC,C,10-Jun,82,240,4,2003,"Fort Smith, AR",2022,2,4,willija07,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631119.png
+Kenrich Williams,Oklahoma City Thunder,OKC,F,6-Jun,78,210,8,1995,"Waco, TX",2018,0,0,willike04,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629026.png
+Thomas Sorber,Oklahoma City Thunder,OKC,FC,10-Jun,82,250,1,2006,"Trenton, NJ",2025,1,15,sorbeth01,https://cdn.nba.com/headshots/nba/latest/260x190/1642850.png
+Alex Caruso,Oklahoma City Thunder,OKC,G,5-Jun,77,186,10,1994,"College Station, TX",2016,0,0,carusal01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627936.png
+Cason Wallace,Oklahoma City Thunder,OKC,G,4-Jun,76,195,3,2004,"Richardson, TX",2023,1,10,wallaca01,https://cdn.nba.com/headshots/nba/latest/260x190/1641717.png
+Jared McCain,Oklahoma City Thunder,OKC,G,3-Jun,75,195,2,2004,"Corona, CA",2024,1,16,mccaija01,https://cdn.nba.com/headshots/nba/latest/260x190/1642272.png
+Shai Gilgeous-Alexander,Oklahoma City Thunder,OKC,G,5-Jun,77,180,8,1999,"Toronto, Canada",2018,1,11,gilgesh01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628983.png
+Aaron Wiggins,Oklahoma City Thunder,OKC,GF,4-Jun,76,200,5,1999,"High Point, NC",2021,2,25,wiggiaa01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630598.png
+Jalen Williams,Oklahoma City Thunder,OKC,GF,6-Jun,78,205,4,2001,"Denver, CO",2022,1,12,willija06,https://cdn.nba.com/headshots/nba/latest/260x190/1631114.png
+Luguentz Dort,Oklahoma City Thunder,OKC,GF,3-Jun,75,215,7,1999,"Montreal, Canada",2019,0,0,dortlu01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629652.png
+Ajay Mitchell,Oklahoma City Thunder,OKC,PG,5-Jun,77,190,2,2002,"Liege, Belgium",2024,2,8,mitchaj01,https://cdn.nba.com/headshots/nba/latest/260x190/1642349.png
+Nikola Topic,Oklahoma City Thunder,OKC,PG,6-Jun,78,200,2,2006,"Novi Sad, Serbia",2024,1,12,topicni01,https://cdn.nba.com/headshots/nba/latest/260x190/1642260.png
+Brooks Barnhizer,Oklahoma City Thunder,OKC,SF,6-Jun,78,230,1,2002,"Lafayette, IN",2025,2,14,barnhbr01,https://cdn.nba.com/headshots/nba/latest/260x190/1642964.png
+Buddy Boeheim,Oklahoma City Thunder,OKC,SG,5-Jun,77,195,4,2000,"Syracuse, NY",2022,0,0,boehebu01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631205.png
+Isaiah Joe,Oklahoma City Thunder,OKC,SG,4-Jun,76,165,6,2000,"Fort Smith, AR",2020,2,19,joeis01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630198.png
+Colin Castleton,Orlando Magic,ORL,C,11-Jun,83,250,3,2000,"Pembroke Pines, FL",2023,0,0,castlco01,https://cdn.nba.com/headshots/nba/latest/260x190/1630658.png
+Goga Bitadze,Orlando Magic,ORL,C,Jul-00,84,250,7,2000,"Sagarejo, Georgia",2019,1,18,bitadgo01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629048.png
+Wendell Carter Jr.,Orlando Magic,ORL,C,10-Jun,82,270,8,1999,"Fairburn, GA",2018,1,7,cartewe01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628976.png
+Noah Penda,Orlando Magic,ORL,F,6-Jun,78,215,1,2005,"Paris, France",2025,2,2,pendano01,https://cdn.nba.com/headshots/nba/latest/260x190/1642869.png
+Moritz Wagner,Orlando Magic,ORL,FC,11-Jun,83,245,8,1997,"Berlin, Germany",2018,1,25,wagnemo01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629021.png
+Jalen Suggs,Orlando Magic,ORL,G,5-Jun,77,205,5,2001,"St. Paul, MN",2021,1,5,suggsja01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630591.png
+Anthony Black,Orlando Magic,ORL,GF,7-Jun,79,185,3,2004,"Coppell, TX",2023,1,6,blackan01,https://cdn.nba.com/headshots/nba/latest/260x190/1641710.png
+Desmond Bane,Orlando Magic,ORL,GF,5-Jun,77,215,6,1998,"Richmond, IN",2020,1,30,banede01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630217.png
+Franz Wagner,Orlando Magic,ORL,GF,10-Jun,82,220,5,2002,"Berlin, Germany",2021,1,8,wagnefr01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630532.png
+Jonathan Isaac,Orlando Magic,ORL,PF,10-Jun,82,230,9,1998,"Naples, FL",2017,1,6,isaacjo01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628371.png
+Paolo Banchero,Orlando Magic,ORL,PF,9-Jun,81,250,4,2003,"Seattle, WA",2022,1,1,banchpa01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631094.png
+Tristan da Silva,Orlando Magic,ORL,PF,9-Jun,81,220,2,2001,"Munich, Germany",2024,1,18,dasiltr01,https://cdn.nba.com/headshots/nba/latest/260x190/1641783.png
+Jevon Carter,Orlando Magic,ORL,PG,1-Jun,73,200,8,1996,"Maywood, IL",2018,2,2,carteje01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628975.png
+Jamal Cain,Orlando Magic,ORL,SF,7-Jun,79,191,4,1999,"Pontiac, MI",2022,0,0,cainja01,https://cdn.nba.com/headshots/nba/latest/260x190/1631288.png
+Jett Howard,Orlando Magic,ORL,SF,8-Jun,80,215,3,2004,"Fort Lauderdale, FL",2023,1,11,howarje01,https://cdn.nba.com/headshots/nba/latest/260x190/1641724.png
+Alex Morales,Orlando Magic,ORL,SG,6-Jun,78,180,4,1998,"Haledon, NJ",2022,0,0,moralal01,https://cdn.nba.com/headshots/nba/latest/260x190/1631457.png
+Jase Richardson Jr.,Orlando Magic,ORL,SG,Jun-00,72,180,1,2006,"Denver, CO",2025,1,25,richaja02,https://cdn.nba.com/headshots/nba/latest/260x190/1642859.png
+Adem Bona,Philadelphia 76ers,PHI,C,10-Jun,82,235,2,2003,"Lagos, Nigeria - Country: Turkey",2024,2,11,bonaad01,https://cdn.nba.com/headshots/nba/latest/260x190/1641737.png
+Andre Drummond,Philadelphia 76ers,PHI,C,10-Jun,82,279,14,1994,"Mount Vernon, NY",2012,1,9,drumman01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203083.png
+Joel Embiid,Philadelphia 76ers,PHI,C,Jul-00,84,280,12,1994,"Yaounde, Cameroon",2014,1,3,embiijo01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203954.png
+Johni Broome,Philadelphia 76ers,PHI,C,10-Jun,82,235,1,2002,"Plant City, FL",2025,2,5,broomjo01,https://cdn.nba.com/headshots/nba/latest/260x190/1641780.png
+Dominick Barlow,Philadelphia 76ers,PHI,F,9-Jun,81,215,4,2003,"Dumont, NJ",2022,0,0,barlodo01,https://cdn.nba.com/headshots/nba/latest/260x190/1631230.png
+Paul George,Philadelphia 76ers,PHI,F,8-Jun,80,220,16,1990,"Palmdale, CA",2010,1,10,georgpa01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202331.png
+Trendon Watford,Philadelphia 76ers,PHI,FC,8-Jun,80,237,5,2001,"Birmingham, AL",2021,0,0,watfotr01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630570.png
+Tyrese Maxey,Philadelphia 76ers,PHI,G,2-Jun,74,200,6,2001,"Dallas, TX",2020,1,21,maxeyty01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630178.png
+Dalen Terry,Philadelphia 76ers,PHI,GF,7-Jun,79,195,4,2003,"Phoenix, AZ",2022,1,18,terryda01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631207.png
+Kelly Oubre Jr.,Philadelphia 76ers,PHI,GF,7-Jun,79,203,11,1996,"New Orleans, LA",2015,1,15,oubreke01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626162.png
+Tyrese Martin,Philadelphia 76ers,PHI,GF,6-Jun,78,215,4,1999,"Allentown, PA",2022,2,21,martity01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631213.png
+Jabari Walker,Philadelphia 76ers,PHI,PF,9-Jun,81,215,4,2003,"Wichita, KS",2022,2,27,walkeja01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631133.png
+Cameron Payne,Philadelphia 76ers,PHI,PG,1-Jun,73,183,11,1995,"Bartlett, TN",2015,1,14,payneca01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626166.png
+Kyle Lowry,Philadelphia 76ers,PHI,PG,Jun-00,72,196,20,1986,"Philadelphia, PA",2006,1,24,lowryky01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/200768.png
+Justin Edwards,Philadelphia 76ers,PHI,SF,7-Jun,79,190,2,2004,"Philadelphia, PA",2024,0,0,edwarju01,https://cdn.nba.com/headshots/nba/latest/260x190/1642348.png
+MarJon Beauchamp,Philadelphia 76ers,PHI,SF,6-Jun,78,199,4,2001,"Seattle, WA",2022,1,24,beaucma01,https://cdn.nba.com/headshots/nba/latest/260x190/1630699.png
+Quentin Grimes,Philadelphia 76ers,PHI,SG,4-Jun,76,210,5,2000,"Houston, TX",2021,1,25,grimequ01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629656.png
+V.J. Edgecombe,Philadelphia 76ers,PHI,SG,5-Jun,77,180,1,2006,"Bimini, Bahamas",2025,1,3,edgecvj01,https://cdn.nba.com/headshots/nba/latest/260x190/1642845.png
+Khaman Maluach,Phoenix Suns,PHX,C,2-Jul,86,253,1,2007,"Rumbek, South Sudan",2025,1,10,maluakh01,https://cdn.nba.com/headshots/nba/latest/260x190/1642863.png
+Mark Williams,Phoenix Suns,PHX,C,Jul-00,84,243,4,2002,"Norfolk, VA",2022,1,15,willima07,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631109.png
+Rasheer Fleming,Phoenix Suns,PHX,FC,9-Jun,81,240,1,2005,"Camden, NJ",2025,2,1,flemira01,https://cdn.nba.com/headshots/nba/latest/260x190/1642853.png
+Jamaree Bouyea,Phoenix Suns,PHX,G,2-Jun,74,189,4,2000,"Salinas, CA",2022,0,0,bouyeja01,https://cdn.nba.com/headshots/nba/latest/260x190/1631123.png
+Jordan Goodwin,Phoenix Suns,PHX,G,3-Jun,75,200,5,1999,"Centreville, IL",2021,0,0,goodwjo01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630692.png
+Amir Coffey,Phoenix Suns,PHX,GF,7-Jun,79,210,7,1997,"Minnetonka, MN",2019,0,0,coffeam01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629599.png
+Grayson Allen,Phoenix Suns,PHX,GF,4-Jun,76,198,8,1996,"Jacksonville, FL",2018,1,21,allengr01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628960.png
+Koby Brea,Phoenix Suns,PHX,GF,7-Jun,79,215,1,2003,"Bronx, NY",2025,2,11,breako01,https://cdn.nba.com/headshots/nba/latest/260x190/1642886.png
+Oso Ighodaro,Phoenix Suns,PHX,PF,11-Jun,83,235,2,2003,"Phoenix, AZ",2024,2,10,ighodos01,https://cdn.nba.com/headshots/nba/latest/260x190/1642345.png
+Collin Gillespie,Phoenix Suns,PHX,PG,3-Jun,75,190,4,2000,"Warminster, PA",2022,0,0,gilleco01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631221.png
+Dillon Brooks,Phoenix Suns,PHX,SF,7-Jun,79,225,9,1996,"Mississauga, Canada",2017,2,15,brookdi01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628415.png
+Haywood Highsmith,Phoenix Suns,PHX,SF,7-Jun,79,220,8,1997,"Baltimore, MD",2018,0,0,highsha01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/dleague/1629312.png
+Isaiah Livers,Phoenix Suns,PHX,SF,6-Jun,78,232,5,1999,"Kalamazoo, MI",2021,2,12,liveris01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630587.png
+Royce O'Neale,Phoenix Suns,PHX,SF,5-Jun,77,226,11,1993,"Killeen, TX",2015,0,0,onealro01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626220.png
+Devin Booker,Phoenix Suns,PHX,SG,5-Jun,77,206,11,1997,"Ocean Springs, MS",2015,1,13,bookede01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626164.png
+Jalen Green,Phoenix Suns,PHX,SG,4-Jun,76,186,5,2002,"Fresno, CA",2021,1,2,greenja05,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630224.png
+Ryan Dunn,Phoenix Suns,PHX,SG,8-Jun,80,216,2,2003,"Freeport, NY",2024,1,28,dunnry01,https://cdn.nba.com/headshots/nba/latest/260x190/1642346.png
+Donovan Clingan,Portland Trail Blazers,POR,C,2-Jul,86,265,2,2004,"Bristol, CT",2024,1,7,clingdo01,https://cdn.nba.com/headshots/nba/latest/260x190/1642270.png
+Hansen Yang,Portland Trail Blazers,POR,C,1-Jul,85,249,1,2005,"Zibo, China",2025,1,16,yangha01,https://cdn.nba.com/headshots/nba/latest/260x190/1642905.png
+Jerami Grant,Portland Trail Blazers,POR,F,8-Jun,80,210,12,1994,"Portland, OR",2014,2,9,grantje01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203924.png
+Kris Murray,Portland Trail Blazers,POR,F,8-Jun,80,220,3,2001,"Cedar Rapids, IA",2023,1,23,murrakr01,https://cdn.nba.com/headshots/nba/latest/260x190/1631200.png
+Robert Williams III,Portland Trail Blazers,POR,FC,9-Jun,81,237,8,1998,"Shreveport, LA",2018,1,27,williro04,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629057.png
+Blake Wesley,Portland Trail Blazers,POR,G,5-Jun,77,190,4,2003,"South Bend, IN",2022,1,25,weslebl01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631104.png
+Caleb Love,Portland Trail Blazers,POR,G,4-Jun,76,195,1,2002,"St. Louis, MO",2025,0,0,loveca01,https://cdn.nba.com/headshots/nba/latest/260x190/1631126.png
+Jrue Holiday,Portland Trail Blazers,POR,G,3-Jun,75,205,17,1990,"Chatsworth, CA",2009,1,17,holidjr01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201950.png
+Deni Avdija,Portland Trail Blazers,POR,GF,9-Jun,81,210,6,2001,"Beit Zera, Israel",2020,1,9,avdijde01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630166.png
+Javonte Cooke,Portland Trail Blazers,POR,GF,6-Jun,78,185,3,2000,"Columbia, SC",2023,0,0,cookeja01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/gleague/260x190/1631451.png
+Matisse Thybulle,Portland Trail Blazers,POR,GF,5-Jun,77,200,7,1997,"Scottsdale, AZ",2019,1,20,thybuma01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629680.png
+Vit Krejci,Portland Trail Blazers,POR,GF,8-Jun,80,195,6,2000,"Strakonice, Czech Republic",2020,2,7,krejcvi01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630249.png
+Toumani Camara,Portland Trail Blazers,POR,PF,8-Jun,80,220,3,2000,"Brussels, Belgium",2023,2,22,camarto01,https://cdn.nba.com/headshots/nba/latest/260x190/1641739.png
+Damian Lillard,Portland Trail Blazers,POR,PG,2-Jun,74,195,14,1991,"Oakland, CA",2012,1,6,lillada01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203081.png
+Scoot Henderson,Portland Trail Blazers,POR,PG,3-Jun,75,180,3,2004,"Marietta, GA",2023,1,3,hendesc01,https://cdn.nba.com/headshots/nba/latest/260x190/1630703.png
+Sidy Cissoko,Portland Trail Blazers,POR,SF,7-Jun,79,220,3,2004,"Saint-Maurice, France",2023,2,14,cissosi01,https://cdn.nba.com/headshots/nba/latest/260x190/1631321.png
+Rayan Rupert,Portland Trail Blazers,POR,SG,7-Jun,79,190,3,2004,"Strasbourg, France",2023,2,13,ruperra01,https://cdn.nba.com/headshots/nba/latest/260x190/1641712.png
+Shaedon Sharpe,Portland Trail Blazers,POR,SG,4-Jun,76,200,4,2003,"London, Canada",2022,1,7,sharpsh01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631101.png
+Domantas Sabonis,Sacramento Kings,SAC,C,11-Jun,83,240,10,1996,"Portland, OR - Country: Lithuania",2016,1,11,sabondo01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627734.png
+Drew Eubanks,Sacramento Kings,SAC,C,9-Jun,81,245,8,1997,"Starkville, MS",2018,0,0,eubandr01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629234.png
+Dylan Cardwell,Sacramento Kings,SAC,C,11-Jun,83,255,1,2002,"Evans, GA",2025,0,0,cardwdy01,https://cdn.nba.com/headshots/nba/latest/260x190/1642928.png
+Maxime Raynaud,Sacramento Kings,SAC,C,1-Jul,85,250,1,2003,"Paris, France",2025,2,12,raynama01,https://cdn.nba.com/headshots/nba/latest/260x190/1642875.png
+De'Andre Hunter,Sacramento Kings,SAC,F,8-Jun,80,225,7,1998,"Philadelphia, PA",2019,1,4,huntede01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629631.png
+DeMar DeRozan,Sacramento Kings,SAC,F,6-Jun,78,220,17,1990,"Compton, CA",2009,1,9,derozde01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201942.png
+Doug McDermott,Sacramento Kings,SAC,F,7-Jun,79,225,12,1992,"Grand Forks, ND",2014,1,11,mcderdo01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203926.png
+Keegan Murray,Sacramento Kings,SAC,F,8-Jun,80,215,4,2001,"Cedar Rapids, IA",2022,1,4,murrake02,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631099.png
+Precious Achiuwa,Sacramento Kings,SAC,FC,8-Jun,80,225,6,2000,"Port Harcourt, Nigeria",2020,1,20,achiupr01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630173.png
+Devin Carter,Sacramento Kings,SAC,G,3-Jun,75,195,2,2002,"Miami, FL",2024,1,13,cartede02,https://cdn.nba.com/headshots/nba/latest/260x190/1642269.png
+Daeqwon Plowden,Sacramento Kings,SAC,GF,6-Jun,78,216,4,1999,"Philadelphia, PA",2022,0,0,plowdda01,https://cdn.nba.com/headshots/nba/latest/260x190/1631342.png
+Zach LaVine,Sacramento Kings,SAC,GF,5-Jun,77,200,12,1995,"Renton, WA",2014,1,13,lavinza01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203897.png
+Isaiah Stevens,Sacramento Kings,SAC,PG,Jun-00,72,185,2,2001,"Allen, TX",2024,0,0,steveis01,https://cdn.nba.com/headshots/nba/latest/260x190/1641815.png
+Russell Westbrook,Sacramento Kings,SAC,PG,3-Jun,75,200,18,1989,"Long Beach, CA",2008,1,4,westbru01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201566.png
+Malik Monk,Sacramento Kings,SAC,SG,3-Jun,75,200,9,1998,"Lepanto, AR",2017,1,11,monkma01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628370.png
+Nique Clifford,Sacramento Kings,SAC,SG,5-Jun,77,175,1,2002,"Colorado Springs, CO",2025,1,24,cliffni01,https://cdn.nba.com/headshots/nba/latest/260x190/1642363.png
+Bismack Biyombo,San Antonio Spurs,SAS,C,8-Jun,80,255,15,1993,"Lubumbashi, Democratic Republic of the Congo",2011,1,7,biyombi01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202687.png
+Luke Kornet,San Antonio Spurs,SAS,C,2-Jul,86,250,9,1996,"Lantana, TX",2017,0,0,kornelu01,https://cdn.nba.com/headshots/nba/latest/260x190/1628436.png
+Carter Bryant,San Antonio Spurs,SAS,F,8-Jun,80,215,1,2006,"Riverside, CA",2025,1,14,bryanca01,https://cdn.nba.com/headshots/nba/latest/260x190/1642868.png
+Harrison Barnes,San Antonio Spurs,SAS,F,8-Jun,80,225,14,1992,"Ames, IA",2012,1,7,barneha02,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203084.png
+Kelly Olynyk,San Antonio Spurs,SAS,FC,11-Jun,83,240,13,1991,"Toronto, Canada",2013,1,13,olynyke01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203482.png
+Victor Wembanyama,San Antonio Spurs,SAS,FC,4-Jul,88,230,3,2004,"Le Chesnay, France",2023,1,1,wembavi01,https://cdn.nba.com/headshots/nba/latest/260x190/1641705.png
+Stephon Castle,San Antonio Spurs,SAS,G,6-Jun,78,215,2,2005,"Covington, GA",2024,1,4,castlst01,https://cdn.nba.com/headshots/nba/latest/260x190/1642264.png
+Devin Vassell,San Antonio Spurs,SAS,GF,5-Jun,77,200,6,2001,"Suwanee, GA",2020,1,11,vassede01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630170.png
+Keldon Johnson,San Antonio Spurs,SAS,GF,6-Jun,78,220,7,2000,"Chesterfield, VA",2019,1,29,johnske04,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629640.png
+Lindy Waters III,San Antonio Spurs,SAS,GF,6-Jun,78,215,6,1998,"Norman, OK",2020,0,0,waterli01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/gleague/260x190/1630322.png
+De'Aaron Fox,San Antonio Spurs,SAS,PG,3-Jun,75,185,9,1998,"Katy, TX",2017,1,5,foxde01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628368.png
+Jordan McLaughlin,San Antonio Spurs,SAS,PG,11-May,71,185,8,1996,"Pasadena, CA",2018,0,0,mclaujo01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629162.png
+Julian Champagnie,San Antonio Spurs,SAS,SF,8-Jun,80,220,4,2001,"Staten Island, NY",2022,0,0,champju02,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630577.png
+David Jones Garcia,San Antonio Spurs,SAS,SG,6-Jun,78,210,2,2002,"Santo Domingo, Dominican Republic",2024,0,0,jonesda06,https://cdn.nba.com/headshots/nba/latest/260x190/1642357.png
+Dylan Harper,San Antonio Spurs,SAS,SG,6-Jun,78,215,1,2006,"Franklin Lakes, NJ",2025,1,2,harpedy01,https://cdn.nba.com/headshots/nba/latest/260x190/1642844.png
+Harrison Ingram,San Antonio Spurs,SAS,SG,6-Jun,78,230,2,2003,"Dallas, TX",2024,2,18,ingraha01,https://cdn.nba.com/headshots/nba/latest/260x190/1631127.png
+Stanley Umude,San Antonio Spurs,SAS,SG,6-Jun,78,210,4,1999,"Portland, OR",2022,0,0,umudest01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630649.png
+Jakob Poeltl,Toronto Raptors,TOR,C,1-Jul,85,245,10,1996,"Vienna, Austria",2016,1,9,poeltja01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627751.png
+Scottie Barnes,Toronto Raptors,TOR,F,7-Jun,79,225,5,2002,"West Palm Beach, FL",2021,1,4,barnesc01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630567.png
+Jonathan Mogbo,Toronto Raptors,TOR,FC,8-Jun,80,225,2,2002,"West Palm Beach, FL",2024,2,1,mogbojo01,https://cdn.nba.com/headshots/nba/latest/260x190/1642367.png
+Sandro Mamukelashvili,Toronto Raptors,TOR,FC,9-Jun,81,240,5,1999,"New York, NY - Country: Georgia",2021,2,24,mamuksa01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630572.png
+Alijah Martin,Toronto Raptors,TOR,G,2-Jun,74,210,1,2002,"Summit, IL",2025,2,9,martial01,https://cdn.nba.com/headshots/nba/latest/260x190/1642918.png
+Immanuel Quickley,Toronto Raptors,TOR,G,3-Jun,75,190,6,1999,"Havre de Grace, MD",2020,1,25,quickim01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630193.png
+Brandon Ingram,Toronto Raptors,TOR,GF,7-Jun,79,190,10,1998,"Kinston, NC",2016,1,2,ingrabr01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1627742.png
+Gradey Dick,Toronto Raptors,TOR,GF,7-Jun,79,205,3,2004,"Wichita, KS",2023,1,13,dickgr01,https://cdn.nba.com/headshots/nba/latest/260x190/1641711.png
+Ja'Kobe Walter,Toronto Raptors,TOR,GF,6-Jun,78,180,2,2005,"McKinney, TX",2024,1,19,walteja01,https://cdn.nba.com/headshots/nba/latest/260x190/1642266.png
+R.J. Barrett,Toronto Raptors,TOR,GF,6-Jun,78,214,7,2001,"Mississauga, Canada",2019,1,3,barrerj01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629628.png
+Collin Murray-Boyles,Toronto Raptors,TOR,PF,7-Jun,79,245,1,2005,"Columbia, SC",2025,1,9,murraco01,https://cdn.nba.com/headshots/nba/latest/260x190/1642867.png
+Trayce Jackson-Davis,Toronto Raptors,TOR,PF,9-Jun,81,245,3,2000,"Greenwood, IN",2023,2,27,jackstr02,https://cdn.nba.com/headshots/nba/latest/260x190/1631218.png
+Chucky Hepburn,Toronto Raptors,TOR,PG,2-Jun,74,195,1,2003,"Omaha, NE",2025,0,0,hepbuch01,https://cdn.nba.com/headshots/nba/latest/260x190/1642935.png
+Jamal Shead,Toronto Raptors,TOR,PG,1-Jun,73,195,2,2003,"Austin, TX",2024,2,15,sheadja01,https://cdn.nba.com/headshots/nba/latest/260x190/1642347.png
+Jamison Battle,Toronto Raptors,TOR,SF,7-Jun,79,220,2,2001,"Robbinsdale, MN",2024,0,0,battlja01,https://cdn.nba.com/headshots/nba/latest/260x190/1642419.png
+A.J. Lawson,Toronto Raptors,TOR,SG,6-Jun,78,178,5,2001,"Toronto, Canada",2021,0,0,lawsoaj01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630639.png
+Garrett Temple,Toronto Raptors,TOR,SG,5-Jun,77,195,17,1986,"Baton Rouge, LA",2009,0,0,templga01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/202066.png
+Jusuf Nurkic,Utah Jazz,UTA,C,11-Jun,83,290,12,1995,"Tuzla, Bosnia and Herzegovina",2014,1,16,nurkiju01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203994.png
+Walker Kessler,Utah Jazz,UTA,C,11-Jun,83,245,4,2002,"Fairburn, GA",2022,1,22,kesslwa01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631117.png
+Ace Bailey,Utah Jazz,UTA,F,7-Jun,79,200,1,2007,"Powder Springs, GA",2025,1,5,baileac01,https://cdn.nba.com/headshots/nba/latest/260x190/1642846.png
+Lauri Markkanen,Utah Jazz,UTA,F,Jul-00,84,240,9,1997,"Vantaa, Finland",2017,1,7,markkla01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628374.png
+Jaren Jackson Jr.,Utah Jazz,UTA,FC,11-Jun,83,242,8,2000,"Plainfield, NJ",2018,1,4,jacksja02,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628991.png
+Kyle Filipowski,Utah Jazz,UTA,FC,11-Jun,83,230,2,2004,"Wilbraham, MA",2024,2,2,filipky01,https://cdn.nba.com/headshots/nba/latest/260x190/1642271.png
+Oscar Tshiebwe,Utah Jazz,UTA,FC,8-Jun,80,250,3,2000,"Lubumbashi, Democratic Republic of the Congo",2023,0,0,tshieos01,https://cdn.nba.com/headshots/nba/latest/260x190/1631131.png
+Elijah Harkless,Utah Jazz,UTA,G,3-Jun,75,195,3,2000,"Etiwanda, CA",2023,0,0,harklej01,https://cdn.nba.com/headshots/nba/latest/260x190/1641989.png
+Brice Sensabaugh,Utah Jazz,UTA,GF,6-Jun,78,235,3,2004,"Orlando, FL",2023,1,28,sensabr01,https://cdn.nba.com/headshots/nba/latest/260x190/1641729.png
+Cody Williams,Utah Jazz,UTA,GF,8-Jun,80,190,2,2005,"Gilbert, AZ",2024,1,10,willico04,https://cdn.nba.com/headshots/nba/latest/260x190/1642262.png
+Sviatoslav Mykhailiuk,Utah Jazz,UTA,GF,7-Jun,79,205,8,1997,"Cherkasy, Ukraine",2018,2,17,mykhasv01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629004.png
+Vince Williams Jr.,Utah Jazz,UTA,GF,6-Jun,78,210,4,2001,"Toledo, OH",2022,2,17,willivi01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1631246.png
+Kevin Love,Utah Jazz,UTA,PF,8-Jun,80,251,18,1989,"Santa Monica, CA",2008,1,5,loveke01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/201567.png
+Isaiah Collier,Utah Jazz,UTA,PG,3-Jun,75,210,2,2005,"Marietta, GA",2024,1,29,colliis01,https://cdn.nba.com/headshots/nba/latest/260x190/1642268.png
+Blake Hinson,Utah Jazz,UTA,SF,7-Jun,79,235,2,2000,"Daytona Beach, FL",2024,0,0,hinsobl01,https://cdn.nba.com/headshots/nba/latest/260x190/1642396.png
+John Konchar,Utah Jazz,UTA,SG,5-Jun,77,210,7,1996,"Chicago, IL",2019,0,0,konchjo01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629723.png
+Keyonte George,Utah Jazz,UTA,SG,5-Jun,77,205,3,2004,"Lewisville, TX",2023,1,16,georgke01,https://cdn.nba.com/headshots/nba/latest/260x190/1641718.png
+Tristan Vukcevic,Washington Wizards,WAS,C,11-Jun,83,220,3,2003,"Siena, Italy - Country: Serbia",2023,2,12,vukcetr01,https://cdn.nba.com/headshots/nba/latest/260x190/1641774.png
+Cam Whitmore,Washington Wizards,WAS,F,7-Jun,79,232,3,2005,"Odenton, MD",2023,1,20,whitmca01,https://cdn.nba.com/headshots/nba/latest/260x190/1641715.png
+Justin Champagnie,Washington Wizards,WAS,F,6-Jun,78,206,5,2001,"Staten Island, NY",2021,0,0,champju01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630551.png
+Alex Sarr,Washington Wizards,WAS,FC,1-Jul,85,217,2,2005,"Toulouse, France",2024,1,2,sarral01,https://cdn.nba.com/headshots/nba/latest/260x190/1642259.png
+Anthony Davis,Washington Wizards,WAS,FC,10-Jun,82,253,14,1993,"Chicago, IL",2012,1,1,davisan02,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203076.png
+Bub Carrington,Washington Wizards,WAS,G,5-Jun,77,190,2,2006,"Baltimore, MD",2024,1,14,carrica01,https://cdn.nba.com/headshots/nba/latest/260x190/1642267.png
+D'Angelo Russell,Washington Wizards,WAS,G,4-Jun,76,193,11,1996,"Louisville, KY",2015,1,2,russeda01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626156.png
+Kyshawn George,Washington Wizards,WAS,GF,8-Jun,80,205,2,2004,"Monthey, Switzerland",2024,1,24,georgky01,https://cdn.nba.com/headshots/nba/latest/260x190/1642273.png
+Will Riley,Washington Wizards,WAS,GF,8-Jun,80,186,1,2006,"Kitchener, Canada",2025,1,21,rileywi01,https://cdn.nba.com/headshots/nba/latest/260x190/1642860.png
+Anthony Gill,Washington Wizards,WAS,PF,7-Jun,79,230,10,1993,"High Point, NC",2016,0,0,gillan01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630264.png
+Sharife Cooper,Washington Wizards,WAS,PG,1-Jun,73,180,5,2001,"Marietta, GA",2021,2,18,coopesh01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630536.png
+Trae Young,Washington Wizards,WAS,PG,1-Jun,73,164,8,1999,"Lubbock, TX",2018,1,5,youngtr01,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1629027.png
+Bilal Coulibaly,Washington Wizards,WAS,SF,8-Jun,80,180,3,2005,"Saint-Cloud, France",2023,1,7,coulibi01,https://cdn.nba.com/headshots/nba/latest/260x190/1641731.png
+Jamir Watkins,Washington Wizards,WAS,SF,7-Jun,79,215,1,2002,"Trenton, NJ",2025,2,13,watkija01,https://cdn.nba.com/headshots/nba/latest/260x190/1642364.png
+Jaden Hardy,Washington Wizards,WAS,SG,4-Jun,76,185,4,2003,"Henderson, NV",2022,2,7,hardyja02,https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1630702.png
+Tre Johnson,Washington Wizards,WAS,SG,5-Jun,77,190,1,2006,"Dallas, TX",2025,1,6,johnstr03,https://cdn.nba.com/headshots/nba/latest/260x190/1642848.png
