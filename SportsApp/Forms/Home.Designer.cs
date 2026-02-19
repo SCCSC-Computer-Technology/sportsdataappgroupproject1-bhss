@@ -31,12 +31,18 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.contentPanel = new System.Windows.Forms.Panel();
             this.navControl1 = new sportsApp.NavControl();
             this.loginControl1 = new sportsApp.LoginControl();
             this.dashboardControl1 = new sportsApp.NavControl();
-            this.contentPanel = new System.Windows.Forms.Panel();
-            this.loginControl2 = new sportsApp.LoginControl();
             this.SuspendLayout();
+            // 
+            // contentPanel
+            // 
+            this.contentPanel.Location = new System.Drawing.Point(216, 0);
+            this.contentPanel.Name = "contentPanel";
+            this.contentPanel.Size = new System.Drawing.Size(604, 490);
+            this.contentPanel.TabIndex = 2;
             // 
             // navControl1
             // 
@@ -55,7 +61,7 @@
             this.loginControl1.Location = new System.Drawing.Point(0, 0);
             this.loginControl1.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.loginControl1.Name = "loginControl1";
-            this.loginControl1.Size = new System.Drawing.Size(820, 490);
+            this.loginControl1.Size = new System.Drawing.Size(818, 491);
             this.loginControl1.TabIndex = 0;
             // 
             // dashboardControl1
@@ -69,28 +75,11 @@
             this.dashboardControl1.Size = new System.Drawing.Size(820, 490);
             this.dashboardControl1.TabIndex = 1;
             // 
-            // contentPanel
-            // 
-            this.contentPanel.Location = new System.Drawing.Point(216, 0);
-            this.contentPanel.Name = "contentPanel";
-            this.contentPanel.Size = new System.Drawing.Size(604, 490);
-            this.contentPanel.TabIndex = 2;
-            // 
-            // loginControl2
-            // 
-            this.loginControl2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loginControl2.Location = new System.Drawing.Point(0, 0);
-            this.loginControl2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.loginControl2.Name = "loginControl2";
-            this.loginControl2.Size = new System.Drawing.Size(818, 492);
-            this.loginControl2.TabIndex = 0;
-            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(818, 491);
-            this.Controls.Add(this.loginControl2);
             this.Controls.Add(this.contentPanel);
             this.Controls.Add(this.navControl1);
             this.Controls.Add(this.loginControl1);
@@ -111,7 +100,6 @@
         private NavControl dashboardControl1;
         private NavControl navControl1;
         private System.Windows.Forms.Panel contentPanel;
-        private LoginControl loginControl2;
     }
 }
 
