@@ -1,0 +1,14 @@
+C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\SportsDataDB.mdf
+C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\SportsDataDB_log.ldf
+C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\sportsApp.exe.config
+C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\sportsApp.exe
+C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.csproj.AssemblyReference.cache
+C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.NavControl.resources
+C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Home.resources
+C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.LoginControl.resources
+C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.RegisterForm.resources
+C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Properties.Resources.resources
+C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.RegistrationControl.resources
+C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.csproj.GenerateResource.cache
+C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.csproj.CoreCompileInputs.cache
+C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.exe

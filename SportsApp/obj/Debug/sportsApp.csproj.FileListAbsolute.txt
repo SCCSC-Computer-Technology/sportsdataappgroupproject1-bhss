@@ -59,3 +59,19 @@ C:\Users\heinr\OneDrive - Spartanburg Community College\Advanced C#\sportsdataap
 C:\Users\heinr\OneDrive - Spartanburg Community College\Advanced C#\sportsdataappgroupproject1-bhss-main\SportsApp\obj\Debug\sportsApp.exe
 C:\Users\heinr\OneDrive - Spartanburg Community College\Advanced C#\sportsdataappgroupproject1-bhss-main\SportsApp\obj\Debug\sportsApp.pdb
 C:\Users\heinr\OneDrive - Spartanburg Community College\Advanced C#\sportsdataappgroupproject1-bhss-main\SportsApp\obj\Debug\sportsApp.Forms.RegisterForm.resources
+C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\bin\Debug\SportsDataDB.mdf
+C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\bin\Debug\SportsDataDB_log.ldf
+C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\bin\Debug\sportsApp.exe.config
+C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\bin\Debug\sportsApp.exe
+C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\bin\Debug\sportsApp.pdb
+C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\obj\Debug\sportsApp.csproj.AssemblyReference.cache
+C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\obj\Debug\sportsApp.NavControl.resources
+C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\obj\Debug\sportsApp.Home.resources
+C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\obj\Debug\sportsApp.LoginControl.resources
+C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\obj\Debug\sportsApp.Forms.RegisterForm.resources
+C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\obj\Debug\sportsApp.Properties.Resources.resources
+C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\obj\Debug\sportsApp.RegistrationControl.resources
+C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\obj\Debug\sportsApp.csproj.GenerateResource.cache
+C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\obj\Debug\sportsApp.csproj.CoreCompileInputs.cache
+C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\obj\Debug\sportsApp.exe
+C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\obj\Debug\sportsApp.pdb
