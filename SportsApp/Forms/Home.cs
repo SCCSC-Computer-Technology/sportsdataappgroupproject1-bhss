@@ -1,4 +1,5 @@
-﻿using System;
+﻿using sportsApp.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,6 +26,11 @@ namespace sportsApp
         private void signInButton_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void loginControl2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
