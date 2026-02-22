@@ -17,20 +17,5 @@ namespace sportsApp
         {
             InitializeComponent();
         }
-
-        private void registerLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            
-        }
-
-        private void signInButton_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void loginControl2_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

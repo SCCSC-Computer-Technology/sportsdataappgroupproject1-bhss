@@ -1,12 +1,68 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Shawn\\Desktop\\sportsdataappgroupproject1-bhss\\SportsApp\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Shawn\\Documents\\sportsdataappgroupproject1-bhss\\SportsApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB84F0A-98F2-41AA-96C7-441657B065C6}|sportsApp.csproj|c:\\users\\shawn\\documents\\sportsdataappgroupproject1-bhss\\sportsapp\\forms\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AEB84F0A-98F2-41AA-96C7-441657B065C6}|sportsApp.csproj|solutionrelative:forms\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB84F0A-98F2-41AA-96C7-441657B065C6}|sportsApp.csproj|c:\\users\\shawn\\documents\\sportsdataappgroupproject1-bhss\\sportsapp\\controls\\navcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AEB84F0A-98F2-41AA-96C7-441657B065C6}|sportsApp.csproj|solutionrelative:controls\\navcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB84F0A-98F2-41AA-96C7-441657B065C6}|sportsApp.csproj|c:\\users\\shawn\\documents\\sportsdataappgroupproject1-bhss\\sportsapp\\controls\\logincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AEB84F0A-98F2-41AA-96C7-441657B065C6}|sportsApp.csproj|solutionrelative:controls\\logincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Shawn\\Documents\\sportsdataappgroupproject1-bhss\\SportsApp\\Controls\\LoginControl.cs",
+              "RelativeDocumentMoniker": "Controls\\LoginControl.cs",
+              "ToolTip": "C:\\Users\\Shawn\\Documents\\sportsdataappgroupproject1-bhss\\SportsApp\\Controls\\LoginControl.cs [Design]",
+              "RelativeToolTip": "Controls\\LoginControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T05:46:28.206Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NavControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Shawn\\Documents\\sportsdataappgroupproject1-bhss\\SportsApp\\Controls\\NavControl.cs",
+              "RelativeDocumentMoniker": "Controls\\NavControl.cs",
+              "ToolTip": "C:\\Users\\Shawn\\Documents\\sportsdataappgroupproject1-bhss\\SportsApp\\Controls\\NavControl.cs [Design]",
+              "RelativeToolTip": "Controls\\NavControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T05:38:18.101Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Shawn\\Documents\\sportsdataappgroupproject1-bhss\\SportsApp\\Forms\\Home.cs",
+              "RelativeDocumentMoniker": "Forms\\Home.cs",
+              "ToolTip": "C:\\Users\\Shawn\\Documents\\sportsdataappgroupproject1-bhss\\SportsApp\\Forms\\Home.cs [Design]",
+              "RelativeToolTip": "Forms\\Home.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T05:37:34.094Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
