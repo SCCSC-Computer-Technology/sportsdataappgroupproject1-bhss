@@ -58,7 +58,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panel1.Controls.Add(this.closeButton);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.signInButton);
@@ -129,6 +129,7 @@
             // 
             this.registerLink.AutoSize = true;
             this.registerLink.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.registerLink.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(90)))), ((int)(((byte)(119)))));
             this.registerLink.Location = new System.Drawing.Point(108, 340);
             this.registerLink.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.registerLink.Name = "registerLink";

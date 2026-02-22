@@ -24,6 +24,7 @@ namespace sportsApp.Forms
 
         private void btnRegister_Click(object sender, EventArgs e)
         {
+
             MessageBox.Show("Account registered!", "Account Registration", MessageBoxButtons.OK, MessageBoxIcon.Information);
             this.Close();
         }
