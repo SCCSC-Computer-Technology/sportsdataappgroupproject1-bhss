@@ -32,5 +32,10 @@ namespace sportsApp
             emailTextbox.Focus();
             form.ShowDialog();
         }
+
+        private void signInButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }
