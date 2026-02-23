@@ -147,12 +147,12 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="SportsDataDB.mdf">
+    <Content Include="SportsInfoDB.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="SportsDataDB_log.ldf">
+    <Content Include="SportsInfoDB_log.ldf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>SportsDataDB.mdf</DependentUpon>
+      <DependentUpon>SportsInfoDB.mdf</DependentUpon>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
