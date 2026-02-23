@@ -42,3 +42,17 @@ C:\Users\Shawn\Downloads\sportsdataappgroupproject1-bhss-main 1 (1)\sportsdataap
 C:\Users\Shawn\Downloads\sportsdataappgroupproject1-bhss-main 1 (1)\sportsdataappgroupproject1-bhss-main\SportsApp\obj\x86\sportsApp.csproj.GenerateResource.cache
 C:\Users\Shawn\Downloads\sportsdataappgroupproject1-bhss-main 1 (1)\sportsdataappgroupproject1-bhss-main\SportsApp\obj\x86\sportsApp.csproj.CoreCompileInputs.cache
 C:\Users\Shawn\Downloads\sportsdataappgroupproject1-bhss-main 1 (1)\sportsdataappgroupproject1-bhss-main\SportsApp\obj\x86\sportsApp.exe
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\SportsInfoDB.mdf
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\SportsInfoDB_log.ldf
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\sportsApp.exe.config
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\sportsApp.exe
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.csproj.AssemblyReference.cache
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.NavControl.resources
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Home.resources
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.LoginControl.resources
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.RegisterForm.resources
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Properties.Resources.resources
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.RegistrationControl.resources
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.csproj.GenerateResource.cache
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.csproj.CoreCompileInputs.cache
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.exe

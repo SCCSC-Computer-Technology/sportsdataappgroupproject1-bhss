@@ -148,10 +148,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="SportsInfoDB.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="SportsInfoDB_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <DependentUpon>SportsInfoDB.mdf</DependentUpon>
     </Content>
   </ItemGroup>

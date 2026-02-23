@@ -1,0 +1,8 @@
+﻿// Welcome to our group project
+
+// These are just a few things you need to know before
+   this program will work
+
+// Ensure Connection String for the SportsInfoDB is set to 
+	
+				" Copy if newer "
