@@ -1,31 +1,31 @@
-TeamID,Name,Abrv,Wins,Losses
-1,Atlanta Hawks,ATL,28,31
-2,Boston Celtics,BOS,37,19
-3,Brooklyn Nets,BKN,15,41
-4,Charlotte Hornets,CHA,27,31
-5,Chicago Bulls,CHI,24,34
-6,Cleveland Cavaliers,CLE,36,22
-7,Dallas Mavericks,DAL,20,36
-8,Denver Nuggets,DEN,35,20
-9,Detroit Pistons,DET,40,13
-10,Golden State Warriors,GSW,30,27
-11,Houston Rockets,HOU,34,21
-12,Indiana Pacers,IND,15,43
-13,Los Angeles Clippers,LAC,27,31
-14,Los Angeles Lakers,LAL,34,22
-15,Memphis Grizzlies,MEM,21,34
-16,Miami Heat,MIA,31,27
-17,Milwaukee Bucks,MIL,24,31
-18,Minnesota Timberwolves,MIN,35,23
-19,New Orleans Pelicans,NOP,21,38
-20,New York Knicks,NYK,37,21
-21,Oklahoma City Thunder,OKC,44,14
-22,Orlando Magic,ORL,30,26
-23,Philadelphia 76ers,PHI,31,26
-24,Phoenix Suns,PHX,33,25
-25,Portland Trail Blazers,POR,28,30
-26,Sacramento Kings,SAC,12,46
-27,San Antonio Spurs,SAS,40,16
-28,Toronto Raptors,TOR,34,23
-29,Utah Jazz,UTA,26,29
-30,Washington Wizards,WAS,16,40
+Name,Abrv,Conference,Arena
+Atlanta Hawks,ATL,Eastern,State Farm Arena
+Boston Celtics,BOS,Eastern,TD Garden
+Brooklyn Nets,BKN,Eastern,Barclays Center
+Charlotte Hornets,CHA,Eastern,Spectrum Center
+Chicago Bulls,CHI,Eastern,United Center
+Cleveland Cavaliers,CLE,Eastern,Rocket Arena
+Dallas Mavericks,DAL,Western,American Airlines Center
+Denver Nuggets,DEN,Western,Ball Arena
+Detroit Pistons,DET,Eastern,Little Caesars Arena
+Golden State Warriors,GSW,Western,Chase Center
+Houston Rockets,HOU,Western,Toyota Center
+Indiana Pacers,IND,Eastern,Gainbridge Fieldhouse
+Los Angeles Clippers,LAC,Western,Intuit Dome
+Los Angeles Lakers,LAL,Western,Crypto.com Arena
+Memphis Grizzlies,MEM,Western,FedExForum
+Miami Heat,MIA,Eastern,Kaseya Center
+Milwaukee Bucks,MIL,Eastern,Fiserv Forum
+Minnesota Timberwolves,MIN,Western,Target Center
+New Orleans Pelicans,NOP,Western,Smoothie King Center
+New York Knicks,NYK,Eastern,Madison Square Garden
+Oklahoma City Thunder,OKC,Western,Paycom Center
+Orlando Magic,ORL,Eastern,Kia Center
+Philadelphia 76ers,PHI,Eastern,Wells Fargo Center
+Phoenix Suns,PHX,Western,Footprint Center
+Portland Trail Blazers,POR,Western,Moda Center
+Sacramento Kings,SAC,Western,Golden 1 Center
+San Antonio Spurs,SAS,Western,Frost Bank Center
+Toronto Raptors,TOR,Eastern,Scotiabank Arena
+Utah Jazz,UTA,Western,Delta Center
+Washington Wizards,WAS,Eastern,Capital One Arena
