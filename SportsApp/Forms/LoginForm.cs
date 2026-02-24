@@ -8,23 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace sportsApp
+namespace sportsApp.Forms
 {
-    public partial class NavControl : UserControl
+    public partial class LoginForm : Form
     {
-        public NavControl()
+        public LoginForm()
         {
             InitializeComponent();
         }
 
         private void closeButton_Click(object sender, EventArgs e)
         {
-            this.FindForm().Close();
-        }
-
-        private void logOutButton_Click(object sender, EventArgs e)
-        {
-            
+            this.Close();
         }
     }
 }

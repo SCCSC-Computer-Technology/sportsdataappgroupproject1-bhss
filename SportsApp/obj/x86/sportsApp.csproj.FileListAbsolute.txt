@@ -56,3 +56,4 @@ C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsAp
 C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.exe
 C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\SportsInfoDB.mdf
 C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\SportsInfoDB_log.ldf
+C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.LoginForm.resources

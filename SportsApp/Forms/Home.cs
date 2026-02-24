@@ -16,6 +16,22 @@ namespace sportsApp
         public Home()
         {
             InitializeComponent();
+            LoginForm loginform = new LoginForm();
+            loginform.ShowDialog();
+        }
+
+        private void logOutButton_Click(object sender, EventArgs e)
+        {
+            // sign out logged in user
+
+            // display loginform
+            LoginForm loginform = new LoginForm();
+            loginform.ShowDialog();
+        }
+
+        private void closeButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
