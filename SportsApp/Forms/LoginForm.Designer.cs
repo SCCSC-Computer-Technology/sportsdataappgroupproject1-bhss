@@ -94,6 +94,7 @@
             this.signInButton.TabIndex = 2;
             this.signInButton.Text = "Sign In";
             this.signInButton.UseVisualStyleBackColor = true;
+            this.signInButton.Click += new System.EventHandler(this.signInButton_Click);
             // 
             // passwordTextbox
             // 
@@ -125,6 +126,7 @@
             this.registerLink.TabIndex = 3;
             this.registerLink.TabStop = true;
             this.registerLink.Text = "Click To Register";
+            this.registerLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.registerLink_LinkClicked);
             // 
             // label1
             // 
