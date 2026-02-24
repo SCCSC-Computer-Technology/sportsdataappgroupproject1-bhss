@@ -12,8 +12,6 @@ C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsA
 C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.csproj.GenerateResource.cache
 C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.csproj.CoreCompileInputs.cache
 C:\Users\Shawn\Desktop\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.exe
-C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\SportsDataDB.mdf
-C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\SportsDataDB_log.ldf
 C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\sportsApp.exe.config
 C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\sportsApp.exe
 C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.csproj.AssemblyReference.cache
@@ -56,3 +54,5 @@ C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsAp
 C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.csproj.GenerateResource.cache
 C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.csproj.CoreCompileInputs.cache
 C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.exe
+C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\SportsInfoDB.mdf
+C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\SportsInfoDB_log.ldf
