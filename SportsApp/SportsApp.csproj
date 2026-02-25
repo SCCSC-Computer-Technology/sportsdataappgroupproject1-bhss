@@ -72,6 +72,24 @@
     <Compile Include="Forms\BasketballPlayersForm.Designer.cs">
       <DependentUpon>BasketballPlayersForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\BasketballSchedulesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BasketballSchedulesForm.Designer.cs">
+      <DependentUpon>BasketballSchedulesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BasketballScoresForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BasketballScoresForm.Designer.cs">
+      <DependentUpon>BasketballScoresForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BasketballStatsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BasketballStatsForm.Designer.cs">
+      <DependentUpon>BasketballStatsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\BasketballTeamsForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +101,24 @@
     </Compile>
     <Compile Include="Forms\FootballPlayersForm.Designer.cs">
       <DependentUpon>FootballPlayersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FootballSchedulesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FootballSchedulesForm.Designer.cs">
+      <DependentUpon>FootballSchedulesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FootballScoresForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FootballScoresForm.Designer.cs">
+      <DependentUpon>FootballScoresForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FootballStatsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FootballStatsForm.Designer.cs">
+      <DependentUpon>FootballStatsForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\FootballTeamsForm.cs">
       <SubType>Form</SubType>
@@ -114,11 +150,29 @@
     <EmbeddedResource Include="Forms\BasketballPlayersForm.resx">
       <DependentUpon>BasketballPlayersForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BasketballSchedulesForm.resx">
+      <DependentUpon>BasketballSchedulesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BasketballScoresForm.resx">
+      <DependentUpon>BasketballScoresForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BasketballStatsForm.resx">
+      <DependentUpon>BasketballStatsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\BasketballTeamsForm.resx">
       <DependentUpon>BasketballTeamsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FootballPlayersForm.resx">
       <DependentUpon>FootballPlayersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FootballSchedulesForm.resx">
+      <DependentUpon>FootballSchedulesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FootballScoresForm.resx">
+      <DependentUpon>FootballScoresForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FootballStatsForm.resx">
+      <DependentUpon>FootballStatsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FootballTeamsForm.resx">
       <DependentUpon>FootballTeamsForm.cs</DependentUpon>

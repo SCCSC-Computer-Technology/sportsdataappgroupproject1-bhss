@@ -50,9 +50,9 @@
             // 
             this.scheduleButton.BackColor = System.Drawing.Color.Transparent;
             this.scheduleButton.FlatAppearance.BorderSize = 0;
-            this.scheduleButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(141)))), ((int)(((byte)(169)))));
-            this.scheduleButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(141)))), ((int)(((byte)(169)))));
-            this.scheduleButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(141)))), ((int)(((byte)(169)))));
+            this.scheduleButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
+            this.scheduleButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
+            this.scheduleButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
             this.scheduleButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.scheduleButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.scheduleButton.ForeColor = System.Drawing.Color.White;
@@ -62,14 +62,15 @@
             this.scheduleButton.TabIndex = 15;
             this.scheduleButton.Text = "Schedules";
             this.scheduleButton.UseVisualStyleBackColor = false;
+            this.scheduleButton.Click += new System.EventHandler(this.scheduleButton_Click);
             // 
             // statsButton
             // 
             this.statsButton.BackColor = System.Drawing.Color.Transparent;
             this.statsButton.FlatAppearance.BorderSize = 0;
-            this.statsButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(141)))), ((int)(((byte)(169)))));
-            this.statsButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(141)))), ((int)(((byte)(169)))));
-            this.statsButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(141)))), ((int)(((byte)(169)))));
+            this.statsButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
+            this.statsButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
+            this.statsButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
             this.statsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.statsButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.statsButton.ForeColor = System.Drawing.Color.White;
@@ -79,6 +80,7 @@
             this.statsButton.TabIndex = 14;
             this.statsButton.Text = "Stats";
             this.statsButton.UseVisualStyleBackColor = false;
+            this.statsButton.Click += new System.EventHandler(this.statsButton_Click);
             // 
             // closeButton
             // 
@@ -102,9 +104,9 @@
             // 
             this.logOutButton.BackColor = System.Drawing.Color.Transparent;
             this.logOutButton.FlatAppearance.BorderSize = 0;
-            this.logOutButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(141)))), ((int)(((byte)(169)))));
-            this.logOutButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(141)))), ((int)(((byte)(169)))));
-            this.logOutButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(141)))), ((int)(((byte)(169)))));
+            this.logOutButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
+            this.logOutButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
+            this.logOutButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
             this.logOutButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.logOutButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logOutButton.ForeColor = System.Drawing.Color.White;
@@ -120,9 +122,9 @@
             // 
             this.playersButton.BackColor = System.Drawing.Color.Transparent;
             this.playersButton.FlatAppearance.BorderSize = 0;
-            this.playersButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(141)))), ((int)(((byte)(169)))));
-            this.playersButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(141)))), ((int)(((byte)(169)))));
-            this.playersButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(141)))), ((int)(((byte)(169)))));
+            this.playersButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
+            this.playersButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
+            this.playersButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
             this.playersButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.playersButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.playersButton.ForeColor = System.Drawing.Color.White;
@@ -138,9 +140,9 @@
             // 
             this.teamsButton.BackColor = System.Drawing.Color.Transparent;
             this.teamsButton.FlatAppearance.BorderSize = 0;
-            this.teamsButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(141)))), ((int)(((byte)(169)))));
-            this.teamsButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(141)))), ((int)(((byte)(169)))));
-            this.teamsButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(141)))), ((int)(((byte)(169)))));
+            this.teamsButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
+            this.teamsButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
+            this.teamsButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
             this.teamsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.teamsButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.teamsButton.ForeColor = System.Drawing.Color.White;
@@ -156,9 +158,9 @@
             // 
             this.scoresButton.BackColor = System.Drawing.Color.Transparent;
             this.scoresButton.FlatAppearance.BorderSize = 0;
-            this.scoresButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(141)))), ((int)(((byte)(169)))));
-            this.scoresButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(141)))), ((int)(((byte)(169)))));
-            this.scoresButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(141)))), ((int)(((byte)(169)))));
+            this.scoresButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
+            this.scoresButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
+            this.scoresButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
             this.scoresButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.scoresButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.scoresButton.ForeColor = System.Drawing.Color.White;
@@ -168,15 +170,16 @@
             this.scoresButton.TabIndex = 9;
             this.scoresButton.Text = "Scores";
             this.scoresButton.UseVisualStyleBackColor = false;
+            this.scoresButton.Click += new System.EventHandler(this.scoresButton_Click);
             // 
             // footballButton
             // 
             this.footballButton.Appearance = System.Windows.Forms.Appearance.Button;
-            this.footballButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(90)))), ((int)(((byte)(119)))));
+            this.footballButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(34)))), ((int)(((byte)(124)))));
             this.footballButton.FlatAppearance.BorderSize = 0;
-            this.footballButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(141)))), ((int)(((byte)(169)))));
-            this.footballButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(141)))), ((int)(((byte)(169)))));
-            this.footballButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(141)))), ((int)(((byte)(169)))));
+            this.footballButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
+            this.footballButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
+            this.footballButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
             this.footballButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.footballButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.footballButton.ForeColor = System.Drawing.Color.White;
@@ -191,12 +194,12 @@
             // basketballButton
             // 
             this.basketballButton.Appearance = System.Windows.Forms.Appearance.Button;
-            this.basketballButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(90)))), ((int)(((byte)(119)))));
+            this.basketballButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(34)))), ((int)(((byte)(124)))));
             this.basketballButton.Checked = true;
             this.basketballButton.FlatAppearance.BorderSize = 0;
-            this.basketballButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(141)))), ((int)(((byte)(169)))));
-            this.basketballButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(141)))), ((int)(((byte)(169)))));
-            this.basketballButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(141)))), ((int)(((byte)(169)))));
+            this.basketballButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
+            this.basketballButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
+            this.basketballButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
             this.basketballButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.basketballButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.basketballButton.ForeColor = System.Drawing.Color.White;
@@ -223,7 +226,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(34)))), ((int)(((byte)(124)))));
             this.panel1.Controls.Add(this.closeButton);
             this.panel1.Controls.Add(this.scheduleButton);
             this.panel1.Controls.Add(this.basketballButton);

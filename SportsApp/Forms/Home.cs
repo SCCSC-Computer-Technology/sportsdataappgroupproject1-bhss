@@ -62,6 +62,41 @@ namespace sportsApp
             }
         }
 
+        private void statsButton_Click(object sender, EventArgs e)
+        {
+            if (basketballButton.Checked)
+            {
+                LoadIntoContent(new BasketballStatsForm());
+            }
+            else if (footballButton.Checked)
+            {
+                LoadIntoContent(new FootballStatsForm());
+            }
+        }
+
+        private void scheduleButton_Click(object sender, EventArgs e)
+        {
+            if (basketballButton.Checked)
+            {
+                LoadIntoContent(new BasketballSchedulesForm());
+            }
+            else if (footballButton.Checked)
+            {
+                LoadIntoContent(new FootballSchedulesForm());
+            }
+        }
+        private void scoresButton_Click(object sender, EventArgs e)
+        {
+            if (basketballButton.Checked)
+            {
+                LoadIntoContent(new BasketballScoresForm());
+            }
+            else if (footballButton.Checked)
+            {
+                LoadIntoContent(new FootballScoresForm());
+            }
+        }
+
 
 
 
@@ -84,5 +119,6 @@ namespace sportsApp
             contentPanel.Controls.Add(child);
             child.Show();
         }
+
     }
 }
