@@ -1,12 +1,36 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\GroupProjectFolder\\sportsdataappgroupproject1-bhss-main\\SportsApp\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Shawn\\Documents\\sportsdataappgroupproject1-bhss\\SportsApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB84F0A-98F2-41AA-96C7-441657B065C6}|sportsApp.csproj|c:\\users\\shawn\\documents\\sportsdataappgroupproject1-bhss\\sportsapp\\forms\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AEB84F0A-98F2-41AA-96C7-441657B065C6}|sportsApp.csproj|solutionrelative:forms\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Shawn\\Documents\\sportsdataappgroupproject1-bhss\\SportsApp\\Forms\\Home.cs",
+              "RelativeDocumentMoniker": "Forms\\Home.cs",
+              "ToolTip": "C:\\Users\\Shawn\\Documents\\sportsdataappgroupproject1-bhss\\SportsApp\\Forms\\Home.cs [Design]",
+              "RelativeToolTip": "Forms\\Home.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T01:02:24.296Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
