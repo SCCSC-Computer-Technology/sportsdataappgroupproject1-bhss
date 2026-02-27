@@ -29,6 +29,7 @@ namespace sportsApp.Forms
         {
             // TODO: This line of code loads data into the 'sportInfoDataSet.NBATeams' table. You can move, or remove it, as needed.
             this.nBATeamsTableAdapter.Fill(this.sportInfoDataSet.NBATeams);
+            sortByDropdown.SelectedIndex = 0;
 
         }
 
