@@ -28,17 +28,12 @@ C:\Users\Shawn\Downloads\sportsdataappgroupproject1-bhss-main 1 (1)\sportsdataap
 C:\Users\Shawn\Downloads\sportsdataappgroupproject1-bhss-main 1 (1)\sportsdataappgroupproject1-bhss-main\SportsApp\obj\x86\sportsApp.csproj.GenerateResource.cache
 C:\Users\Shawn\Downloads\sportsdataappgroupproject1-bhss-main 1 (1)\sportsdataappgroupproject1-bhss-main\SportsApp\obj\x86\sportsApp.csproj.CoreCompileInputs.cache
 C:\Users\Shawn\Downloads\sportsdataappgroupproject1-bhss-main 1 (1)\sportsdataappgroupproject1-bhss-main\SportsApp\obj\x86\sportsApp.exe
-C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\SportsInfoDB.mdf
-C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\SportsInfoDB_log.ldf
 C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\sportsApp.exe.config
 C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\sportsApp.exe
 C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.csproj.AssemblyReference.cache
-C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.NavControl.resources
 C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Home.resources
-C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.LoginControl.resources
 C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.RegisterForm.resources
 C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Properties.Resources.resources
-C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.RegistrationControl.resources
 C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.csproj.GenerateResource.cache
 C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.csproj.CoreCompileInputs.cache
 C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.exe
@@ -88,3 +83,20 @@ C:\GroupProjectFolder\sportsdataappgroupproject1-bhss-main\SportsApp\bin\x86\Spo
 C:\GroupProjectFolder\sportsdataappgroupproject1-bhss-main\SportsApp\bin\x86\SportInfoDataSet.xsc
 C:\GroupProjectFolder\sportsdataappgroupproject1-bhss-main\SportsApp\bin\x86\SportInfoDataSet.xsd
 C:\GroupProjectFolder\sportsdataappgroupproject1-bhss-main\SportsApp\bin\x86\SportInfoDataSet.xss
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\SportInfoDataSet.Designer.cs
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\SportInfoDataSet.xsc
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\SportInfoDataSet.xsd
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\SportInfoDataSet.xss
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\SportInfoDB.mdf
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\SportInfoDB_log.ldf
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.BasketballPlayersForm.resources
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.BasketballSchedulesForm.resources
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.BasketballScoresForm.resources
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.BasketballStatsForm.resources
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.BasketballTeamsForm.resources
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.FootballPlayersForm.resources
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.FootballSchedulesForm.resources
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.FootballScoresForm.resources
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.FootballStatsForm.resources
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.FootballTeamsForm.resources
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.LoginForm.resources
