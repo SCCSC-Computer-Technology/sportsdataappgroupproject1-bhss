@@ -88,6 +88,8 @@
             // 
             // nBAScheduleDataGridView
             // 
+            this.nBAScheduleDataGridView.AllowUserToResizeColumns = false;
+            this.nBAScheduleDataGridView.AllowUserToResizeRows = false;
             this.nBAScheduleDataGridView.AutoGenerateColumns = false;
             this.nBAScheduleDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.nBAScheduleDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -105,6 +107,7 @@
             this.nBAScheduleDataGridView.Name = "nBAScheduleDataGridView";
             this.nBAScheduleDataGridView.ReadOnly = true;
             this.nBAScheduleDataGridView.RowHeadersVisible = false;
+            this.nBAScheduleDataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.nBAScheduleDataGridView.Size = new System.Drawing.Size(604, 311);
             this.nBAScheduleDataGridView.TabIndex = 2;
             // 
