@@ -202,10 +202,11 @@
             // 
             // RegisterForm
             // 
+            this.AcceptButton = this.btnRegister;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(818, 492);
+            this.ClientSize = new System.Drawing.Size(818, 499);
             this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.lstBoxBasketballTeams);
             this.Controls.Add(this.lstBoxFootballTeams);
@@ -229,6 +230,7 @@
             this.Name = "RegisterForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RegisterForm";
+            this.Load += new System.EventHandler(this.RegisterForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.closeButton)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

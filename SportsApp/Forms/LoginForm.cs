@@ -32,8 +32,40 @@ namespace sportsApp.Forms
         {
             // if email and password are within database
             // grant access
-            MessageBox.Show("User Signed In", "Sign In Status", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            this.Close();
+            var usersAdapter = new SportInfoDataSetTableAdapters.UsersTableAdapter();
+            
+            //variables
+            string email = emailTextbox.Text.Trim();
+            string password = passwordTextbox.Text.Trim();
+
+            //validate
+            if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(password))
+            {
+                MessageBox.Show("Please fill in both text boxes.","Missing info", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            //first check if email exists
+            //returns 0 if not found
+            int? emailExists = usersAdapter.EmailExists(email);            
+            if (emailExists == 0)
+            {
+                MessageBox.Show("Email not found.", "Login Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            //check password            
+            int? checkPassword = usersAdapter.ValidateLogin(email, password);
+            if (checkPassword == 0)
+            {
+                MessageBox.Show("Password incorrect.", "Sign In Status", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            else
+            {
+                MessageBox.Show($"User '{email}' Signed In", "Sign In Status", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
+            }
         }
     }
 }

@@ -104,6 +104,7 @@
             this.passwordTextbox.Name = "passwordTextbox";
             this.passwordTextbox.Size = new System.Drawing.Size(152, 23);
             this.passwordTextbox.TabIndex = 1;
+            this.passwordTextbox.UseSystemPasswordChar = true;
             // 
             // emailTextbox
             // 
@@ -164,6 +165,7 @@
             // 
             // LoginForm
             // 
+            this.AcceptButton = this.signInButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(818, 491);

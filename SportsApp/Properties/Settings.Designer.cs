@@ -26,11 +26,11 @@ namespace sportsApp.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\SportsDataDB." +
-            "mdf;Integrated Security=True")]
-        public string SportsDataDBConnectionString {
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\SportInfoDB.m" +
+            "df;Integrated Security=True;Connect Timeout=30;Encrypt=False")]
+        public string SportInfoDBConnectionString {
             get {
-                return ((string)(this["SportsDataDBConnectionString"]));
+                return ((string)(this["SportInfoDBConnectionString"]));
             }
         }
     }
