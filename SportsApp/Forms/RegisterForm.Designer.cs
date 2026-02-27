@@ -45,8 +45,8 @@
             this.lstBoxBasketballTeams = new System.Windows.Forms.ListBox();
             this.btnRegister = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnViewPass = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.closeButton)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -56,7 +56,7 @@
             // 
             this.lblHeader.AutoSize = true;
             this.lblHeader.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHeader.Location = new System.Drawing.Point(60, 30);
+            this.lblHeader.Location = new System.Drawing.Point(55, 30);
             this.lblHeader.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblHeader.Name = "lblHeader";
             this.lblHeader.Size = new System.Drawing.Size(232, 25);
@@ -110,7 +110,7 @@
             // lblFavFootballTeam
             // 
             this.lblFavFootballTeam.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFavFootballTeam.Location = new System.Drawing.Point(10, 226);
+            this.lblFavFootballTeam.Location = new System.Drawing.Point(8, 246);
             this.lblFavFootballTeam.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFavFootballTeam.Name = "lblFavFootballTeam";
             this.lblFavFootballTeam.Size = new System.Drawing.Size(159, 20);
@@ -121,7 +121,7 @@
             // lblFavBasketballTeam
             // 
             this.lblFavBasketballTeam.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFavBasketballTeam.Location = new System.Drawing.Point(177, 222);
+            this.lblFavBasketballTeam.Location = new System.Drawing.Point(175, 242);
             this.lblFavBasketballTeam.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFavBasketballTeam.Name = "lblFavBasketballTeam";
             this.lblFavBasketballTeam.Size = new System.Drawing.Size(159, 20);
@@ -133,7 +133,7 @@
             // 
             this.closeButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.closeButton.Image = ((System.Drawing.Image)(resources.GetObject("closeButton.Image")));
-            this.closeButton.Location = new System.Drawing.Point(317, 3);
+            this.closeButton.Location = new System.Drawing.Point(318, 0);
             this.closeButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(25, 25);
@@ -179,7 +179,7 @@
             // 
             this.lstBoxFootballTeams.FormattingEnabled = true;
             this.lstBoxFootballTeams.ItemHeight = 15;
-            this.lstBoxFootballTeams.Location = new System.Drawing.Point(10, 246);
+            this.lstBoxFootballTeams.Location = new System.Drawing.Point(8, 266);
             this.lstBoxFootballTeams.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.lstBoxFootballTeams.Name = "lstBoxFootballTeams";
             this.lstBoxFootballTeams.Size = new System.Drawing.Size(159, 154);
@@ -189,7 +189,7 @@
             // 
             this.lstBoxBasketballTeams.FormattingEnabled = true;
             this.lstBoxBasketballTeams.ItemHeight = 15;
-            this.lstBoxBasketballTeams.Location = new System.Drawing.Point(177, 246);
+            this.lstBoxBasketballTeams.Location = new System.Drawing.Point(175, 266);
             this.lstBoxBasketballTeams.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.lstBoxBasketballTeams.Name = "lstBoxBasketballTeams";
             this.lstBoxBasketballTeams.Size = new System.Drawing.Size(159, 154);
@@ -197,7 +197,7 @@
             // 
             // btnRegister
             // 
-            this.btnRegister.Location = new System.Drawing.Point(113, 417);
+            this.btnRegister.Location = new System.Drawing.Point(112, 446);
             this.btnRegister.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnRegister.Name = "btnRegister";
             this.btnRegister.Size = new System.Drawing.Size(119, 33);
@@ -226,8 +226,20 @@
             this.panel1.Controls.Add(this.lblFavBasketballTeam);
             this.panel1.Location = new System.Drawing.Point(475, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(404, 537);
+            this.panel1.Size = new System.Drawing.Size(343, 491);
             this.panel1.TabIndex = 112;
+            // 
+            // btnViewPass
+            // 
+            this.btnViewPass.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnViewPass.Location = new System.Drawing.Point(305, 186);
+            this.btnViewPass.Name = "btnViewPass";
+            this.btnViewPass.Size = new System.Drawing.Size(26, 23);
+            this.btnViewPass.TabIndex = 111;
+            this.btnViewPass.Text = "*";
+            this.btnViewPass.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnViewPass.UseVisualStyleBackColor = true;
+            this.btnViewPass.Click += new System.EventHandler(this.btnViewPass_Click);
             // 
             // pictureBox1
             // 
@@ -240,16 +252,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 113;
             this.pictureBox1.TabStop = false;
-            // 
-            // btnViewPass
-            // 
-            this.btnViewPass.Location = new System.Drawing.Point(305, 186);
-            this.btnViewPass.Name = "btnViewPass";
-            this.btnViewPass.Size = new System.Drawing.Size(26, 23);
-            this.btnViewPass.TabIndex = 111;
-            this.btnViewPass.Text = "*";
-            this.btnViewPass.UseVisualStyleBackColor = true;
-            this.btnViewPass.Click += new System.EventHandler(this.btnViewPass_Click);
             // 
             // RegisterForm
             // 

@@ -185,7 +185,7 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.sortByDropdown);
-            this.groupBox1.Location = new System.Drawing.Point(12, 50);
+            this.groupBox1.Location = new System.Drawing.Point(12, 69);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(200, 58);
             this.groupBox1.TabIndex = 5;
@@ -195,7 +195,7 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.searchTextbox);
-            this.groupBox2.Location = new System.Drawing.Point(392, 50);
+            this.groupBox2.Location = new System.Drawing.Point(392, 69);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(200, 58);
             this.groupBox2.TabIndex = 5;

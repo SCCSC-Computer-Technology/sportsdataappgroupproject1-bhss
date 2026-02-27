@@ -78,6 +78,7 @@
             this.searchTextbox.Name = "searchTextbox";
             this.searchTextbox.Size = new System.Drawing.Size(100, 23);
             this.searchTextbox.TabIndex = 0;
+            this.searchTextbox.TextChanged += new System.EventHandler(this.searchTextbox_TextChanged);
             // 
             // groupBox1
             // 
@@ -97,12 +98,12 @@
             "Conference",
             "Wins",
             "Losses",
-            "Ties",
-            "Stadium"});
+            "Arena"});
             this.sortByDropdown.Location = new System.Drawing.Point(40, 22);
             this.sortByDropdown.Name = "sortByDropdown";
             this.sortByDropdown.Size = new System.Drawing.Size(121, 23);
             this.sortByDropdown.TabIndex = 3;
+            this.sortByDropdown.SelectedIndexChanged += new System.EventHandler(this.sortByDropdown_SelectedIndexChanged);
             // 
             // sportInfoDataSet
             // 
@@ -128,7 +129,10 @@
             // 
             // nBATeamsDataGridView
             // 
+            this.nBATeamsDataGridView.AllowUserToResizeColumns = false;
+            this.nBATeamsDataGridView.AllowUserToResizeRows = false;
             this.nBATeamsDataGridView.AutoGenerateColumns = false;
+            this.nBATeamsDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.nBATeamsDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.nBATeamsDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn2,
@@ -138,12 +142,13 @@
             this.dataGridViewTextBoxColumn7,
             this.dataGridViewTextBoxColumn5});
             this.nBATeamsDataGridView.DataSource = this.nBATeamsBindingSource;
-            this.nBATeamsDataGridView.Location = new System.Drawing.Point(0, 169);
+            this.nBATeamsDataGridView.Location = new System.Drawing.Point(0, 180);
             this.nBATeamsDataGridView.MultiSelect = false;
             this.nBATeamsDataGridView.Name = "nBATeamsDataGridView";
+            this.nBATeamsDataGridView.ReadOnly = true;
             this.nBATeamsDataGridView.RowHeadersVisible = false;
             this.nBATeamsDataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.nBATeamsDataGridView.Size = new System.Drawing.Size(604, 320);
+            this.nBATeamsDataGridView.Size = new System.Drawing.Size(604, 311);
             this.nBATeamsDataGridView.TabIndex = 8;
             // 
             // dataGridViewTextBoxColumn2
@@ -151,36 +156,47 @@
             this.dataGridViewTextBoxColumn2.DataPropertyName = "TeamName";
             this.dataGridViewTextBoxColumn2.HeaderText = "TeamName";
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.ReadOnly = true;
+            this.dataGridViewTextBoxColumn2.Width = 93;
             // 
             // dataGridViewTextBoxColumn3
             // 
             this.dataGridViewTextBoxColumn3.DataPropertyName = "Abbreviation";
             this.dataGridViewTextBoxColumn3.HeaderText = "Abbreviation";
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn4
             // 
             this.dataGridViewTextBoxColumn4.DataPropertyName = "Conference";
             this.dataGridViewTextBoxColumn4.HeaderText = "Conference";
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.ReadOnly = true;
+            this.dataGridViewTextBoxColumn4.Width = 93;
             // 
             // dataGridViewTextBoxColumn6
             // 
             this.dataGridViewTextBoxColumn6.DataPropertyName = "Wins";
             this.dataGridViewTextBoxColumn6.HeaderText = "Wins";
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            this.dataGridViewTextBoxColumn6.ReadOnly = true;
+            this.dataGridViewTextBoxColumn6.Width = 58;
             // 
             // dataGridViewTextBoxColumn7
             // 
             this.dataGridViewTextBoxColumn7.DataPropertyName = "Losses";
             this.dataGridViewTextBoxColumn7.HeaderText = "Losses";
             this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.dataGridViewTextBoxColumn7.ReadOnly = true;
+            this.dataGridViewTextBoxColumn7.Width = 66;
             // 
             // dataGridViewTextBoxColumn5
             // 
             this.dataGridViewTextBoxColumn5.DataPropertyName = "Arena";
             this.dataGridViewTextBoxColumn5.HeaderText = "Arena";
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.ReadOnly = true;
+            this.dataGridViewTextBoxColumn5.Width = 63;
             // 
             // BasketballTeamsForm
             // 
