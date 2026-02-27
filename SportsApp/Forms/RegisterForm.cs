@@ -109,5 +109,17 @@ namespace sportsApp.Forms
             lstBoxFootballTeams.DisplayMember = "TeamName";
             lstBoxFootballTeams.ValueMember = "NFLTeamID";
         }
+
+        private void btnViewPass_Click(object sender, EventArgs e)
+        {
+            if (txtBoxPassword.UseSystemPasswordChar == true)
+            {
+                txtBoxPassword.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                txtBoxPassword.UseSystemPasswordChar = true;
+            }
+        }
     }
 }

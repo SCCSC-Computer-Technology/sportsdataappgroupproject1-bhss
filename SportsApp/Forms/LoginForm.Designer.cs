@@ -55,17 +55,17 @@
             this.panel1.Controls.Add(this.registerLink);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(517, -20);
+            this.panel1.Location = new System.Drawing.Point(475, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(301, 511);
+            this.panel1.Size = new System.Drawing.Size(404, 537);
             this.panel1.TabIndex = 3;
             // 
             // closeButton
             // 
             this.closeButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.closeButton.Image = ((System.Drawing.Image)(resources.GetObject("closeButton.Image")));
-            this.closeButton.Location = new System.Drawing.Point(264, 32);
+            this.closeButton.Location = new System.Drawing.Point(318, 3);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(25, 25);
             this.closeButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -77,17 +77,17 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(36, 110);
+            this.label3.Location = new System.Drawing.Point(78, 86);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(229, 25);
+            this.label3.Size = new System.Drawing.Size(235, 25);
             this.label3.TabIndex = 101;
-            this.label3.Text = "Welcome to Sports Stats";
+            this.label3.Text = "Welcome to Sports Stats!";
             // 
             // signInButton
             // 
             this.signInButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.signInButton.Location = new System.Drawing.Point(106, 340);
+            this.signInButton.Location = new System.Drawing.Point(136, 309);
             this.signInButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.signInButton.Name = "signInButton";
             this.signInButton.Size = new System.Drawing.Size(88, 27);
@@ -99,7 +99,7 @@
             // passwordTextbox
             // 
             this.passwordTextbox.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.passwordTextbox.Location = new System.Drawing.Point(76, 279);
+            this.passwordTextbox.Location = new System.Drawing.Point(106, 239);
             this.passwordTextbox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.passwordTextbox.Name = "passwordTextbox";
             this.passwordTextbox.Size = new System.Drawing.Size(152, 23);
@@ -109,7 +109,7 @@
             // emailTextbox
             // 
             this.emailTextbox.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.emailTextbox.Location = new System.Drawing.Point(76, 211);
+            this.emailTextbox.Location = new System.Drawing.Point(106, 171);
             this.emailTextbox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.emailTextbox.Name = "emailTextbox";
             this.emailTextbox.Size = new System.Drawing.Size(152, 23);
@@ -120,7 +120,7 @@
             this.registerLink.AutoSize = true;
             this.registerLink.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.registerLink.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(90)))), ((int)(((byte)(119)))));
-            this.registerLink.Location = new System.Drawing.Point(103, 385);
+            this.registerLink.Location = new System.Drawing.Point(133, 354);
             this.registerLink.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.registerLink.Name = "registerLink";
             this.registerLink.Size = new System.Drawing.Size(94, 15);
@@ -133,7 +133,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(73, 181);
+            this.label1.Location = new System.Drawing.Point(103, 141);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(36, 15);
@@ -144,7 +144,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(73, 250);
+            this.label2.Location = new System.Drawing.Point(103, 210);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(57, 15);

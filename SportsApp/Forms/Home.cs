@@ -97,16 +97,6 @@ namespace sportsApp
             }
         }
 
-
-
-
-
-
-
-
-
-
-
         // this is a method to place the selected tab's form
         // in the content Panel as opposed to a random screen location.
         private void LoadIntoContent(Form child)
