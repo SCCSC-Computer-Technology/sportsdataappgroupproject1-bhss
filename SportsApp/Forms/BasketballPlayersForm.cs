@@ -37,158 +37,127 @@ namespace sportsApp.Forms
         private void sortByDropdown_SelectedIndexChanged(object sender, EventArgs e)
         {
 
-//Atlanta Hawks
-//Boston Celtics
-//Brooklyn Nets
-//Charlotte Hornets
-//Chicago Bulls
-//Cleveland Cavaliers
-//Dallas Mavericks
-//Denver Nuggets
-//Detroit Pistons
-//Golden State Warriors
-//Houston Rockets
-//Indiana Pacers
-//Los Angeles Clippers
-//Los Angeles Lakers
-//Memphis Grizzlies
-//Miami Heat
-//Milwaukee Bucks
-//Minnesota Timberwolves
-//New Orleans Pelicans
-//New York Knicks
-//Oklahoma City Thunder
-//Orlando Magic
-//Philadelphia 76ers
-//Phoenix Suns
-//Portland Trail Blazers
-//Sacramento Kings
-//San Antonio Spurs
-//Toronto Raptors
-//Utah Jazz
-//Washington Wizards
-
-            if (sortByDropdown.SelectedItem == null)
+            if (teamDropdown.SelectedItem == null)
             {
                 return;
             }
-            else if (sortByDropdown.SelectedItem == "Atlanta Hawks")
+            else if (teamDropdown.SelectedItem == "Atlanta Hawks")
             {
                 nbaCurrentPlayersBindingSource.Filter = "TeamID = 1";
             }
-            else if (sortByDropdown.SelectedItem == "Boston Celtics")
+            else if (teamDropdown.SelectedItem == "Boston Celtics")
             {
                 nbaCurrentPlayersBindingSource.Filter = "TeamID = 2";
             }
-            else if (sortByDropdown.SelectedItem == "Brooklyn Nets")
+            else if (teamDropdown.SelectedItem == "Brooklyn Nets")
             {
                 nbaCurrentPlayersBindingSource.Filter = "TeamID = 3";
             }
-            else if (sortByDropdown.SelectedItem == "Charlotte Hornets")
+            else if (teamDropdown.SelectedItem == "Charlotte Hornets")
             {
                 nbaCurrentPlayersBindingSource.Filter = "TeamID = 4";
             }
-            else if (sortByDropdown.SelectedItem == "Chicago Bulls")
+            else if (teamDropdown.SelectedItem == "Chicago Bulls")
             {
                 nbaCurrentPlayersBindingSource.Filter = "TeamID = 5";
             }
-            else if (sortByDropdown.SelectedItem == "Cleveland Cavaliers")
+            else if (teamDropdown.SelectedItem == "Cleveland Cavaliers")
             {
                 nbaCurrentPlayersBindingSource.Filter = "TeamID = 6";
             }
-            else if (sortByDropdown.SelectedItem == "Dallas Mavericks")
+            else if (teamDropdown.SelectedItem == "Dallas Mavericks")
             {
                 nbaCurrentPlayersBindingSource.Filter = "TeamID = 7";
             }
-            else if (sortByDropdown.SelectedItem == "Denver Nuggets")
+            else if (teamDropdown.SelectedItem == "Denver Nuggets")
             {
                 nbaCurrentPlayersBindingSource.Filter = "TeamID = 8";
             }
-            else if (sortByDropdown.SelectedItem == "Detroit Pistons")
+            else if (teamDropdown.SelectedItem == "Detroit Pistons")
             {
                 nbaCurrentPlayersBindingSource.Filter = "TeamID = 9";
             }
-            else if (sortByDropdown.SelectedItem == "Golden State Warriors")
+            else if (teamDropdown.SelectedItem == "Golden State Warriors")
             {
                 nbaCurrentPlayersBindingSource.Filter = "TeamID = 10";
             }
-            else if (sortByDropdown.SelectedItem == "Houston Rockets")
+            else if (teamDropdown.SelectedItem == "Houston Rockets")
             {
                 nbaCurrentPlayersBindingSource.Filter = "TeamID = 11";
             }
-            else if (sortByDropdown.SelectedItem == "Indiana Pacers")
+            else if (teamDropdown.SelectedItem == "Indiana Pacers")
             {
                 nbaCurrentPlayersBindingSource.Filter = "TeamID = 12";
             }
-            else if (sortByDropdown.SelectedItem == "Los Angeles Clippers")
+            else if (teamDropdown.SelectedItem == "Los Angeles Clippers")
             {
                 nbaCurrentPlayersBindingSource.Filter = "TeamID = 13";
             }
-            else if (sortByDropdown.SelectedItem == "Los Angeles Lakers")
+            else if (teamDropdown.SelectedItem == "Los Angeles Lakers")
             {
                 nbaCurrentPlayersBindingSource.Filter = "TeamID = 14";
             }
-            else if (sortByDropdown.SelectedItem == "Memphis Grizzlies")
+            else if (teamDropdown.SelectedItem == "Memphis Grizzlies")
             {
                 nbaCurrentPlayersBindingSource.Filter = "TeamID = 15";
             }
-            else if (sortByDropdown.SelectedItem == "Miami Heat")
+            else if (teamDropdown.SelectedItem == "Miami Heat")
             {
                 nbaCurrentPlayersBindingSource.Filter = "TeamID = 16";
             }
-            else if (sortByDropdown.SelectedItem == "Milwaukee Bucks")
+            else if (teamDropdown.SelectedItem == "Milwaukee Bucks")
             {
                 nbaCurrentPlayersBindingSource.Filter = "TeamID = 17";
             }
-            else if (sortByDropdown.SelectedItem == "Minnesota Timberwolves")
+            else if (teamDropdown.SelectedItem == "Minnesota Timberwolves")
             {
                 nbaCurrentPlayersBindingSource.Filter = "TeamID = 18";
             }
-            else if (sortByDropdown.SelectedItem == "New Orleans Pelicans")
+            else if (teamDropdown.SelectedItem == "New Orleans Pelicans")
             {
                 nbaCurrentPlayersBindingSource.Filter = "TeamID = 19";
             }
-            else if (sortByDropdown.SelectedItem == "New York Knicks")
+            else if (teamDropdown.SelectedItem == "New York Knicks")
             {
                 nbaCurrentPlayersBindingSource.Filter = "TeamID = 20";
             }
-            else if (sortByDropdown.SelectedItem == "Oklahoma City Thunder")
+            else if (teamDropdown.SelectedItem == "Oklahoma City Thunder")
             {
                 nbaCurrentPlayersBindingSource.Filter = "TeamID = 21";
             }
-            else if (sortByDropdown.SelectedItem == "Orlando Magic")
+            else if (teamDropdown.SelectedItem == "Orlando Magic")
             {
                 nbaCurrentPlayersBindingSource.Filter = "TeamID = 22";
             }
-            else if (sortByDropdown.SelectedItem == "Philadelphia 76ers")
+            else if (teamDropdown.SelectedItem == "Philadelphia 76ers")
             {
                 nbaCurrentPlayersBindingSource.Filter = "TeamID = 23";
             }
-            else if (sortByDropdown.SelectedItem == "Phoenix Suns")
+            else if (teamDropdown.SelectedItem == "Phoenix Suns")
             {
                 nbaCurrentPlayersBindingSource.Filter = "TeamID = 24";
             }
-            else if (sortByDropdown.SelectedItem == "Portland Trail Blazers")
+            else if (teamDropdown.SelectedItem == "Portland Trail Blazers")
             {
                 nbaCurrentPlayersBindingSource.Filter = "TeamID = 25";
             }
-            else if (sortByDropdown.SelectedItem == "Sacremento Kings")
+            else if (teamDropdown.SelectedItem == "Sacremento Kings")
             {
                 nbaCurrentPlayersBindingSource.Filter = "TeamID = 26";
             }
-            else if (sortByDropdown.SelectedItem == "San Antonio Spurs")
+            else if (teamDropdown.SelectedItem == "San Antonio Spurs")
             {
                 nbaCurrentPlayersBindingSource.Filter = "TeamID = 27";
             }
-            else if (sortByDropdown.SelectedItem == "Toronto Raptors")
+            else if (teamDropdown.SelectedItem == "Toronto Raptors")
             {
                 nbaCurrentPlayersBindingSource.Filter = "TeamID = 28";
             }
-            else if (sortByDropdown.SelectedItem == "Utah Jazz")
+            else if (teamDropdown.SelectedItem == "Utah Jazz")
             {
                 nbaCurrentPlayersBindingSource.Filter = "TeamID = 29";
             }
-            else if (sortByDropdown.SelectedItem == "Washington Wizards")
+            else if (teamDropdown.SelectedItem == "Washington Wizards")
             {
                 nbaCurrentPlayersBindingSource.Filter = "TeamID = 30";
             }
@@ -214,18 +183,18 @@ namespace sportsApp.Forms
             searchText = searchText.Replace("'", "''");
 
             string filter =
-                $"Convert([Date], 'System.String') LIKE '%{searchText}%' OR " +
-                $"Convert([StartTime], 'System.String') LIKE '%{searchText}%' OR " +
-                $"[VisitorTeam] LIKE '%{searchText}%' OR " +
-                $"Convert([VisitorPoints], 'System.String') LIKE '%{searchText}%' OR " +
-                $"[HomeTeam] LIKE '%{searchText}%' OR " +
-                $"Convert([HomePoints], 'System.String') LIKE '%{searchText}%' OR " +
-                $"[Arena] LIKE '%{searchText}%'";
+                $"[Name] LIKE '%{searchText}%' OR " +
+                $"[Position] LIKE '%{searchText}%' OR " +
+                $"Convert([Height], 'System.String') LIKE '%{searchText}%' OR " +
+                $"Convert([Weight], 'System.String') LIKE '%{searchText}%' OR " +
+                $"Convert([YearsInLeague], 'System.String') LIKE '%{searchText}%' OR " +
+                $"[BornIn] LIKE '%{searchText}%' OR " +
+                $"Convert([BirthYear], 'System.String') LIKE '%{searchText}%' OR " +
+                $"Convert([DraftYear], 'System.String') LIKE '%{searchText}%' OR " +
+                $"Convert([DraftRound], 'System.String') LIKE '%{searchText}%' OR " +
+                $"Convert([DraftPick], 'System.String') LIKE '%{searchText}%'";
 
             nbaCurrentPlayersBindingSource.Filter = filter;
         }
-
-
-
     }
 }

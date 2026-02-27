@@ -33,7 +33,7 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.searchTextbox = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.sortByDropdown = new System.Windows.Forms.ComboBox();
+            this.teamDropdown = new System.Windows.Forms.ComboBox();
             this.sportInfoDataSet = new sportsApp.SportInfoDataSet();
             this.nbaCurrentPlayersBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.nbaCurrentPlayersTableAdapter = new sportsApp.SportInfoDataSetTableAdapters.nbaCurrentPlayersTableAdapter();
@@ -86,7 +86,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.sortByDropdown);
+            this.groupBox1.Controls.Add(this.teamDropdown);
             this.groupBox1.Location = new System.Drawing.Point(12, 69);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(200, 58);
@@ -94,10 +94,10 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Choose Team";
             // 
-            // sortByDropdown
+            // teamDropdown
             // 
-            this.sortByDropdown.FormattingEnabled = true;
-            this.sortByDropdown.Items.AddRange(new object[] {
+            this.teamDropdown.FormattingEnabled = true;
+            this.teamDropdown.Items.AddRange(new object[] {
             "Atlanta Hawks",
             "Boston Celtics",
             "Brooklyn Nets",
@@ -128,11 +128,11 @@
             "Toronto Raptors",
             "Utah Jazz",
             "Washington Wizards"});
-            this.sortByDropdown.Location = new System.Drawing.Point(40, 22);
-            this.sortByDropdown.Name = "sortByDropdown";
-            this.sortByDropdown.Size = new System.Drawing.Size(121, 23);
-            this.sortByDropdown.TabIndex = 3;
-            this.sortByDropdown.SelectedIndexChanged += new System.EventHandler(this.sortByDropdown_SelectedIndexChanged);
+            this.teamDropdown.Location = new System.Drawing.Point(40, 22);
+            this.teamDropdown.Name = "teamDropdown";
+            this.teamDropdown.Size = new System.Drawing.Size(121, 23);
+            this.teamDropdown.TabIndex = 3;
+            this.teamDropdown.SelectedIndexChanged += new System.EventHandler(this.sortByDropdown_SelectedIndexChanged);
             // 
             // sportInfoDataSet
             // 
@@ -297,7 +297,7 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.TextBox searchTextbox;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ComboBox sortByDropdown;
+        private System.Windows.Forms.ComboBox teamDropdown;
         private SportInfoDataSet sportInfoDataSet;
         private System.Windows.Forms.BindingSource nbaCurrentPlayersBindingSource;
         private SportInfoDataSetTableAdapters.nbaCurrentPlayersTableAdapter nbaCurrentPlayersTableAdapter;
