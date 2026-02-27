@@ -1,31 +1,31 @@
-Name,Abrv,Conference,Arena
-Atlanta Hawks,ATL,Eastern,State Farm Arena
-Boston Celtics,BOS,Eastern,TD Garden
-Brooklyn Nets,BKN,Eastern,Barclays Center
-Charlotte Hornets,CHA,Eastern,Spectrum Center
-Chicago Bulls,CHI,Eastern,United Center
-Cleveland Cavaliers,CLE,Eastern,Rocket Arena
-Dallas Mavericks,DAL,Western,American Airlines Center
-Denver Nuggets,DEN,Western,Ball Arena
-Detroit Pistons,DET,Eastern,Little Caesars Arena
-Golden State Warriors,GSW,Western,Chase Center
-Houston Rockets,HOU,Western,Toyota Center
-Indiana Pacers,IND,Eastern,Gainbridge Fieldhouse
-Los Angeles Clippers,LAC,Western,Intuit Dome
-Los Angeles Lakers,LAL,Western,Crypto.com Arena
-Memphis Grizzlies,MEM,Western,FedExForum
-Miami Heat,MIA,Eastern,Kaseya Center
-Milwaukee Bucks,MIL,Eastern,Fiserv Forum
-Minnesota Timberwolves,MIN,Western,Target Center
-New Orleans Pelicans,NOP,Western,Smoothie King Center
-New York Knicks,NYK,Eastern,Madison Square Garden
-Oklahoma City Thunder,OKC,Western,Paycom Center
-Orlando Magic,ORL,Eastern,Kia Center
-Philadelphia 76ers,PHI,Eastern,Wells Fargo Center
-Phoenix Suns,PHX,Western,Footprint Center
-Portland Trail Blazers,POR,Western,Moda Center
-Sacramento Kings,SAC,Western,Golden 1 Center
-San Antonio Spurs,SAS,Western,Frost Bank Center
-Toronto Raptors,TOR,Eastern,Scotiabank Arena
-Utah Jazz,UTA,Western,Delta Center
-Washington Wizards,WAS,Eastern,Capital One Arena
+Name,Abrv,Conference,Arena,wins,losses
+Atlanta Hawks,ATL,Eastern,State Farm Arena,29,31
+Boston Celtics,BOS,Eastern,TD Garden,38,20
+Brooklyn Nets,BKN,Eastern,Barclays Center,15,42
+Charlotte Hornets,CHA,Eastern,Spectrum Center,28,31
+Chicago Bulls,CHI,Eastern,United Center,24,35
+Cleveland Cavaliers,CLE,Eastern,Rocket Arena,37,23
+Dallas Mavericks,DAL,Western,American Airlines Center,21,36
+Denver Nuggets,DEN,Western,Ball Arena,37,22
+Detroit Pistons,DET,Eastern,Little Caesars Arena,43,14
+Golden State Warriors,GSW,Western,Chase Center,31,28
+Houston Rockets,HOU,Western,Toyota Center,36,21
+Indiana Pacers,IND,Eastern,Gainbridge Fieldhouse,15,44
+Los Angeles Clippers,LAC,Western,Intuit Dome,27,30
+Los Angeles Lakers,LAL,Western,Crypto.com Arena,34,23
+Memphis Grizzlies,MEM,Western,FedExForum,21,36
+Miami Heat,MIA,Eastern,Kaseya Center,31,28
+Milwaukee Bucks,MIL,Eastern,Fiserv Forum,26,31
+Minnesota Timberwolves,MIN,Western,Target Center,36,23
+New Orleans Pelicans,NOP,Western,Smoothie King Center,17,42
+New York Knicks,NYK,Eastern,Madison Square Garden,37,22
+Oklahoma City Thunder,OKC,Western,Paycom Center,45,15
+Orlando Magic,ORL,Eastern,Kia Center,31,26
+Philadelphia 76ers,PHI,Eastern,Wells Fargo Center,32,26
+Phoenix Suns,PHX,Western,Footprint Center,33,26
+Portland Trail Blazers,POR,Western,Moda Center,28,31
+Sacramento Kings,SAC,Western,Golden 1 Center,13,47
+San Antonio Spurs,SAS,Western,Frost Bank Center,42,16
+Toronto Raptors,TOR,Eastern,Scotiabank Arena,34,25
+Utah Jazz,UTA,Western,Delta Center,18,40
+Washington Wizards,WAS,Eastern,Capital One Arena,16,41
