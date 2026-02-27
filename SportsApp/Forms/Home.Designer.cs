@@ -217,12 +217,12 @@
             this.headerLabel.AutoSize = true;
             this.headerLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.headerLabel.ForeColor = System.Drawing.Color.White;
-            this.headerLabel.Location = new System.Drawing.Point(13, 9);
+            this.headerLabel.Location = new System.Drawing.Point(53, 19);
             this.headerLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.headerLabel.Name = "headerLabel";
-            this.headerLabel.Size = new System.Drawing.Size(193, 25);
+            this.headerLabel.Size = new System.Drawing.Size(111, 25);
             this.headerLabel.TabIndex = 8;
-            this.headerLabel.Text = "Football / Basketball";
+            this.headerLabel.Text = "Sport Stats";
             // 
             // panel1
             // 

@@ -16,5 +16,20 @@ namespace sportsApp.Forms
         {
             InitializeComponent();
         }
+
+        private void nBATeamsBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.nBATeamsBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.sportInfoDataSet);
+
+        }
+
+        private void BasketballTeamsForm_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'sportInfoDataSet.NBATeams' table. You can move, or remove it, as needed.
+            this.nBATeamsTableAdapter.Fill(this.sportInfoDataSet.NBATeams);
+
+        }
     }
 }

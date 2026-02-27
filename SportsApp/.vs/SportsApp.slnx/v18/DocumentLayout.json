@@ -1,12 +1,124 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\GroupProjectFolder\\sportsdataappgroupproject1-bhss\\SportsApp\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Shawn\\Documents\\sportsdataappgroupproject1-bhss\\SportsApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB84F0A-98F2-41AA-96C7-441657B065C6}|sportsApp.csproj|c:\\users\\shawn\\documents\\sportsdataappgroupproject1-bhss\\sportsapp\\forms\\footballteamsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AEB84F0A-98F2-41AA-96C7-441657B065C6}|sportsApp.csproj|solutionrelative:forms\\footballteamsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB84F0A-98F2-41AA-96C7-441657B065C6}|sportsApp.csproj|c:\\users\\shawn\\documents\\sportsdataappgroupproject1-bhss\\sportsapp\\forms\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AEB84F0A-98F2-41AA-96C7-441657B065C6}|sportsApp.csproj|solutionrelative:forms\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB84F0A-98F2-41AA-96C7-441657B065C6}|sportsApp.csproj|c:\\users\\shawn\\documents\\sportsdataappgroupproject1-bhss\\sportsapp\\forms\\basketballteamsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AEB84F0A-98F2-41AA-96C7-441657B065C6}|sportsApp.csproj|solutionrelative:forms\\basketballteamsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB84F0A-98F2-41AA-96C7-441657B065C6}|sportsApp.csproj|c:\\users\\shawn\\documents\\sportsdataappgroupproject1-bhss\\sportsapp\\forms\\footballteamsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEB84F0A-98F2-41AA-96C7-441657B065C6}|sportsApp.csproj|solutionrelative:forms\\footballteamsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB84F0A-98F2-41AA-96C7-441657B065C6}|sportsApp.csproj|c:\\users\\shawn\\documents\\sportsdataappgroupproject1-bhss\\sportsapp\\sportinfodataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{AEB84F0A-98F2-41AA-96C7-441657B065C6}|sportsApp.csproj|solutionrelative:sportinfodataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB84F0A-98F2-41AA-96C7-441657B065C6}|sportsApp.csproj|c:\\users\\shawn\\documents\\sportsdataappgroupproject1-bhss\\sportsapp\\forms\\footballteamsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEB84F0A-98F2-41AA-96C7-441657B065C6}|sportsApp.csproj|solutionrelative:forms\\footballteamsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 175,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FootballTeamsForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Shawn\\Documents\\sportsdataappgroupproject1-bhss\\SportsApp\\Forms\\FootballTeamsForm.Designer.cs",
+              "RelativeDocumentMoniker": "Forms\\FootballTeamsForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Shawn\\Documents\\sportsdataappgroupproject1-bhss\\SportsApp\\Forms\\FootballTeamsForm.Designer.cs",
+              "RelativeToolTip": "Forms\\FootballTeamsForm.Designer.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAowLsAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T04:44:34.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FootballTeamsForm.cs",
+              "DocumentMoniker": "C:\\Users\\Shawn\\Documents\\sportsdataappgroupproject1-bhss\\SportsApp\\Forms\\FootballTeamsForm.cs",
+              "RelativeDocumentMoniker": "Forms\\FootballTeamsForm.cs",
+              "ToolTip": "C:\\Users\\Shawn\\Documents\\sportsdataappgroupproject1-bhss\\SportsApp\\Forms\\FootballTeamsForm.cs",
+              "RelativeToolTip": "Forms\\FootballTeamsForm.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwEAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T03:30:07.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SportInfoDataSet.xsd",
+              "DocumentMoniker": "C:\\Users\\Shawn\\Documents\\sportsdataappgroupproject1-bhss\\SportsApp\\SportInfoDataSet.xsd",
+              "RelativeDocumentMoniker": "SportInfoDataSet.xsd",
+              "ToolTip": "C:\\Users\\Shawn\\Documents\\sportsdataappgroupproject1-bhss\\SportsApp\\SportInfoDataSet.xsd",
+              "RelativeToolTip": "SportInfoDataSet.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2026-02-27T02:36:57.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Shawn\\Documents\\sportsdataappgroupproject1-bhss\\SportsApp\\Forms\\Home.cs",
+              "RelativeDocumentMoniker": "Forms\\Home.cs",
+              "ToolTip": "C:\\Users\\Shawn\\Documents\\sportsdataappgroupproject1-bhss\\SportsApp\\Forms\\Home.cs [Design]",
+              "RelativeToolTip": "Forms\\Home.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T02:30:49.545Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 225,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FootballTeamsForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Shawn\\Documents\\sportsdataappgroupproject1-bhss\\SportsApp\\Forms\\FootballTeamsForm.cs",
+              "RelativeDocumentMoniker": "Forms\\FootballTeamsForm.cs",
+              "ToolTip": "C:\\Users\\Shawn\\Documents\\sportsdataappgroupproject1-bhss\\SportsApp\\Forms\\FootballTeamsForm.cs [Design]",
+              "RelativeToolTip": "Forms\\FootballTeamsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T03:01:56.221Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BasketballTeamsForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Shawn\\Documents\\sportsdataappgroupproject1-bhss\\SportsApp\\Forms\\BasketballTeamsForm.cs",
+              "RelativeDocumentMoniker": "Forms\\BasketballTeamsForm.cs",
+              "ToolTip": "C:\\Users\\Shawn\\Documents\\sportsdataappgroupproject1-bhss\\SportsApp\\Forms\\BasketballTeamsForm.cs [Design]",
+              "RelativeToolTip": "Forms\\BasketballTeamsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T04:18:20.474Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
