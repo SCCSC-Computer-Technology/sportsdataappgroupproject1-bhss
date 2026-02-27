@@ -147,6 +147,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Classes\User.cs" />
+    <Compile Include="SportInfoDataSet.cs">
+      <DependentUpon>SportInfoDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="SportInfoDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

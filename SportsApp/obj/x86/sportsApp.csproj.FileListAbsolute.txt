@@ -100,3 +100,7 @@ C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsAp
 C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.FootballStatsForm.resources
 C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.FootballTeamsForm.resources
 C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.LoginForm.resources
+C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\SportInfoDataSet.Designer.cs
+C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\SportInfoDataSet.xsc
+C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\SportInfoDataSet.xsd
+C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\SportInfoDataSet.xss
