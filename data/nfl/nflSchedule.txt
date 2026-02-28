@@ -1,0 +1,273 @@
+week,date,away_team,home_team,site_note,kickoff_et,kickoff_local,network
+1,2025-09-04,Dallas Cowboys,Philadelphia Eagles,,8:20 PM ET,8:20 PM ET,NBC
+1,2025-09-05,Kansas City Chiefs,Los Angeles Chargers,"Sao Paulo (neutral site)",8:00 PM ET,9:00 PM BRT,YouTube
+1,2025-09-07,Tampa Bay Buccaneers,Atlanta Falcons,,1:00 PM ET,1:00 PM ET,FOX
+1,2025-09-07,Cincinnati Bengals,Cleveland Browns,,1:00 PM ET,1:00 PM ET,FOX
+1,2025-09-07,Miami Dolphins,Indianapolis Colts,,1:00 PM ET,1:00 PM ET,CBS
+1,2025-09-07,Carolina Panthers,Jacksonville Jaguars,,1:00 PM ET,1:00 PM ET,FOX
+1,2025-09-07,Las Vegas Raiders,New England Patriots,,1:00 PM ET,1:00 PM ET,CBS
+1,2025-09-07,Arizona Cardinals,New Orleans Saints,,1:00 PM ET,12:00 PM CT,CBS
+1,2025-09-07,Pittsburgh Steelers,New York Jets,,1:00 PM ET,1:00 PM ET,CBS
+1,2025-09-07,New York Giants,Washington Commanders,,1:00 PM ET,1:00 PM ET,FOX
+1,2025-09-07,Tennessee Titans,Denver Broncos,,4:05 PM ET,2:05 PM MT,FOX
+1,2025-09-07,San Francisco 49ers,Seattle Seahawks,,4:05 PM ET,1:05 PM PT,FOX
+1,2025-09-07,Detroit Lions,Green Bay Packers,,4:25 PM ET,3:25 PM CT,CBS
+1,2025-09-07,Houston Texans,Los Angeles Rams,,4:25 PM ET,1:25 PM PT,CBS
+1,2025-09-07,Baltimore Ravens,Buffalo Bills,,8:20 PM ET,8:20 PM ET,NBC
+1,2025-09-08,Minnesota Vikings,Chicago Bears,,8:15 PM ET,7:15 PM CT,ABC/ESPN
+2,2025-09-11,Washington Commanders,Green Bay Packers,,8:15 PM ET,7:15 PM CT,Prime Video
+2,2025-09-14,Cleveland Browns,Baltimore Ravens,,1:00 PM ET,1:00 PM ET,CBS
+2,2025-09-14,Jacksonville Jaguars,Cincinnati Bengals,,1:00 PM ET,1:00 PM ET,CBS
+2,2025-09-14,New York Giants,Dallas Cowboys,,1:00 PM ET,12:00 PM CT,FOX
+2,2025-09-14,Chicago Bears,Detroit Lions,,1:00 PM ET,1:00 PM ET,FOX
+2,2025-09-14,New England Patriots,Miami Dolphins,,1:00 PM ET,1:00 PM ET,CBS
+2,2025-09-14,San Francisco 49ers,New Orleans Saints,,1:00 PM ET,12:00 PM CT,FOX
+2,2025-09-14,Buffalo Bills,New York Jets,,1:00 PM ET,1:00 PM ET,CBS
+2,2025-09-14,Seattle Seahawks,Pittsburgh Steelers,,1:00 PM ET,1:00 PM ET,FOX
+2,2025-09-14,Los Angeles Rams,Tennessee Titans,,1:00 PM ET,12:00 PM CT,CBS
+2,2025-09-14,Carolina Panthers,Arizona Cardinals,,4:05 PM ET,1:05 PM MT,CBS
+2,2025-09-14,Denver Broncos,Indianapolis Colts,,4:05 PM ET,4:05 PM ET,CBS
+2,2025-09-14,Philadelphia Eagles,Kansas City Chiefs,,4:25 PM ET,3:25 PM CT,FOX
+2,2025-09-14,Atlanta Falcons,Minnesota Vikings,,8:20 PM ET,7:20 PM CT,NBC
+2,2025-09-15,Tampa Bay Buccaneers,Houston Texans,,7:00 PM ET,6:00 PM CT,ABC
+2,2025-09-15,Los Angeles Chargers,Las Vegas Raiders,,10:00 PM ET,7:00 PM PT,ESPN
+3,2025-09-18,Miami Dolphins,Buffalo Bills,,8:15 PM ET,8:15 PM ET,Prime Video
+3,2025-09-21,Atlanta Falcons,Carolina Panthers,,1:00 PM ET,1:00 PM ET,FOX
+3,2025-09-21,Green Bay Packers,Cleveland Browns,,1:00 PM ET,1:00 PM ET,FOX
+3,2025-09-21,Houston Texans,Jacksonville Jaguars,,1:00 PM ET,1:00 PM ET,CBS
+3,2025-09-21,Cincinnati Bengals,Minnesota Vikings,,1:00 PM ET,12:00 PM CT,CBS
+3,2025-09-21,Pittsburgh Steelers,New England Patriots,,1:00 PM ET,1:00 PM ET,CBS
+3,2025-09-21,Los Angeles Rams,Philadelphia Eagles,,1:00 PM ET,1:00 PM ET,FOX
+3,2025-09-21,New York Jets,Tampa Bay Buccaneers,,1:00 PM ET,1:00 PM ET,FOX
+3,2025-09-21,Indianapolis Colts,Tennessee Titans,,1:00 PM ET,12:00 PM CT,CBS
+3,2025-09-21,Las Vegas Raiders,Washington Commanders,,1:00 PM ET,1:00 PM ET,FOX
+3,2025-09-21,Denver Broncos,Los Angeles Chargers,,4:05 PM ET,1:05 PM PT,CBS
+3,2025-09-21,New Orleans Saints,Seattle Seahawks,,4:05 PM ET,1:05 PM PT,CBS
+3,2025-09-21,Dallas Cowboys,Chicago Bears,,4:25 PM ET,3:25 PM CT,FOX
+3,2025-09-21,Arizona Cardinals,San Francisco 49ers,,4:25 PM ET,1:25 PM PT,FOX
+3,2025-09-21,Kansas City Chiefs,New York Giants,,8:20 PM ET,8:20 PM ET,NBC
+3,2025-09-22,Detroit Lions,Baltimore Ravens,,8:15 PM ET,8:15 PM ET,ESPN/ABC
+4,2025-09-25,Seattle Seahawks,Arizona Cardinals,,8:15 PM ET,5:15 PM MT,Prime Video
+4,2025-09-28,Minnesota Vikings,Pittsburgh Steelers,"Dublin (neutral site)",9:30 AM ET,2:30 PM IST,NFLN
+4,2025-09-28,Washington Commanders,Atlanta Falcons,,1:00 PM ET,1:00 PM ET,CBS
+4,2025-09-28,New Orleans Saints,Buffalo Bills,,1:00 PM ET,1:00 PM ET,CBS
+4,2025-09-28,Cleveland Browns,Detroit Lions,,1:00 PM ET,1:00 PM ET,FOX
+4,2025-09-28,Tennessee Titans,Houston Texans,,1:00 PM ET,12:00 PM CT,CBS
+4,2025-09-28,Carolina Panthers,New England Patriots,,1:00 PM ET,1:00 PM ET,FOX
+4,2025-09-28,Los Angeles Chargers,New York Giants,,1:00 PM ET,1:00 PM ET,CBS
+4,2025-09-28,Philadelphia Eagles,Tampa Bay Buccaneers,,1:00 PM ET,1:00 PM ET,FOX
+4,2025-09-28,Indianapolis Colts,Los Angeles Rams,,4:05 PM ET,1:05 PM PT,FOX
+4,2025-09-28,Jacksonville Jaguars,San Francisco 49ers,,4:05 PM ET,1:05 PM PT,FOX
+4,2025-09-28,Baltimore Ravens,Kansas City Chiefs,,4:25 PM ET,3:25 PM CT,CBS
+4,2025-09-28,Chicago Bears,Las Vegas Raiders,,4:25 PM ET,1:25 PM PT,CBS
+4,2025-09-28,Green Bay Packers,Dallas Cowboys,,8:20 PM ET,7:20 PM CT,NBC
+4,2025-09-29,New York Jets,Miami Dolphins,,7:15 PM ET,7:15 PM ET,ESPN
+4,2025-09-29,Cincinnati Bengals,Denver Broncos,,8:15 PM ET,6:15 PM MT,ABC
+5,2025-10-02,San Francisco 49ers,Los Angeles Rams,,8:15 PM ET,5:15 PM PT,Prime Video
+5,2025-10-05,Minnesota Vikings,Cleveland Browns,"Tottenham (neutral site)",9:30 AM ET,2:30 PM BST,NFLN
+5,2025-10-05,Houston Texans,Baltimore Ravens,,1:00 PM ET,1:00 PM ET,CBS
+5,2025-10-05,Miami Dolphins,Carolina Panthers,,1:00 PM ET,1:00 PM ET,FOX
+5,2025-10-05,Las Vegas Raiders,Indianapolis Colts,,1:00 PM ET,1:00 PM ET,FOX
+5,2025-10-05,New York Giants,New Orleans Saints,,1:00 PM ET,12:00 PM CT,CBS
+5,2025-10-05,Dallas Cowboys,New York Jets,,1:00 PM ET,1:00 PM ET,FOX
+5,2025-10-05,Denver Broncos,Philadelphia Eagles,,1:00 PM ET,1:00 PM ET,CBS
+5,2025-10-05,Tennessee Titans,Arizona Cardinals,,4:05 PM ET,1:05 PM MT,CBS
+5,2025-10-05,Tampa Bay Buccaneers,Seattle Seahawks,,4:05 PM ET,1:05 PM PT,CBS
+5,2025-10-05,Detroit Lions,Cincinnati Bengals,,4:25 PM ET,4:25 PM ET,FOX
+5,2025-10-05,Washington Commanders,Los Angeles Chargers,,4:25 PM ET,1:25 PM PT,FOX
+5,2025-10-05,New England Patriots,Buffalo Bills,,8:20 PM ET,8:20 PM ET,NBC
+5,2025-10-06,Kansas City Chiefs,Jacksonville Jaguars,,8:15 PM ET,8:15 PM ET,ESPN/ABC
+6,2025-10-09,Philadelphia Eagles,New York Giants,,8:15 PM ET,8:15 PM ET,Prime Video
+6,2025-10-12,Denver Broncos,New York Jets,"Tottenham (neutral site)",9:30 AM ET,2:30 PM BST,NFLN
+6,2025-10-12,Los Angeles Rams,Baltimore Ravens,,1:00 PM ET,1:00 PM ET,FOX
+6,2025-10-12,Dallas Cowboys,Carolina Panthers,,1:00 PM ET,1:00 PM ET,FOX
+6,2025-10-12,Arizona Cardinals,Indianapolis Colts,,1:00 PM ET,1:00 PM ET,FOX
+6,2025-10-12,Seattle Seahawks,Jacksonville Jaguars,,1:00 PM ET,1:00 PM ET,FOX
+6,2025-10-12,Los Angeles Chargers,Miami Dolphins,,1:00 PM ET,1:00 PM ET,CBS
+6,2025-10-12,New England Patriots,New Orleans Saints,,1:00 PM ET,12:00 PM CT,CBS
+6,2025-10-12,Cleveland Browns,Pittsburgh Steelers,,1:00 PM ET,1:00 PM ET,CBS
+6,2025-10-12,Tennessee Titans,Las Vegas Raiders,,4:05 PM ET,1:05 PM PT,FOX
+6,2025-10-12,Cincinnati Bengals,Green Bay Packers,,4:25 PM ET,3:25 PM CT,CBS
+6,2025-10-12,San Francisco 49ers,Tampa Bay Buccaneers,,4:25 PM ET,4:25 PM ET,CBS
+6,2025-10-12,Detroit Lions,Kansas City Chiefs,,8:20 PM ET,7:20 PM CT,NBC
+6,2025-10-13,Buffalo Bills,Atlanta Falcons,,7:15 PM ET,7:15 PM ET,ESPN
+6,2025-10-13,Chicago Bears,Washington Commanders,,8:15 PM ET,8:15 PM ET,ABC
+7,2025-10-16,Pittsburgh Steelers,Cincinnati Bengals,,8:15 PM ET,8:15 PM ET,Prime Video
+7,2025-10-19,Los Angeles Rams,Jacksonville Jaguars,"Wembley (neutral site)",9:30 AM ET,2:30 PM BST,NFLN
+7,2025-10-19,New Orleans Saints,Chicago Bears,,1:00 PM ET,12:00 PM CT,FOX
+7,2025-10-19,Miami Dolphins,Cleveland Browns,,1:00 PM ET,1:00 PM ET,CBS
+7,2025-10-19,Las Vegas Raiders,Kansas City Chiefs,,1:00 PM ET,12:00 PM CT,CBS
+7,2025-10-19,Philadelphia Eagles,Minnesota Vikings,,1:00 PM ET,12:00 PM CT,FOX
+7,2025-10-19,Carolina Panthers,New York Jets,,1:00 PM ET,1:00 PM ET,FOX
+7,2025-10-19,New England Patriots,Tennessee Titans,,1:00 PM ET,12:00 PM CT,CBS
+7,2025-10-19,New York Giants,Denver Broncos,,4:05 PM ET,2:05 PM MT,CBS
+7,2025-10-19,Indianapolis Colts,Los Angeles Chargers,,4:05 PM ET,1:05 PM PT,CBS
+7,2025-10-19,Green Bay Packers,Arizona Cardinals,,4:25 PM ET,1:25 PM MT,FOX
+7,2025-10-19,Washington Commanders,Dallas Cowboys,,4:25 PM ET,3:25 PM CT,FOX
+7,2025-10-19,Atlanta Falcons,San Francisco 49ers,,8:20 PM ET,5:20 PM PT,NBC
+7,2025-10-20,Tampa Bay Buccaneers,Detroit Lions,,7:00 PM ET,7:00 PM ET,ESPN/ABC
+7,2025-10-20,Houston Texans,Seattle Seahawks,,10:00 PM ET,7:00 PM PT,ESPN+
+8,2025-10-23,Minnesota Vikings,Los Angeles Chargers,,8:15 PM ET,5:15 PM PT,Prime Video
+8,2025-10-26,Miami Dolphins,Atlanta Falcons,,1:00 PM ET,1:00 PM ET,CBS
+8,2025-10-26,Chicago Bears,Baltimore Ravens,,1:00 PM ET,1:00 PM ET,CBS
+8,2025-10-26,Buffalo Bills,Carolina Panthers,,1:00 PM ET,1:00 PM ET,FOX
+8,2025-10-26,New York Jets,Cincinnati Bengals,,1:00 PM ET,1:00 PM ET,CBS
+8,2025-10-26,San Francisco 49ers,Houston Texans,,1:00 PM ET,12:00 PM CT,FOX
+8,2025-10-26,Cleveland Browns,New England Patriots,,1:00 PM ET,1:00 PM ET,FOX
+8,2025-10-26,New York Giants,Philadelphia Eagles,,1:00 PM ET,1:00 PM ET,FOX
+8,2025-10-26,Tampa Bay Buccaneers,New Orleans Saints,,4:05 PM ET,3:05 PM CT,FOX
+8,2025-10-26,Dallas Cowboys,Denver Broncos,,4:25 PM ET,2:25 PM MT,CBS
+8,2025-10-26,Tennessee Titans,Indianapolis Colts,,4:25 PM ET,4:25 PM ET,CBS
+8,2025-10-26,Green Bay Packers,Pittsburgh Steelers,,8:20 PM ET,8:20 PM ET,NBC
+8,2025-10-27,Washington Commanders,Kansas City Chiefs,,8:15 PM ET,7:15 PM CT,ESPN/ABC
+9,2025-10-30,Baltimore Ravens,Miami Dolphins,,8:15 PM ET,8:15 PM ET,Prime Video
+9,2025-11-02,Chicago Bears,Cincinnati Bengals,,1:00 PM ET,1:00 PM ET,CBS
+9,2025-11-02,Minnesota Vikings,Detroit Lions,,1:00 PM ET,1:00 PM ET,FOX
+9,2025-11-02,Carolina Panthers,Green Bay Packers,,1:00 PM ET,12:00 PM CT,FOX
+9,2025-11-02,Denver Broncos,Houston Texans,,1:00 PM ET,12:00 PM CT,FOX
+9,2025-11-02,Atlanta Falcons,New England Patriots,,1:00 PM ET,1:00 PM ET,CBS
+9,2025-11-02,San Francisco 49ers,New York Giants,,1:00 PM ET,1:00 PM ET,CBS
+9,2025-11-02,Indianapolis Colts,Pittsburgh Steelers,,1:00 PM ET,1:00 PM ET,CBS
+9,2025-11-02,Los Angeles Chargers,Tennessee Titans,,1:00 PM ET,12:00 PM CT,CBS
+9,2025-11-02,New Orleans Saints,Los Angeles Rams,,4:05 PM ET,1:05 PM PT,FOX
+9,2025-11-02,Jacksonville Jaguars,Las Vegas Raiders,,4:05 PM ET,1:05 PM PT,FOX
+9,2025-11-02,Kansas City Chiefs,Buffalo Bills,,4:25 PM ET,4:25 PM ET,CBS
+9,2025-11-02,Seattle Seahawks,Washington Commanders,,8:20 PM ET,8:20 PM ET,NBC
+9,2025-11-03,Arizona Cardinals,Dallas Cowboys,,8:15 PM ET,7:15 PM CT,ESPN/ABC
+10,2025-11-06,Las Vegas Raiders,Denver Broncos,,8:15 PM ET,6:15 PM MT,Prime Video
+10,2025-11-09,Atlanta Falcons,Indianapolis Colts,"Berlin (neutral site)",9:30 AM ET,3:30 PM CET,NFLN
+10,2025-11-09,New Orleans Saints,Carolina Panthers,,1:00 PM ET,1:00 PM ET,FOX
+10,2025-11-09,New York Giants,Chicago Bears,,1:00 PM ET,12:00 PM CT,FOX
+10,2025-11-09,Jacksonville Jaguars,Houston Texans,,1:00 PM ET,12:00 PM CT,CBS
+10,2025-11-09,Buffalo Bills,Miami Dolphins,,1:00 PM ET,1:00 PM ET,CBS
+10,2025-11-09,Baltimore Ravens,Minnesota Vikings,,1:00 PM ET,12:00 PM CT,FOX
+10,2025-11-09,Cleveland Browns,New York Jets,,1:00 PM ET,1:00 PM ET,CBS
+10,2025-11-09,New England Patriots,Tampa Bay Buccaneers,,1:00 PM ET,1:00 PM ET,CBS
+10,2025-11-09,Arizona Cardinals,Seattle Seahawks,,4:05 PM ET,1:05 PM PT,CBS
+10,2025-11-09,Los Angeles Rams,San Francisco 49ers,,4:25 PM ET,1:25 PM PT,FOX
+10,2025-11-09,Detroit Lions,Washington Commanders,,4:25 PM ET,4:25 PM ET,FOX
+10,2025-11-09,Pittsburgh Steelers,Los Angeles Chargers,,8:20 PM ET,5:20 PM PT,NBC
+10,2025-11-10,Philadelphia Eagles,Green Bay Packers,,8:15 PM ET,7:15 PM CT,ESPN/ABC
+11,2025-11-13,New York Jets,New England Patriots,,8:15 PM ET,8:15 PM ET,Prime Video
+11,2025-11-16,Washington Commanders,Miami Dolphins,"Madrid (neutral site)",9:30 AM ET,3:30 PM CET,NFLN
+11,2025-11-16,Carolina Panthers,Atlanta Falcons,,1:00 PM ET,1:00 PM ET,FOX
+11,2025-11-16,Tampa Bay Buccaneers,Buffalo Bills,,1:00 PM ET,1:00 PM ET,CBS
+11,2025-11-16,Los Angeles Chargers,Jacksonville Jaguars,,1:00 PM ET,1:00 PM ET,CBS
+11,2025-11-16,Chicago Bears,Minnesota Vikings,,1:00 PM ET,12:00 PM CT,FOX
+11,2025-11-16,Green Bay Packers,New York Giants,,1:00 PM ET,1:00 PM ET,FOX
+11,2025-11-16,Cincinnati Bengals,Pittsburgh Steelers,,1:00 PM ET,1:00 PM ET,CBS
+11,2025-11-16,Houston Texans,Tennessee Titans,,1:00 PM ET,12:00 PM CT,FOX
+11,2025-11-16,San Francisco 49ers,Arizona Cardinals,,4:05 PM ET,2:05 PM MT,FOX
+11,2025-11-16,Seattle Seahawks,Los Angeles Rams,,4:05 PM ET,1:05 PM PT,FOX
+11,2025-11-16,Baltimore Ravens,Cleveland Browns,,4:25 PM ET,4:25 PM ET,CBS
+11,2025-11-16,Kansas City Chiefs,Denver Broncos,,4:25 PM ET,2:25 PM MT,CBS
+11,2025-11-16,Detroit Lions,Philadelphia Eagles,,8:20 PM ET,8:20 PM ET,NBC
+11,2025-11-17,Dallas Cowboys,Las Vegas Raiders,,8:15 PM ET,5:15 PM PT,ESPN/ABC
+12,2025-11-20,Buffalo Bills,Houston Texans,,8:15 PM ET,7:15 PM CT,Prime Video
+12,2025-11-23,New York Jets,Baltimore Ravens,,1:00 PM ET,1:00 PM ET,CBS
+12,2025-11-23,Pittsburgh Steelers,Chicago Bears,,1:00 PM ET,12:00 PM CT,CBS
+12,2025-11-23,New England Patriots,Cincinnati Bengals,,1:00 PM ET,1:00 PM ET,CBS
+12,2025-11-23,New York Giants,Detroit Lions,,1:00 PM ET,1:00 PM ET,FOX
+12,2025-11-23,Minnesota Vikings,Green Bay Packers,,1:00 PM ET,12:00 PM CT,FOX
+12,2025-11-23,Indianapolis Colts,Kansas City Chiefs,,1:00 PM ET,12:00 PM CT,CBS
+12,2025-11-23,Seattle Seahawks,Tennessee Titans,,1:00 PM ET,12:00 PM CT,FOX
+12,2025-11-23,Jacksonville Jaguars,Arizona Cardinals,,4:05 PM ET,2:05 PM MT,CBS
+12,2025-11-23,Cleveland Browns,Las Vegas Raiders,,4:05 PM ET,1:05 PM PT,CBS
+12,2025-11-23,Philadelphia Eagles,Dallas Cowboys,,4:25 PM ET,3:25 PM CT,FOX
+12,2025-11-23,Atlanta Falcons,New Orleans Saints,,4:25 PM ET,3:25 PM CT,FOX
+12,2025-11-23,Tampa Bay Buccaneers,Los Angeles Rams,,8:20 PM ET,5:20 PM PT,NBC
+12,2025-11-24,Carolina Panthers,San Francisco 49ers,,8:15 PM ET,5:15 PM PT,ESPN
+13,2025-11-27,Green Bay Packers,Detroit Lions,"Thanksgiving",1:00 PM ET,1:00 PM ET,FOX
+13,2025-11-27,Kansas City Chiefs,Dallas Cowboys,"Thanksgiving",4:30 PM ET,3:30 PM CT,CBS
+13,2025-11-27,Cincinnati Bengals,Baltimore Ravens,"Thanksgiving",8:20 PM ET,8:20 PM ET,NBC
+13,2025-11-28,Chicago Bears,Philadelphia Eagles,,3:00 PM ET,3:00 PM ET,Prime Video
+13,2025-11-30,Los Angeles Rams,Carolina Panthers,,1:00 PM ET,1:00 PM ET,FOX
+13,2025-11-30,San Francisco 49ers,Cleveland Browns,,1:00 PM ET,1:00 PM ET,CBS
+13,2025-11-30,Houston Texans,Indianapolis Colts,,1:00 PM ET,1:00 PM ET,CBS
+13,2025-11-30,New Orleans Saints,Miami Dolphins,,1:00 PM ET,1:00 PM ET,FOX
+13,2025-11-30,Atlanta Falcons,New York Jets,,1:00 PM ET,1:00 PM ET,FOX
+13,2025-11-30,Arizona Cardinals,Tampa Bay Buccaneers,,1:00 PM ET,1:00 PM ET,FOX
+13,2025-11-30,Jacksonville Jaguars,Tennessee Titans,,1:00 PM ET,12:00 PM CT,CBS
+13,2025-11-30,Minnesota Vikings,Seattle Seahawks,,4:05 PM ET,1:05 PM PT,FOX
+13,2025-11-30,Las Vegas Raiders,Los Angeles Chargers,,4:25 PM ET,1:25 PM PT,CBS
+13,2025-11-30,Buffalo Bills,Pittsburgh Steelers,,4:25 PM ET,4:25 PM ET,CBS
+13,2025-11-30,Denver Broncos,Washington Commanders,,8:20 PM ET,8:20 PM ET,NBC
+13,2025-12-01,New York Giants,New England Patriots,,8:15 PM ET,8:15 PM ET,ESPN
+14,2025-12-04,Dallas Cowboys,Detroit Lions,,8:15 PM ET,8:15 PM ET,Prime Video
+14,2025-12-07,Seattle Seahawks,Atlanta Falcons,,1:00 PM ET,1:00 PM ET,FOX
+14,2025-12-07,Pittsburgh Steelers,Baltimore Ravens,,1:00 PM ET,1:00 PM ET,CBS
+14,2025-12-07,Cincinnati Bengals,Buffalo Bills,,1:00 PM ET,1:00 PM ET,FOX
+14,2025-12-07,Tennessee Titans,Cleveland Browns,,1:00 PM ET,1:00 PM ET,FOX
+14,2025-12-07,Indianapolis Colts,Jacksonville Jaguars,,1:00 PM ET,1:00 PM ET,CBS
+14,2025-12-07,Washington Commanders,Minnesota Vikings,,1:00 PM ET,12:00 PM CT,FOX
+14,2025-12-07,Miami Dolphins,New York Jets,,1:00 PM ET,1:00 PM ET,CBS
+14,2025-12-07,New Orleans Saints,Tampa Bay Buccaneers,,1:00 PM ET,1:00 PM ET,CBS
+14,2025-12-07,Denver Broncos,Las Vegas Raiders,,4:05 PM ET,1:05 PM PT,CBS
+14,2025-12-07,Los Angeles Rams,Arizona Cardinals,,4:25 PM ET,2:25 PM MT,FOX
+14,2025-12-07,Chicago Bears,Green Bay Packers,,4:25 PM ET,3:25 PM CT,FOX
+14,2025-12-07,Houston Texans,Kansas City Chiefs,,8:20 PM ET,7:20 PM CT,NBC
+14,2025-12-08,Philadelphia Eagles,Los Angeles Chargers,,8:15 PM ET,5:15 PM PT,ESPN/ABC
+15,2025-12-11,Atlanta Falcons,Tampa Bay Buccaneers,,8:15 PM ET,8:15 PM ET,Prime Video
+15,2025-12-14,Cleveland Browns,Chicago Bears,,1:00 PM ET,12:00 PM CT,FOX
+15,2025-12-14,Baltimore Ravens,Cincinnati Bengals,,1:00 PM ET,1:00 PM ET,CBS
+15,2025-12-14,Arizona Cardinals,Houston Texans,,1:00 PM ET,12:00 PM CT,FOX
+15,2025-12-14,New York Jets,Jacksonville Jaguars,,1:00 PM ET,1:00 PM ET,CBS
+15,2025-12-14,Los Angeles Chargers,Kansas City Chiefs,,1:00 PM ET,12:00 PM CT,CBS
+15,2025-12-14,Buffalo Bills,New England Patriots,,1:00 PM ET,1:00 PM ET,CBS
+15,2025-12-14,Washington Commanders,New York Giants,,1:00 PM ET,1:00 PM ET,FOX
+15,2025-12-14,Las Vegas Raiders,Philadelphia Eagles,,1:00 PM ET,1:00 PM ET,FOX
+15,2025-12-14,Green Bay Packers,Denver Broncos,,4:25 PM ET,2:25 PM MT,CBS
+15,2025-12-14,Detroit Lions,Los Angeles Rams,,4:25 PM ET,1:25 PM PT,FOX
+15,2025-12-14,Carolina Panthers,New Orleans Saints,,4:25 PM ET,3:25 PM CT,FOX
+15,2025-12-14,Indianapolis Colts,Seattle Seahawks,,4:25 PM ET,1:25 PM PT,CBS
+15,2025-12-14,Tennessee Titans,San Francisco 49ers,,4:25 PM ET,1:25 PM PT,FOX
+15,2025-12-14,Minnesota Vikings,Dallas Cowboys,,8:20 PM ET,7:20 PM CT,NBC
+15,2025-12-15,Miami Dolphins,Pittsburgh Steelers,,8:15 PM ET,8:15 PM ET,ESPN/ABC
+16,2025-12-18,Los Angeles Rams,Seattle Seahawks,,8:15 PM ET,5:15 PM PT,Prime Video
+16,2025-12-20,Philadelphia Eagles,Washington Commanders,,5:00 PM ET,5:00 PM ET,FOX
+16,2025-12-20,Green Bay Packers,Chicago Bears,,8:20 PM ET,7:20 PM CT,FOX
+16,2025-12-21,Tampa Bay Buccaneers,Carolina Panthers,,1:00 PM ET,1:00 PM ET,FOX
+16,2025-12-21,Buffalo Bills,Cleveland Browns,,1:00 PM ET,1:00 PM ET,CBS
+16,2025-12-21,Los Angeles Chargers,Dallas Cowboys,,1:00 PM ET,12:00 PM CT,FOX
+16,2025-12-21,Cincinnati Bengals,Miami Dolphins,,1:00 PM ET,1:00 PM ET,CBS
+16,2025-12-21,New York Jets,New Orleans Saints,,1:00 PM ET,12:00 PM CT,CBS
+16,2025-12-21,Minnesota Vikings,New York Giants,,1:00 PM ET,1:00 PM ET,FOX
+16,2025-12-21,Kansas City Chiefs,Tennessee Titans,,1:00 PM ET,12:00 PM CT,CBS
+16,2025-12-21,Atlanta Falcons,Arizona Cardinals,,4:05 PM ET,2:05 PM MT,FOX
+16,2025-12-21,Jacksonville Jaguars,Denver Broncos,,4:05 PM ET,2:05 PM MT,FOX
+16,2025-12-21,Pittsburgh Steelers,Detroit Lions,,4:25 PM ET,4:25 PM ET,CBS
+16,2025-12-21,Las Vegas Raiders,Houston Texans,,4:25 PM ET,3:25 PM CT,CBS
+16,2025-12-21,New England Patriots,Baltimore Ravens,,8:20 PM ET,8:20 PM ET,NBC
+16,2025-12-22,San Francisco 49ers,Indianapolis Colts,,8:15 PM ET,8:15 PM ET,ESPN
+17,2025-12-25,Dallas Cowboys,Washington Commanders,"Christmas",1:00 PM ET,1:00 PM ET,NETFLIX
+17,2025-12-25,Detroit Lions,Minnesota Vikings,"Christmas",4:30 PM ET,3:30 PM CT,NETFLIX
+17,2025-12-25,Denver Broncos,Kansas City Chiefs,"Christmas",8:15 PM ET,7:15 PM CT,Prime Video
+17,2025-12-27,Seattle Seahawks,Carolina Panthers,"Saturday (Time/Network TBD)",TBD,TBD,TBD
+17,2025-12-27,Arizona Cardinals,Cincinnati Bengals,"Saturday (Time/Network TBD)",TBD,TBD,TBD
+17,2025-12-27,Baltimore Ravens,Green Bay Packers,"Saturday (Time/Network TBD)",TBD,TBD,TBD
+17,2025-12-27,Houston Texans,Los Angeles Chargers,"Saturday (Time/Network TBD)",TBD,TBD,TBD
+17,2025-12-27,New York Giants,Las Vegas Raiders,"Saturday (Time/Network TBD)",TBD,TBD,TBD
+17,2025-12-28,Pittsburgh Steelers,Cleveland Browns,,1:00 PM ET,1:00 PM ET,CBS
+17,2025-12-28,Jacksonville Jaguars,Indianapolis Colts,,1:00 PM ET,1:00 PM ET,FOX
+17,2025-12-28,Tampa Bay Buccaneers,Miami Dolphins,,1:00 PM ET,1:00 PM ET,FOX
+17,2025-12-28,New England Patriots,New York Jets,,1:00 PM ET,1:00 PM ET,CBS
+17,2025-12-28,New Orleans Saints,Tennessee Titans,,1:00 PM ET,12:00 PM CT,CBS
+17,2025-12-28,Philadelphia Eagles,Buffalo Bills,,4:25 PM ET,4:25 PM ET,FOX
+17,2025-12-28,Chicago Bears,San Francisco 49ers,,8:20 PM ET,5:20 PM PT,NBC
+17,2025-12-29,Los Angeles Rams,Atlanta Falcons,,8:15 PM ET,8:15 PM ET,ESPN
+18,2026-01-03,Carolina Panthers,Tampa Bay Buccaneers,,4:30 PM ET,4:30 PM ET,ESPN/ABC
+18,2026-01-03,Seattle Seahawks,San Francisco 49ers,,8:00 PM ET,5:00 PM PT,ESPN/ABC
+18,2026-01-04,New Orleans Saints,Atlanta Falcons,,1:00 PM ET,12:00 PM CT,FOX
+18,2026-01-04,Cleveland Browns,Cincinnati Bengals,,1:00 PM ET,1:00 PM ET,CBS
+18,2026-01-04,Indianapolis Colts,Houston Texans,,1:00 PM ET,12:00 PM CT,CBS
+18,2026-01-04,Tennessee Titans,Jacksonville Jaguars,,1:00 PM ET,1:00 PM ET,FOX
+18,2026-01-04,Green Bay Packers,Minnesota Vikings,,1:00 PM ET,12:00 PM CT,CBS
+18,2026-01-04,Dallas Cowboys,New York Giants,,1:00 PM ET,1:00 PM ET,FOX
+18,2026-01-04,Los Angeles Chargers,Denver Broncos,,4:25 PM ET,2:25 PM MT,CBS
+18,2026-01-04,Arizona Cardinals,Los Angeles Rams,,4:25 PM ET,1:25 PM PT,FOX
+18,2026-01-04,Kansas City Chiefs,Las Vegas Raiders,,4:25 PM ET,1:25 PM PT,CBS
+18,2026-01-04,Miami Dolphins,New England Patriots,,4:25 PM ET,4:25 PM ET,FOX
+18,2026-01-04,Detroit Lions,Chicago Bears,,4:25 PM ET,3:25 PM CT,FOX
+18,2026-01-04,New York Jets,Buffalo Bills,,4:25 PM ET,4:25 PM ET,CBS
+18,2026-01-04,Washington Commanders,Philadelphia Eagles,,4:25 PM ET,4:25 PM ET,CBS
+18,2026-01-04,Baltimore Ravens,Pittsburgh Steelers,,8:20 PM ET,8:20 PM ET,NBC
