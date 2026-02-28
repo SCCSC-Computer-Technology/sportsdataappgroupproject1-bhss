@@ -43,11 +43,17 @@
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.comboBoxMonths = new System.Windows.Forms.ComboBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.buttonClearFilters = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sportInfoDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nflScheduleBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nflScheduleDataGridView)).BeginInit();
+            this.groupBox3.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -63,7 +69,7 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.searchTextbox);
-            this.groupBox2.Location = new System.Drawing.Point(392, 69);
+            this.groupBox2.Location = new System.Drawing.Point(392, 43);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(200, 58);
             this.groupBox2.TabIndex = 8;
@@ -72,7 +78,7 @@
             // 
             // searchTextbox
             // 
-            this.searchTextbox.Location = new System.Drawing.Point(45, 24);
+            this.searchTextbox.Location = new System.Drawing.Point(45, 22);
             this.searchTextbox.Name = "searchTextbox";
             this.searchTextbox.Size = new System.Drawing.Size(100, 23);
             this.searchTextbox.TabIndex = 0;
@@ -81,7 +87,7 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.sortByDropdown);
-            this.groupBox1.Location = new System.Drawing.Point(12, 69);
+            this.groupBox1.Location = new System.Drawing.Point(12, 43);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(200, 58);
             this.groupBox1.TabIndex = 9;
@@ -122,6 +128,7 @@
             this.tableAdapterManager.nbaCurrentPlayersTableAdapter = null;
             this.tableAdapterManager.NBAScheduleTableAdapter = null;
             this.tableAdapterManager.NBATeamsTableAdapter = null;
+            this.tableAdapterManager.nfl_PlayersCurrentTableAdapter = null;
             this.tableAdapterManager.nflScheduleTableAdapter = this.nflScheduleTableAdapter;
             this.tableAdapterManager.NFLTeamsTableAdapter = null;
             this.tableAdapterManager.UpdateOrder = sportsApp.SportInfoDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
@@ -176,11 +183,52 @@
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
             this.dataGridViewTextBoxColumn6.ReadOnly = true;
             // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.comboBoxMonths);
+            this.groupBox3.Location = new System.Drawing.Point(12, 107);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(200, 58);
+            this.groupBox3.TabIndex = 11;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Month";
+            // 
+            // comboBoxMonths
+            // 
+            this.comboBoxMonths.FormattingEnabled = true;
+            this.comboBoxMonths.Location = new System.Drawing.Point(40, 22);
+            this.comboBoxMonths.Name = "comboBoxMonths";
+            this.comboBoxMonths.Size = new System.Drawing.Size(121, 23);
+            this.comboBoxMonths.TabIndex = 3;
+            this.comboBoxMonths.SelectedIndexChanged += new System.EventHandler(this.comboBoxMonths_SelectedIndexChanged);
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.buttonClearFilters);
+            this.groupBox4.Location = new System.Drawing.Point(392, 107);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(200, 58);
+            this.groupBox4.TabIndex = 12;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Clear";
+            // 
+            // buttonClearFilters
+            // 
+            this.buttonClearFilters.Location = new System.Drawing.Point(45, 22);
+            this.buttonClearFilters.Name = "buttonClearFilters";
+            this.buttonClearFilters.Size = new System.Drawing.Size(100, 23);
+            this.buttonClearFilters.TabIndex = 0;
+            this.buttonClearFilters.Text = "Clear Filters";
+            this.buttonClearFilters.UseVisualStyleBackColor = true;
+            this.buttonClearFilters.Click += new System.EventHandler(this.buttonClearFilters_Click);
+            // 
             // FootballSchedulesForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(604, 491);
+            this.Controls.Add(this.groupBox4);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.nflScheduleDataGridView);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -197,6 +245,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.sportInfoDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nflScheduleBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nflScheduleDataGridView)).EndInit();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox4.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -218,5 +268,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.ComboBox comboBoxMonths;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.Button buttonClearFilters;
     }
 }

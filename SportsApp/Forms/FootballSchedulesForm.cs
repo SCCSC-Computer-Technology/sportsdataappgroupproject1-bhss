@@ -15,6 +15,11 @@ namespace sportsApp.Forms
         public FootballSchedulesForm()
         {
             InitializeComponent();
+            comboBoxMonths.Items.Add("January");            
+            comboBoxMonths.Items.Add("September");
+            comboBoxMonths.Items.Add("October");
+            comboBoxMonths.Items.Add("November");
+            comboBoxMonths.Items.Add("December");            
         }
 
         private void nflScheduleBindingNavigatorSaveItem_Click(object sender, EventArgs e)
@@ -80,6 +85,46 @@ namespace sportsApp.Forms
                 $"Convert([kickoff_et], 'System.String') LIKE '%{searchText}%'";
 
             nflScheduleBindingSource.Filter = filter;
+        }
+
+        private void comboBoxMonths_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int monthNumber = 0;
+
+            if (comboBoxMonths.SelectedIndex == 0)
+            {
+                monthNumber = 1;
+                this.nflScheduleTableAdapter.FillByMonth(this.sportInfoDataSet.nflSchedule, monthNumber);
+            }
+            else if (comboBoxMonths.SelectedIndex == 1)
+            {
+                monthNumber = 9;
+                this.nflScheduleTableAdapter.FillByMonth(this.sportInfoDataSet.nflSchedule, monthNumber);
+            }
+            else if (comboBoxMonths.SelectedIndex == 2)
+            {
+                monthNumber = 10;
+                this.nflScheduleTableAdapter.FillByMonth(this.sportInfoDataSet.nflSchedule, monthNumber);
+            }
+            else if (comboBoxMonths.SelectedIndex == 3)
+            {
+                monthNumber = 11;
+                this.nflScheduleTableAdapter.FillByMonth(this.sportInfoDataSet.nflSchedule, monthNumber);
+            }
+            else if (comboBoxMonths.SelectedIndex == 4)
+            {
+                monthNumber = 12;
+                this.nflScheduleTableAdapter.FillByMonth(this.sportInfoDataSet.nflSchedule, monthNumber);
+            }                
+        }
+
+        private void buttonClearFilters_Click(object sender, EventArgs e)
+        {
+            sortByDropdown.SelectedIndex = -1;
+            comboBoxMonths.SelectedIndex = -1;
+            searchTextbox.Clear();
+            this.nflScheduleTableAdapter.Fill(this.sportInfoDataSet.nflSchedule);
+            nflScheduleBindingSource.Sort = "date";
         }
     }
 }

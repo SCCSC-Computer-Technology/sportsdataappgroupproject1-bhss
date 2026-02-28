@@ -58,13 +58,22 @@ namespace sportsApp.Forms
             int? checkPassword = usersAdapter.ValidateLogin(email, password);
             if (checkPassword == 0)
             {
-                MessageBox.Show("Password incorrect.", "Sign In Status", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Password incorrect.", "Sign In Status Denied", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             else
             {
-                MessageBox.Show($"User '{email}' Signed In", "Sign In Status", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                this.Close();
+                if (email == "dev")
+                {
+                    MessageBox.Show($"Welcome Developer", "Developer Sign In Status Approved", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show($"User '{email}' Signed In", "Sign In Status Approved", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                    this.Close();
+                }
+                
             }
         }
     }
