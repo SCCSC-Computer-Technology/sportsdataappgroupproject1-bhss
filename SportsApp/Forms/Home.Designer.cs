@@ -37,7 +37,7 @@
             this.logOutButton = new System.Windows.Forms.Button();
             this.playersButton = new System.Windows.Forms.Button();
             this.teamsButton = new System.Windows.Forms.Button();
-            this.scoresButton = new System.Windows.Forms.Button();
+            this.standingsButton = new System.Windows.Forms.Button();
             this.footballButton = new System.Windows.Forms.RadioButton();
             this.basketballButton = new System.Windows.Forms.RadioButton();
             this.headerLabel = new System.Windows.Forms.Label();
@@ -154,23 +154,23 @@
             this.teamsButton.UseVisualStyleBackColor = false;
             this.teamsButton.Click += new System.EventHandler(this.teamsButton_Click);
             // 
-            // scoresButton
+            // standingsButton
             // 
-            this.scoresButton.BackColor = System.Drawing.Color.Transparent;
-            this.scoresButton.FlatAppearance.BorderSize = 0;
-            this.scoresButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
-            this.scoresButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
-            this.scoresButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
-            this.scoresButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.scoresButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.scoresButton.ForeColor = System.Drawing.Color.White;
-            this.scoresButton.Location = new System.Drawing.Point(0, 323);
-            this.scoresButton.Name = "scoresButton";
-            this.scoresButton.Size = new System.Drawing.Size(216, 55);
-            this.scoresButton.TabIndex = 9;
-            this.scoresButton.Text = "Scores";
-            this.scoresButton.UseVisualStyleBackColor = false;
-            this.scoresButton.Click += new System.EventHandler(this.scoresButton_Click);
+            this.standingsButton.BackColor = System.Drawing.Color.Transparent;
+            this.standingsButton.FlatAppearance.BorderSize = 0;
+            this.standingsButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
+            this.standingsButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
+            this.standingsButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
+            this.standingsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.standingsButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.standingsButton.ForeColor = System.Drawing.Color.White;
+            this.standingsButton.Location = new System.Drawing.Point(0, 323);
+            this.standingsButton.Name = "standingsButton";
+            this.standingsButton.Size = new System.Drawing.Size(216, 55);
+            this.standingsButton.TabIndex = 9;
+            this.standingsButton.Text = "Standings";
+            this.standingsButton.UseVisualStyleBackColor = false;
+            this.standingsButton.Click += new System.EventHandler(this.scoresButton_Click);
             // 
             // footballButton
             // 
@@ -232,7 +232,7 @@
             this.panel1.Controls.Add(this.basketballButton);
             this.panel1.Controls.Add(this.statsButton);
             this.panel1.Controls.Add(this.footballButton);
-            this.panel1.Controls.Add(this.scoresButton);
+            this.panel1.Controls.Add(this.standingsButton);
             this.panel1.Controls.Add(this.teamsButton);
             this.panel1.Controls.Add(this.playersButton);
             this.panel1.Controls.Add(this.logOutButton);
@@ -278,7 +278,7 @@
         private System.Windows.Forms.Button logOutButton;
         private System.Windows.Forms.Button playersButton;
         private System.Windows.Forms.Button teamsButton;
-        private System.Windows.Forms.Button scoresButton;
+        private System.Windows.Forms.Button standingsButton;
         private System.Windows.Forms.RadioButton footballButton;
         private System.Windows.Forms.RadioButton basketballButton;
         private System.Windows.Forms.Label headerLabel;

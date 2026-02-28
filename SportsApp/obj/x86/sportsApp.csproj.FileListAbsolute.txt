@@ -89,12 +89,12 @@ C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\sport
 C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.csproj.AssemblyReference.cache
 C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.BasketballPlayersForm.resources
 C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.BasketballSchedulesForm.resources
-C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.BasketballScoresForm.resources
+C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.BasketballStandingsForm.resources
 C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.BasketballStatsForm.resources
 C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.BasketballTeamsForm.resources
 C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.FootballPlayersForm.resources
 C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.FootballSchedulesForm.resources
-C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.FootballScoresForm.resources
+C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.FootballStandingsForm.resources
 C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.FootballStatsForm.resources
 C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.FootballTeamsForm.resources
 C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Home.resources

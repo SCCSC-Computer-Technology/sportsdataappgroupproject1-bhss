@@ -1,6 +1,6 @@
 ﻿namespace sportsApp.Forms
 {
-    partial class BasketballScoresForm
+    partial class BasketballStandingsForm
     {
         /// <summary>
         /// Required designer variable.

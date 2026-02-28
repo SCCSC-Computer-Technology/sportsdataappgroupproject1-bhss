@@ -89,11 +89,11 @@ namespace sportsApp
         {
             if (basketballButton.Checked)
             {
-                LoadIntoContent(new BasketballScoresForm());
+                LoadIntoContent(new BasketballStandingsForm());
             }
             else if (footballButton.Checked)
             {
-                LoadIntoContent(new FootballScoresForm());
+                LoadIntoContent(new FootballStandingsForm());
             }
         }
 

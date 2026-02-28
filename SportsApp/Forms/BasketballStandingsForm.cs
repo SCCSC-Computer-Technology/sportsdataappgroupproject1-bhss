@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace sportsApp.Forms
 {
-    public partial class FootballScoresForm : Form
+    public partial class BasketballStandingsForm : Form
     {
-        public FootballScoresForm()
+        public BasketballStandingsForm()
         {
             InitializeComponent();
         }
