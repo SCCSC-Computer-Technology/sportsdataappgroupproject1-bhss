@@ -1,4 +1,5 @@
-﻿using System;
+﻿using sportsApp.SportInfoDataSetTableAdapters;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,7 +15,7 @@ namespace sportsApp.Forms
     {
         public FootballTeamsForm()
         {
-            InitializeComponent();
+            InitializeComponent();            
         }
 
         private void nFLTeamsBindingNavigatorSaveItem_Click(object sender, EventArgs e)
@@ -30,6 +31,21 @@ namespace sportsApp.Forms
             // TODO: This line of code loads data into the 'sportInfoDataSet.NFLTeams' table. You can move, or remove it, as needed.
             this.nFLTeamsTableAdapter.Fill(this.sportInfoDataSet.NFLTeams);
             sortByDropdown.SelectedIndex = 0;
+            //import current user
+            var currentUserAdapter = new SportInfoDataSetTableAdapters.CurrentUserTableAdapter();
+            var dataTable = new SportInfoDataSet.CurrentUserDataTable();
+            currentUserAdapter.Fill(dataTable);
+            var row = sportInfoDataSet.CurrentUser[0];
+            int nflTeamID = row.FavoriteNFLTeamID;
+            if (sportInfoDataSet.CurrentUser.Rows.Count > 0)
+            {
+                row = sportInfoDataSet.CurrentUser[0];
+                int nbaID = row.FavoriteNBATeamID;
+            }
+            else
+            {
+                MessageBox.Show("No current user found.");
+            }
         }
 
         // sort by drop down logic

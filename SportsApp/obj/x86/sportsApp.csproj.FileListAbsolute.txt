@@ -69,12 +69,10 @@ C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\SportInf
 C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\bin\x86\SportInfoDB_log.ldf
 C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.BasketballPlayersForm.resources
 C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.BasketballSchedulesForm.resources
-C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.BasketballScoresForm.resources
 C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.BasketballStatsForm.resources
 C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.BasketballTeamsForm.resources
 C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.FootballPlayersForm.resources
 C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.FootballSchedulesForm.resources
-C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.FootballScoresForm.resources
 C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.FootballStatsForm.resources
 C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.FootballTeamsForm.resources
 C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.LoginForm.resources
@@ -104,3 +102,5 @@ C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sport
 C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.csproj.GenerateResource.cache
 C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.csproj.CoreCompileInputs.cache
 C:\Users\Shawn\Documents\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.exe
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.BasketballStandingsForm.resources
+C:\GroupProjectFolder\sportsdataappgroupproject1-bhss\SportsApp\obj\x86\sportsApp.Forms.FootballStandingsForm.resources

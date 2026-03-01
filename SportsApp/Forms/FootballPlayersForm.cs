@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -29,7 +30,13 @@ namespace sportsApp.Forms
         {
             // TODO: This line of code loads data into the 'sportInfoDataSet.nfl_PlayersCurrent' table. You can move, or remove it, as needed.
             this.nfl_PlayersCurrentTableAdapter.Fill(this.sportInfoDataSet.nfl_PlayersCurrent);
-
+            //import current user
+            var currentUserAdapter = new SportInfoDataSetTableAdapters.CurrentUserTableAdapter();
+            var dataTable = new SportInfoDataSet.CurrentUserDataTable();
+            currentUserAdapter.Fill(dataTable);
+            int nflTeam = Convert.ToInt32(currentUserAdapter.GetNFLTeam());
+            //show favorite team on load
+            nfl_PlayersCurrentBindingSource.Filter = $"TeamID = {nflTeam}";
         }
 
         private void teamDropdown_SelectedIndexChanged(object sender, EventArgs e)

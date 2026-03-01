@@ -1,4 +1,5 @@
-﻿using System;
+﻿using sportsApp.SportInfoDataSetTableAdapters;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -33,6 +34,7 @@ namespace sportsApp.Forms
             // if email and password are within database
             // grant access
             var usersAdapter = new SportInfoDataSetTableAdapters.UsersTableAdapter();
+            var currentUserAdapter = new SportInfoDataSetTableAdapters.CurrentUserTableAdapter();
             
             //variables
             string email = emailTextbox.Text.Trim();
@@ -65,13 +67,21 @@ namespace sportsApp.Forms
             {
                 if (email == "dev")
                 {
-                    MessageBox.Show($"Welcome Developer", "Developer Sign In Status Approved", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show($"Welcome Dev!", "Developer Sign In Status Approved", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    //clear table for safety
+                    currentUserAdapter.LogOutCurrentUser();
+                    //add current user
+                    currentUserAdapter.LogInCurrentUser(email);
                     this.Close();
                 }
                 else
                 {
                     MessageBox.Show($"User '{email}' Signed In", "Sign In Status Approved", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                                    this.Close();
+                    //clear table for safety
+                    currentUserAdapter.LogOutCurrentUser();
+                    //add current user
+                    currentUserAdapter.LogInCurrentUser(email);
+                    this.Close();
                 }
                 
             }
