@@ -498,7 +498,7 @@ SELECT CurrentUserID, UserID, FirstName, FavoriteNBATeamID, FavoriteNFLTeamID FR
               <Mapping SourceColumn="FavoriteNFLTeamID" DataSetColumn="FavoriteNFLTeamID" />
             </Mappings>
             <Sources>
-              <DbSource ConnectionRef="SportInfoDBConnectionString (Settings)" DbObjectName="dbo.CurrentUser" DbObjectType="Table" GenerateShortCommands="true" GeneratorSourceName="GetNFLTeam" Modifier="Public" Name="GetNFLTeam" QueryType="Scalar" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy3" UserSourceName="GetNFLTeam">
+              <DbSource ConnectionRef="SportInfoDBConnectionString (Settings)" DbObjectName="dbo.CurrentUser" DbObjectType="Table" GenerateShortCommands="true" GeneratorSourceName="GetNFLTeam" Modifier="Public" Name="GetNFLTeam" QueryType="Scalar" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="GetNFLTeam">
                 <SelectCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="true">
                     <CommandText>SELECT FavoriteNFLTeamID
@@ -507,7 +507,7 @@ FROM CurrentUser;</CommandText>
                   </DbCommand>
                 </SelectCommand>
               </DbSource>
-              <DbSource ConnectionRef="SportInfoDBConnectionString (Settings)" DbObjectName="" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="LogInCurrentUser" Modifier="Public" Name="LogInCurrentUser" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="LogInCurrentUser">
+              <DbSource ConnectionRef="SportInfoDBConnectionString (Settings)" DbObjectName="" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="LogInCurrentUser" Modifier="Public" Name="LogInCurrentUser" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="LogInCurrentUser">
                 <InsertCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="true">
                     <CommandText>
@@ -522,7 +522,7 @@ WHERE Email = @Email;</CommandText>
                   </DbCommand>
                 </InsertCommand>
               </DbSource>
-              <DbSource ConnectionRef="SportInfoDBConnectionString (Settings)" DbObjectName="" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="LogOutCurrentUser" Modifier="Public" Name="LogOutCurrentUser" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="LogOutCurrentUser">
+              <DbSource ConnectionRef="SportInfoDBConnectionString (Settings)" DbObjectName="" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="LogOutCurrentUser" Modifier="Public" Name="LogOutCurrentUser" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy2" UserSourceName="LogOutCurrentUser">
                 <UpdateCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="true">
                     <CommandText>DELETE FROM CurrentUser;</CommandText>
@@ -531,6 +531,83 @@ WHERE Email = @Email;</CommandText>
                 </UpdateCommand>
               </DbSource>
             </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="nbaSeasonStatsTableAdapter" GeneratorDataComponentClassName="nbaSeasonStatsTableAdapter" Name="nbaSeasonStats" UserDataComponentName="nbaSeasonStatsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SportInfoDBConnectionString (Settings)" DbObjectName="dbo.nbaSeasonStats" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [nbaSeasonStats] ([Team], [Games_Played], [Wins], [Losses], [Winning_Percentage], [Minutes_Per_Game], [Points_Per_Game], [Field_Goals_Made], [Field_Goals_Attempted], [Field_Goal_Percentage], [Three_Point_Field_Goals_Made], [Three_Point_Field_Goals_Attempted], [Three_Point_Percentage], [Free_Throws_Made], [Free_Throws_Attempted], [Free_Throw_Percentage], [Offensive_Rebounds], [Defensive_Rebounds], [Total_Rebounds], [Assists], [Turnovers], [Steals], [Blocks], [Blocks_Against], [Personal_Fouls], [Personal_Fouls_Drawn], [Plus_Minus]) VALUES (@Team, @Games_Played, @Wins, @Losses, @Winning_Percentage, @Minutes_Per_Game, @Points_Per_Game, @Field_Goals_Made, @Field_Goals_Attempted, @Field_Goal_Percentage, @Three_Point_Field_Goals_Made, @Three_Point_Field_Goals_Attempted, @Three_Point_Percentage, @Free_Throws_Made, @Free_Throws_Attempted, @Free_Throw_Percentage, @Offensive_Rebounds, @Defensive_Rebounds, @Total_Rebounds, @Assists, @Turnovers, @Steals, @Blocks, @Blocks_Against, @Personal_Fouls, @Personal_Fouls_Drawn, @Plus_Minus)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Team" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Team" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Byte" Direction="Input" ParameterName="@Games_Played" Precision="0" ProviderType="TinyInt" Scale="0" Size="0" SourceColumn="Games_Played" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Byte" Direction="Input" ParameterName="@Wins" Precision="0" ProviderType="TinyInt" Scale="0" Size="0" SourceColumn="Wins" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Byte" Direction="Input" ParameterName="@Losses" Precision="0" ProviderType="TinyInt" Scale="0" Size="0" SourceColumn="Losses" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Winning_Percentage" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Winning_Percentage" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Minutes_Per_Game" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Minutes_Per_Game" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Points_Per_Game" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Points_Per_Game" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Field_Goals_Made" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Field_Goals_Made" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Field_Goals_Attempted" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Field_Goals_Attempted" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Field_Goal_Percentage" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Field_Goal_Percentage" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Three_Point_Field_Goals_Made" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Three_Point_Field_Goals_Made" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Three_Point_Field_Goals_Attempted" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Three_Point_Field_Goals_Attempted" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Three_Point_Percentage" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Three_Point_Percentage" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Free_Throws_Made" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Free_Throws_Made" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Free_Throws_Attempted" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Free_Throws_Attempted" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Free_Throw_Percentage" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Free_Throw_Percentage" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Offensive_Rebounds" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Offensive_Rebounds" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Defensive_Rebounds" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Defensive_Rebounds" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Total_Rebounds" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Total_Rebounds" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Assists" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Assists" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Turnovers" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Turnovers" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Steals" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Steals" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Blocks" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Blocks" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Blocks_Against" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Blocks_Against" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Personal_Fouls" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Personal_Fouls" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Personal_Fouls_Drawn" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Personal_Fouls_Drawn" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Plus_Minus" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Plus_Minus" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select * from nbaSeasonStats
+</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Team" DataSetColumn="Team" />
+              <Mapping SourceColumn="Games_Played" DataSetColumn="Games_Played" />
+              <Mapping SourceColumn="Wins" DataSetColumn="Wins" />
+              <Mapping SourceColumn="Losses" DataSetColumn="Losses" />
+              <Mapping SourceColumn="Winning_Percentage" DataSetColumn="Winning_Percentage" />
+              <Mapping SourceColumn="Minutes_Per_Game" DataSetColumn="Minutes_Per_Game" />
+              <Mapping SourceColumn="Points_Per_Game" DataSetColumn="Points_Per_Game" />
+              <Mapping SourceColumn="Field_Goals_Made" DataSetColumn="Field_Goals_Made" />
+              <Mapping SourceColumn="Field_Goals_Attempted" DataSetColumn="Field_Goals_Attempted" />
+              <Mapping SourceColumn="Field_Goal_Percentage" DataSetColumn="Field_Goal_Percentage" />
+              <Mapping SourceColumn="Three_Point_Field_Goals_Made" DataSetColumn="Three_Point_Field_Goals_Made" />
+              <Mapping SourceColumn="Three_Point_Field_Goals_Attempted" DataSetColumn="Three_Point_Field_Goals_Attempted" />
+              <Mapping SourceColumn="Three_Point_Percentage" DataSetColumn="Three_Point_Percentage" />
+              <Mapping SourceColumn="Free_Throws_Made" DataSetColumn="Free_Throws_Made" />
+              <Mapping SourceColumn="Free_Throws_Attempted" DataSetColumn="Free_Throws_Attempted" />
+              <Mapping SourceColumn="Free_Throw_Percentage" DataSetColumn="Free_Throw_Percentage" />
+              <Mapping SourceColumn="Offensive_Rebounds" DataSetColumn="Offensive_Rebounds" />
+              <Mapping SourceColumn="Defensive_Rebounds" DataSetColumn="Defensive_Rebounds" />
+              <Mapping SourceColumn="Total_Rebounds" DataSetColumn="Total_Rebounds" />
+              <Mapping SourceColumn="Assists" DataSetColumn="Assists" />
+              <Mapping SourceColumn="Turnovers" DataSetColumn="Turnovers" />
+              <Mapping SourceColumn="Steals" DataSetColumn="Steals" />
+              <Mapping SourceColumn="Blocks" DataSetColumn="Blocks" />
+              <Mapping SourceColumn="Blocks_Against" DataSetColumn="Blocks_Against" />
+              <Mapping SourceColumn="Personal_Fouls" DataSetColumn="Personal_Fouls" />
+              <Mapping SourceColumn="Personal_Fouls_Drawn" DataSetColumn="Personal_Fouls_Drawn" />
+              <Mapping SourceColumn="Plus_Minus" DataSetColumn="Plus_Minus" />
+            </Mappings>
+            <Sources />
           </TableAdapter>
         </Tables>
         <Sources />
@@ -838,20 +915,65 @@ WHERE Email = @Email;</CommandText>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="CurrentUser" msprop:Generator_RowEvHandlerName="CurrentUserRowChangeEventHandler" msprop:Generator_RowDeletedName="CurrentUserRowDeleted" msprop:Generator_RowDeletingName="CurrentUserRowDeleting" msprop:Generator_RowEvArgName="CurrentUserRowChangeEvent" msprop:Generator_TablePropName="CurrentUser" msprop:Generator_RowChangedName="CurrentUserRowChanged" msprop:Generator_RowChangingName="CurrentUserRowChanging" msprop:Generator_TableClassName="CurrentUserDataTable" msprop:Generator_RowClassName="CurrentUserRow" msprop:Generator_TableVarName="tableCurrentUser" msprop:Generator_UserTableName="CurrentUser">
+        <xs:element name="CurrentUser" msprop:Generator_RowClassName="CurrentUserRow" msprop:Generator_RowEvHandlerName="CurrentUserRowChangeEventHandler" msprop:Generator_RowDeletedName="CurrentUserRowDeleted" msprop:Generator_RowDeletingName="CurrentUserRowDeleting" msprop:Generator_RowEvArgName="CurrentUserRowChangeEvent" msprop:Generator_TablePropName="CurrentUser" msprop:Generator_RowChangedName="CurrentUserRowChanged" msprop:Generator_UserTableName="CurrentUser" msprop:Generator_RowChangingName="CurrentUserRowChanging" msprop:Generator_TableClassName="CurrentUserDataTable" msprop:Generator_TableVarName="tableCurrentUser">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="CurrentUserID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnPropNameInRow="CurrentUserID" msprop:Generator_ColumnPropNameInTable="CurrentUserIDColumn" msprop:Generator_ColumnVarNameInTable="columnCurrentUserID" msprop:Generator_UserColumnName="CurrentUserID" type="xs:int" />
-              <xs:element name="UserID" msprop:Generator_ColumnPropNameInRow="UserID" msprop:Generator_ColumnPropNameInTable="UserIDColumn" msprop:Generator_ColumnVarNameInTable="columnUserID" msprop:Generator_UserColumnName="UserID" type="xs:int" />
-              <xs:element name="FirstName" msprop:Generator_ColumnPropNameInRow="FirstName" msprop:Generator_ColumnPropNameInTable="FirstNameColumn" msprop:Generator_ColumnVarNameInTable="columnFirstName" msprop:Generator_UserColumnName="FirstName">
+              <xs:element name="CurrentUserID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="CurrentUserID" msprop:Generator_ColumnPropNameInTable="CurrentUserIDColumn" msprop:Generator_ColumnPropNameInRow="CurrentUserID" msprop:Generator_ColumnVarNameInTable="columnCurrentUserID" type="xs:int" />
+              <xs:element name="UserID" msprop:Generator_UserColumnName="UserID" msprop:Generator_ColumnPropNameInTable="UserIDColumn" msprop:Generator_ColumnPropNameInRow="UserID" msprop:Generator_ColumnVarNameInTable="columnUserID" type="xs:int" />
+              <xs:element name="FirstName" msprop:Generator_UserColumnName="FirstName" msprop:Generator_ColumnPropNameInTable="FirstNameColumn" msprop:Generator_ColumnPropNameInRow="FirstName" msprop:Generator_ColumnVarNameInTable="columnFirstName">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="100" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="FavoriteNBATeamID" msprop:Generator_ColumnPropNameInRow="FavoriteNBATeamID" msprop:Generator_ColumnPropNameInTable="FavoriteNBATeamIDColumn" msprop:Generator_ColumnVarNameInTable="columnFavoriteNBATeamID" msprop:Generator_UserColumnName="FavoriteNBATeamID" type="xs:int" minOccurs="0" />
-              <xs:element name="FavoriteNFLTeamID" msprop:Generator_ColumnPropNameInRow="FavoriteNFLTeamID" msprop:Generator_ColumnPropNameInTable="FavoriteNFLTeamIDColumn" msprop:Generator_ColumnVarNameInTable="columnFavoriteNFLTeamID" msprop:Generator_UserColumnName="FavoriteNFLTeamID" type="xs:int" minOccurs="0" />
+              <xs:element name="FavoriteNBATeamID" msprop:Generator_UserColumnName="FavoriteNBATeamID" msprop:Generator_ColumnPropNameInTable="FavoriteNBATeamIDColumn" msprop:Generator_ColumnPropNameInRow="FavoriteNBATeamID" msprop:Generator_ColumnVarNameInTable="columnFavoriteNBATeamID" type="xs:int" minOccurs="0" />
+              <xs:element name="FavoriteNFLTeamID" msprop:Generator_UserColumnName="FavoriteNFLTeamID" msprop:Generator_ColumnPropNameInTable="FavoriteNFLTeamIDColumn" msprop:Generator_ColumnPropNameInRow="FavoriteNFLTeamID" msprop:Generator_ColumnVarNameInTable="columnFavoriteNFLTeamID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="nbaSeasonStats" msprop:Generator_RowEvHandlerName="nbaSeasonStatsRowChangeEventHandler" msprop:Generator_RowDeletedName="nbaSeasonStatsRowDeleted" msprop:Generator_RowDeletingName="nbaSeasonStatsRowDeleting" msprop:Generator_RowEvArgName="nbaSeasonStatsRowChangeEvent" msprop:Generator_TablePropName="nbaSeasonStats" msprop:Generator_RowChangedName="nbaSeasonStatsRowChanged" msprop:Generator_RowChangingName="nbaSeasonStatsRowChanging" msprop:Generator_TableClassName="nbaSeasonStatsDataTable" msprop:Generator_RowClassName="nbaSeasonStatsRow" msprop:Generator_TableVarName="tablenbaSeasonStats" msprop:Generator_UserTableName="nbaSeasonStats">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Team" msprop:Generator_ColumnPropNameInRow="Team" msprop:Generator_ColumnPropNameInTable="TeamColumn" msprop:Generator_ColumnVarNameInTable="columnTeam" msprop:Generator_UserColumnName="Team">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Games_Played" msprop:Generator_ColumnPropNameInRow="Games_Played" msprop:Generator_ColumnPropNameInTable="Games_PlayedColumn" msprop:Generator_ColumnVarNameInTable="columnGames_Played" msprop:Generator_UserColumnName="Games_Played" type="xs:unsignedByte" />
+              <xs:element name="Wins" msprop:Generator_ColumnPropNameInRow="Wins" msprop:Generator_ColumnPropNameInTable="WinsColumn" msprop:Generator_ColumnVarNameInTable="columnWins" msprop:Generator_UserColumnName="Wins" type="xs:unsignedByte" />
+              <xs:element name="Losses" msprop:Generator_ColumnPropNameInRow="Losses" msprop:Generator_ColumnPropNameInTable="LossesColumn" msprop:Generator_ColumnVarNameInTable="columnLosses" msprop:Generator_UserColumnName="Losses" type="xs:unsignedByte" />
+              <xs:element name="Winning_Percentage" msprop:Generator_ColumnPropNameInRow="Winning_Percentage" msprop:Generator_ColumnPropNameInTable="Winning_PercentageColumn" msprop:Generator_ColumnVarNameInTable="columnWinning_Percentage" msprop:Generator_UserColumnName="Winning_Percentage" type="xs:double" />
+              <xs:element name="Minutes_Per_Game" msprop:Generator_ColumnPropNameInRow="Minutes_Per_Game" msprop:Generator_ColumnPropNameInTable="Minutes_Per_GameColumn" msprop:Generator_ColumnVarNameInTable="columnMinutes_Per_Game" msprop:Generator_UserColumnName="Minutes_Per_Game" type="xs:double" />
+              <xs:element name="Points_Per_Game" msprop:Generator_ColumnPropNameInRow="Points_Per_Game" msprop:Generator_ColumnPropNameInTable="Points_Per_GameColumn" msprop:Generator_ColumnVarNameInTable="columnPoints_Per_Game" msprop:Generator_UserColumnName="Points_Per_Game" type="xs:double" />
+              <xs:element name="Field_Goals_Made" msprop:Generator_ColumnPropNameInRow="Field_Goals_Made" msprop:Generator_ColumnPropNameInTable="Field_Goals_MadeColumn" msprop:Generator_ColumnVarNameInTable="columnField_Goals_Made" msprop:Generator_UserColumnName="Field_Goals_Made" type="xs:double" />
+              <xs:element name="Field_Goals_Attempted" msprop:Generator_ColumnPropNameInRow="Field_Goals_Attempted" msprop:Generator_ColumnPropNameInTable="Field_Goals_AttemptedColumn" msprop:Generator_ColumnVarNameInTable="columnField_Goals_Attempted" msprop:Generator_UserColumnName="Field_Goals_Attempted" type="xs:double" />
+              <xs:element name="Field_Goal_Percentage" msprop:Generator_ColumnPropNameInRow="Field_Goal_Percentage" msprop:Generator_ColumnPropNameInTable="Field_Goal_PercentageColumn" msprop:Generator_ColumnVarNameInTable="columnField_Goal_Percentage" msprop:Generator_UserColumnName="Field_Goal_Percentage" type="xs:double" />
+              <xs:element name="Three_Point_Field_Goals_Made" msprop:Generator_ColumnPropNameInRow="Three_Point_Field_Goals_Made" msprop:Generator_ColumnPropNameInTable="Three_Point_Field_Goals_MadeColumn" msprop:Generator_ColumnVarNameInTable="columnThree_Point_Field_Goals_Made" msprop:Generator_UserColumnName="Three_Point_Field_Goals_Made" type="xs:double" />
+              <xs:element name="Three_Point_Field_Goals_Attempted" msprop:Generator_ColumnPropNameInRow="Three_Point_Field_Goals_Attempted" msprop:Generator_ColumnPropNameInTable="Three_Point_Field_Goals_AttemptedColumn" msprop:Generator_ColumnVarNameInTable="columnThree_Point_Field_Goals_Attempted" msprop:Generator_UserColumnName="Three_Point_Field_Goals_Attempted" type="xs:double" />
+              <xs:element name="Three_Point_Percentage" msprop:Generator_ColumnPropNameInRow="Three_Point_Percentage" msprop:Generator_ColumnPropNameInTable="Three_Point_PercentageColumn" msprop:Generator_ColumnVarNameInTable="columnThree_Point_Percentage" msprop:Generator_UserColumnName="Three_Point_Percentage" type="xs:double" />
+              <xs:element name="Free_Throws_Made" msprop:Generator_ColumnPropNameInRow="Free_Throws_Made" msprop:Generator_ColumnPropNameInTable="Free_Throws_MadeColumn" msprop:Generator_ColumnVarNameInTable="columnFree_Throws_Made" msprop:Generator_UserColumnName="Free_Throws_Made" type="xs:double" />
+              <xs:element name="Free_Throws_Attempted" msprop:Generator_ColumnPropNameInRow="Free_Throws_Attempted" msprop:Generator_ColumnPropNameInTable="Free_Throws_AttemptedColumn" msprop:Generator_ColumnVarNameInTable="columnFree_Throws_Attempted" msprop:Generator_UserColumnName="Free_Throws_Attempted" type="xs:double" />
+              <xs:element name="Free_Throw_Percentage" msprop:Generator_ColumnPropNameInRow="Free_Throw_Percentage" msprop:Generator_ColumnPropNameInTable="Free_Throw_PercentageColumn" msprop:Generator_ColumnVarNameInTable="columnFree_Throw_Percentage" msprop:Generator_UserColumnName="Free_Throw_Percentage" type="xs:double" />
+              <xs:element name="Offensive_Rebounds" msprop:Generator_ColumnPropNameInRow="Offensive_Rebounds" msprop:Generator_ColumnPropNameInTable="Offensive_ReboundsColumn" msprop:Generator_ColumnVarNameInTable="columnOffensive_Rebounds" msprop:Generator_UserColumnName="Offensive_Rebounds" type="xs:double" />
+              <xs:element name="Defensive_Rebounds" msprop:Generator_ColumnPropNameInRow="Defensive_Rebounds" msprop:Generator_ColumnPropNameInTable="Defensive_ReboundsColumn" msprop:Generator_ColumnVarNameInTable="columnDefensive_Rebounds" msprop:Generator_UserColumnName="Defensive_Rebounds" type="xs:double" />
+              <xs:element name="Total_Rebounds" msprop:Generator_ColumnPropNameInRow="Total_Rebounds" msprop:Generator_ColumnPropNameInTable="Total_ReboundsColumn" msprop:Generator_ColumnVarNameInTable="columnTotal_Rebounds" msprop:Generator_UserColumnName="Total_Rebounds" type="xs:double" />
+              <xs:element name="Assists" msprop:Generator_ColumnPropNameInRow="Assists" msprop:Generator_ColumnPropNameInTable="AssistsColumn" msprop:Generator_ColumnVarNameInTable="columnAssists" msprop:Generator_UserColumnName="Assists" type="xs:double" />
+              <xs:element name="Turnovers" msprop:Generator_ColumnPropNameInRow="Turnovers" msprop:Generator_ColumnPropNameInTable="TurnoversColumn" msprop:Generator_ColumnVarNameInTable="columnTurnovers" msprop:Generator_UserColumnName="Turnovers" type="xs:double" />
+              <xs:element name="Steals" msprop:Generator_ColumnPropNameInRow="Steals" msprop:Generator_ColumnPropNameInTable="StealsColumn" msprop:Generator_ColumnVarNameInTable="columnSteals" msprop:Generator_UserColumnName="Steals" type="xs:double" />
+              <xs:element name="Blocks" msprop:Generator_ColumnPropNameInRow="Blocks" msprop:Generator_ColumnPropNameInTable="BlocksColumn" msprop:Generator_ColumnVarNameInTable="columnBlocks" msprop:Generator_UserColumnName="Blocks" type="xs:double" />
+              <xs:element name="Blocks_Against" msprop:Generator_ColumnPropNameInRow="Blocks_Against" msprop:Generator_ColumnPropNameInTable="Blocks_AgainstColumn" msprop:Generator_ColumnVarNameInTable="columnBlocks_Against" msprop:Generator_UserColumnName="Blocks_Against" type="xs:double" />
+              <xs:element name="Personal_Fouls" msprop:Generator_ColumnPropNameInRow="Personal_Fouls" msprop:Generator_ColumnPropNameInTable="Personal_FoulsColumn" msprop:Generator_ColumnVarNameInTable="columnPersonal_Fouls" msprop:Generator_UserColumnName="Personal_Fouls" type="xs:double" />
+              <xs:element name="Personal_Fouls_Drawn" msprop:Generator_ColumnPropNameInRow="Personal_Fouls_Drawn" msprop:Generator_ColumnPropNameInTable="Personal_Fouls_DrawnColumn" msprop:Generator_ColumnVarNameInTable="columnPersonal_Fouls_Drawn" msprop:Generator_UserColumnName="Personal_Fouls_Drawn" type="xs:double" />
+              <xs:element name="Plus_Minus" msprop:Generator_ColumnPropNameInRow="Plus_Minus" msprop:Generator_ColumnPropNameInTable="Plus_MinusColumn" msprop:Generator_ColumnVarNameInTable="columnPlus_Minus" msprop:Generator_UserColumnName="Plus_Minus" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
@@ -876,11 +998,11 @@ WHERE Email = @Email;</CommandText>
   </xs:element>
   <xs:annotation>
     <xs:appinfo>
-      <msdata:Relationship name="FK_FavoriteNBATeam" msdata:parent="NBATeams" msdata:child="Users" msdata:parentkey="NBATeamID" msdata:childkey="FavoriteNBATeamID" msprop:Generator_UserParentTable="NBATeams" msprop:Generator_UserChildTable="Users" msprop:Generator_RelationVarName="relationFK_FavoriteNBATeam" msprop:Generator_ChildPropName="GetUsersRows" msprop:Generator_UserRelationName="FK_FavoriteNBATeam" msprop:Generator_ParentPropName="NBATeamsRow" />
-      <msdata:Relationship name="FK_FavoriteNFLTeam" msdata:parent="NFLTeams" msdata:child="Users" msdata:parentkey="NFLTeamID" msdata:childkey="FavoriteNFLTeamID" msprop:Generator_UserParentTable="NFLTeams" msprop:Generator_UserChildTable="Users" msprop:Generator_RelationVarName="relationFK_FavoriteNFLTeam" msprop:Generator_ChildPropName="GetUsersRows" msprop:Generator_UserRelationName="FK_FavoriteNFLTeam" msprop:Generator_ParentPropName="NFLTeamsRow" />
-      <msdata:Relationship name="FK_CurrentUser_NBATeams" msdata:parent="NBATeams" msdata:child="CurrentUser" msdata:parentkey="NBATeamID" msdata:childkey="FavoriteNBATeamID" msprop:Generator_UserParentTable="NBATeams" msprop:Generator_UserChildTable="CurrentUser" msprop:Generator_RelationVarName="relationFK_CurrentUser_NBATeams" msprop:Generator_ChildPropName="GetCurrentUserRows" msprop:Generator_ParentPropName="NBATeamsRow" msprop:Generator_UserRelationName="FK_CurrentUser_NBATeams" />
-      <msdata:Relationship name="FK_CurrentUser_NFLTeams" msdata:parent="NFLTeams" msdata:child="CurrentUser" msdata:parentkey="NFLTeamID" msdata:childkey="FavoriteNFLTeamID" msprop:Generator_UserParentTable="NFLTeams" msprop:Generator_UserChildTable="CurrentUser" msprop:Generator_RelationVarName="relationFK_CurrentUser_NFLTeams" msprop:Generator_ChildPropName="GetCurrentUserRows" msprop:Generator_ParentPropName="NFLTeamsRow" msprop:Generator_UserRelationName="FK_CurrentUser_NFLTeams" />
-      <msdata:Relationship name="FK_CurrentUser_Users" msdata:parent="Users" msdata:child="CurrentUser" msdata:parentkey="UserID" msdata:childkey="UserID" msprop:Generator_UserParentTable="Users" msprop:Generator_UserChildTable="CurrentUser" msprop:Generator_RelationVarName="relationFK_CurrentUser_Users" msprop:Generator_ChildPropName="GetCurrentUserRows" msprop:Generator_ParentPropName="UsersRow" msprop:Generator_UserRelationName="FK_CurrentUser_Users" />
+      <msdata:Relationship name="FK_FavoriteNBATeam" msdata:parent="NBATeams" msdata:child="Users" msdata:parentkey="NBATeamID" msdata:childkey="FavoriteNBATeamID" msprop:Generator_UserParentTable="NBATeams" msprop:Generator_UserChildTable="Users" msprop:Generator_RelationVarName="relationFK_FavoriteNBATeam" msprop:Generator_ChildPropName="GetUsersRows" msprop:Generator_ParentPropName="NBATeamsRow" msprop:Generator_UserRelationName="FK_FavoriteNBATeam" />
+      <msdata:Relationship name="FK_FavoriteNFLTeam" msdata:parent="NFLTeams" msdata:child="Users" msdata:parentkey="NFLTeamID" msdata:childkey="FavoriteNFLTeamID" msprop:Generator_UserParentTable="NFLTeams" msprop:Generator_UserChildTable="Users" msprop:Generator_RelationVarName="relationFK_FavoriteNFLTeam" msprop:Generator_ChildPropName="GetUsersRows" msprop:Generator_ParentPropName="NFLTeamsRow" msprop:Generator_UserRelationName="FK_FavoriteNFLTeam" />
+      <msdata:Relationship name="FK_CurrentUser_NBATeams" msdata:parent="NBATeams" msdata:child="CurrentUser" msdata:parentkey="NBATeamID" msdata:childkey="FavoriteNBATeamID" msprop:Generator_UserParentTable="NBATeams" msprop:Generator_UserChildTable="CurrentUser" msprop:Generator_RelationVarName="relationFK_CurrentUser_NBATeams" msprop:Generator_ChildPropName="GetCurrentUserRows" msprop:Generator_UserRelationName="FK_CurrentUser_NBATeams" msprop:Generator_ParentPropName="NBATeamsRow" />
+      <msdata:Relationship name="FK_CurrentUser_NFLTeams" msdata:parent="NFLTeams" msdata:child="CurrentUser" msdata:parentkey="NFLTeamID" msdata:childkey="FavoriteNFLTeamID" msprop:Generator_UserParentTable="NFLTeams" msprop:Generator_UserChildTable="CurrentUser" msprop:Generator_RelationVarName="relationFK_CurrentUser_NFLTeams" msprop:Generator_ChildPropName="GetCurrentUserRows" msprop:Generator_UserRelationName="FK_CurrentUser_NFLTeams" msprop:Generator_ParentPropName="NFLTeamsRow" />
+      <msdata:Relationship name="FK_CurrentUser_Users" msdata:parent="Users" msdata:child="CurrentUser" msdata:parentkey="UserID" msdata:childkey="UserID" msprop:Generator_UserParentTable="Users" msprop:Generator_UserChildTable="CurrentUser" msprop:Generator_RelationVarName="relationFK_CurrentUser_Users" msprop:Generator_ChildPropName="GetCurrentUserRows" msprop:Generator_UserRelationName="FK_CurrentUser_Users" msprop:Generator_ParentPropName="UsersRow" />
     </xs:appinfo>
   </xs:annotation>
 </xs:schema>

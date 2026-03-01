@@ -40,6 +40,8 @@ namespace sportsApp {
         
         private CurrentUserDataTable tableCurrentUser;
         
+        private nbaSeasonStatsDataTable tablenbaSeasonStats;
+        
         private global::System.Data.DataRelation relationFK_FavoriteNBATeam;
         
         private global::System.Data.DataRelation relationFK_FavoriteNFLTeam;
@@ -101,6 +103,9 @@ namespace sportsApp {
                 }
                 if ((ds.Tables["CurrentUser"] != null)) {
                     base.Tables.Add(new CurrentUserDataTable(ds.Tables["CurrentUser"]));
+                }
+                if ((ds.Tables["nbaSeasonStats"] != null)) {
+                    base.Tables.Add(new nbaSeasonStatsDataTable(ds.Tables["nbaSeasonStats"]));
                 }
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
@@ -202,6 +207,16 @@ namespace sportsApp {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+        [global::System.ComponentModel.Browsable(false)]
+        [global::System.ComponentModel.DesignerSerializationVisibility(global::System.ComponentModel.DesignerSerializationVisibility.Content)]
+        public nbaSeasonStatsDataTable nbaSeasonStats {
+            get {
+                return this.tablenbaSeasonStats;
+            }
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
         [global::System.ComponentModel.BrowsableAttribute(true)]
         [global::System.ComponentModel.DesignerSerializationVisibilityAttribute(global::System.ComponentModel.DesignerSerializationVisibility.Visible)]
         public override global::System.Data.SchemaSerializationMode SchemaSerializationMode {
@@ -291,6 +306,9 @@ namespace sportsApp {
                 if ((ds.Tables["CurrentUser"] != null)) {
                     base.Tables.Add(new CurrentUserDataTable(ds.Tables["CurrentUser"]));
                 }
+                if ((ds.Tables["nbaSeasonStats"] != null)) {
+                    base.Tables.Add(new nbaSeasonStatsDataTable(ds.Tables["nbaSeasonStats"]));
+                }
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
                 this.Namespace = ds.Namespace;
@@ -372,6 +390,12 @@ namespace sportsApp {
                     this.tableCurrentUser.InitVars();
                 }
             }
+            this.tablenbaSeasonStats = ((nbaSeasonStatsDataTable)(base.Tables["nbaSeasonStats"]));
+            if ((initTable == true)) {
+                if ((this.tablenbaSeasonStats != null)) {
+                    this.tablenbaSeasonStats.InitVars();
+                }
+            }
             this.relationFK_FavoriteNBATeam = this.Relations["FK_FavoriteNBATeam"];
             this.relationFK_FavoriteNFLTeam = this.Relations["FK_FavoriteNFLTeam"];
             this.relationFK_CurrentUser_NBATeams = this.Relations["FK_CurrentUser_NBATeams"];
@@ -403,6 +427,8 @@ namespace sportsApp {
             base.Tables.Add(this.tablenfl_PlayersCurrent);
             this.tableCurrentUser = new CurrentUserDataTable();
             base.Tables.Add(this.tableCurrentUser);
+            this.tablenbaSeasonStats = new nbaSeasonStatsDataTable();
+            base.Tables.Add(this.tablenbaSeasonStats);
             this.relationFK_FavoriteNBATeam = new global::System.Data.DataRelation("FK_FavoriteNBATeam", new global::System.Data.DataColumn[] {
                         this.tableNBATeams.NBATeamIDColumn}, new global::System.Data.DataColumn[] {
                         this.tableUsers.FavoriteNBATeamIDColumn}, false);
@@ -470,6 +496,12 @@ namespace sportsApp {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
         private bool ShouldSerializeCurrentUser() {
+            return false;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+        private bool ShouldSerializenbaSeasonStats() {
             return false;
         }
         
@@ -551,6 +583,9 @@ namespace sportsApp {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
         public delegate void CurrentUserRowChangeEventHandler(object sender, CurrentUserRowChangeEvent e);
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+        public delegate void nbaSeasonStatsRowChangeEventHandler(object sender, nbaSeasonStatsRowChangeEvent e);
         
         /// <summary>
         ///Represents the strongly named DataTable class.
@@ -3453,6 +3488,672 @@ namespace sportsApp {
         }
         
         /// <summary>
+        ///Represents the strongly named DataTable class.
+        ///</summary>
+        [global::System.Serializable()]
+        [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
+        public partial class nbaSeasonStatsDataTable : global::System.Data.TypedTableBase<nbaSeasonStatsRow> {
+            
+            private global::System.Data.DataColumn columnTeam;
+            
+            private global::System.Data.DataColumn columnGames_Played;
+            
+            private global::System.Data.DataColumn columnWins;
+            
+            private global::System.Data.DataColumn columnLosses;
+            
+            private global::System.Data.DataColumn columnWinning_Percentage;
+            
+            private global::System.Data.DataColumn columnMinutes_Per_Game;
+            
+            private global::System.Data.DataColumn columnPoints_Per_Game;
+            
+            private global::System.Data.DataColumn columnField_Goals_Made;
+            
+            private global::System.Data.DataColumn columnField_Goals_Attempted;
+            
+            private global::System.Data.DataColumn columnField_Goal_Percentage;
+            
+            private global::System.Data.DataColumn columnThree_Point_Field_Goals_Made;
+            
+            private global::System.Data.DataColumn columnThree_Point_Field_Goals_Attempted;
+            
+            private global::System.Data.DataColumn columnThree_Point_Percentage;
+            
+            private global::System.Data.DataColumn columnFree_Throws_Made;
+            
+            private global::System.Data.DataColumn columnFree_Throws_Attempted;
+            
+            private global::System.Data.DataColumn columnFree_Throw_Percentage;
+            
+            private global::System.Data.DataColumn columnOffensive_Rebounds;
+            
+            private global::System.Data.DataColumn columnDefensive_Rebounds;
+            
+            private global::System.Data.DataColumn columnTotal_Rebounds;
+            
+            private global::System.Data.DataColumn columnAssists;
+            
+            private global::System.Data.DataColumn columnTurnovers;
+            
+            private global::System.Data.DataColumn columnSteals;
+            
+            private global::System.Data.DataColumn columnBlocks;
+            
+            private global::System.Data.DataColumn columnBlocks_Against;
+            
+            private global::System.Data.DataColumn columnPersonal_Fouls;
+            
+            private global::System.Data.DataColumn columnPersonal_Fouls_Drawn;
+            
+            private global::System.Data.DataColumn columnPlus_Minus;
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public nbaSeasonStatsDataTable() {
+                this.TableName = "nbaSeasonStats";
+                this.BeginInit();
+                this.InitClass();
+                this.EndInit();
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            internal nbaSeasonStatsDataTable(global::System.Data.DataTable table) {
+                this.TableName = table.TableName;
+                if ((table.CaseSensitive != table.DataSet.CaseSensitive)) {
+                    this.CaseSensitive = table.CaseSensitive;
+                }
+                if ((table.Locale.ToString() != table.DataSet.Locale.ToString())) {
+                    this.Locale = table.Locale;
+                }
+                if ((table.Namespace != table.DataSet.Namespace)) {
+                    this.Namespace = table.Namespace;
+                }
+                this.Prefix = table.Prefix;
+                this.MinimumCapacity = table.MinimumCapacity;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            protected nbaSeasonStatsDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+                    base(info, context) {
+                this.InitVars();
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn TeamColumn {
+                get {
+                    return this.columnTeam;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn Games_PlayedColumn {
+                get {
+                    return this.columnGames_Played;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn WinsColumn {
+                get {
+                    return this.columnWins;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn LossesColumn {
+                get {
+                    return this.columnLosses;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn Winning_PercentageColumn {
+                get {
+                    return this.columnWinning_Percentage;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn Minutes_Per_GameColumn {
+                get {
+                    return this.columnMinutes_Per_Game;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn Points_Per_GameColumn {
+                get {
+                    return this.columnPoints_Per_Game;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn Field_Goals_MadeColumn {
+                get {
+                    return this.columnField_Goals_Made;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn Field_Goals_AttemptedColumn {
+                get {
+                    return this.columnField_Goals_Attempted;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn Field_Goal_PercentageColumn {
+                get {
+                    return this.columnField_Goal_Percentage;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn Three_Point_Field_Goals_MadeColumn {
+                get {
+                    return this.columnThree_Point_Field_Goals_Made;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn Three_Point_Field_Goals_AttemptedColumn {
+                get {
+                    return this.columnThree_Point_Field_Goals_Attempted;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn Three_Point_PercentageColumn {
+                get {
+                    return this.columnThree_Point_Percentage;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn Free_Throws_MadeColumn {
+                get {
+                    return this.columnFree_Throws_Made;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn Free_Throws_AttemptedColumn {
+                get {
+                    return this.columnFree_Throws_Attempted;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn Free_Throw_PercentageColumn {
+                get {
+                    return this.columnFree_Throw_Percentage;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn Offensive_ReboundsColumn {
+                get {
+                    return this.columnOffensive_Rebounds;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn Defensive_ReboundsColumn {
+                get {
+                    return this.columnDefensive_Rebounds;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn Total_ReboundsColumn {
+                get {
+                    return this.columnTotal_Rebounds;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn AssistsColumn {
+                get {
+                    return this.columnAssists;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn TurnoversColumn {
+                get {
+                    return this.columnTurnovers;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn StealsColumn {
+                get {
+                    return this.columnSteals;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn BlocksColumn {
+                get {
+                    return this.columnBlocks;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn Blocks_AgainstColumn {
+                get {
+                    return this.columnBlocks_Against;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn Personal_FoulsColumn {
+                get {
+                    return this.columnPersonal_Fouls;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn Personal_Fouls_DrawnColumn {
+                get {
+                    return this.columnPersonal_Fouls_Drawn;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataColumn Plus_MinusColumn {
+                get {
+                    return this.columnPlus_Minus;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            [global::System.ComponentModel.Browsable(false)]
+            public int Count {
+                get {
+                    return this.Rows.Count;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public nbaSeasonStatsRow this[int index] {
+                get {
+                    return ((nbaSeasonStatsRow)(this.Rows[index]));
+                }
+            }
+            
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public event nbaSeasonStatsRowChangeEventHandler nbaSeasonStatsRowChanging;
+            
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public event nbaSeasonStatsRowChangeEventHandler nbaSeasonStatsRowChanged;
+            
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public event nbaSeasonStatsRowChangeEventHandler nbaSeasonStatsRowDeleting;
+            
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public event nbaSeasonStatsRowChangeEventHandler nbaSeasonStatsRowDeleted;
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public void AddnbaSeasonStatsRow(nbaSeasonStatsRow row) {
+                this.Rows.Add(row);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public nbaSeasonStatsRow AddnbaSeasonStatsRow(
+                        string Team, 
+                        byte Games_Played, 
+                        byte Wins, 
+                        byte Losses, 
+                        double Winning_Percentage, 
+                        double Minutes_Per_Game, 
+                        double Points_Per_Game, 
+                        double Field_Goals_Made, 
+                        double Field_Goals_Attempted, 
+                        double Field_Goal_Percentage, 
+                        double Three_Point_Field_Goals_Made, 
+                        double Three_Point_Field_Goals_Attempted, 
+                        double Three_Point_Percentage, 
+                        double Free_Throws_Made, 
+                        double Free_Throws_Attempted, 
+                        double Free_Throw_Percentage, 
+                        double Offensive_Rebounds, 
+                        double Defensive_Rebounds, 
+                        double Total_Rebounds, 
+                        double Assists, 
+                        double Turnovers, 
+                        double Steals, 
+                        double Blocks, 
+                        double Blocks_Against, 
+                        double Personal_Fouls, 
+                        double Personal_Fouls_Drawn, 
+                        string Plus_Minus) {
+                nbaSeasonStatsRow rownbaSeasonStatsRow = ((nbaSeasonStatsRow)(this.NewRow()));
+                object[] columnValuesArray = new object[] {
+                        Team,
+                        Games_Played,
+                        Wins,
+                        Losses,
+                        Winning_Percentage,
+                        Minutes_Per_Game,
+                        Points_Per_Game,
+                        Field_Goals_Made,
+                        Field_Goals_Attempted,
+                        Field_Goal_Percentage,
+                        Three_Point_Field_Goals_Made,
+                        Three_Point_Field_Goals_Attempted,
+                        Three_Point_Percentage,
+                        Free_Throws_Made,
+                        Free_Throws_Attempted,
+                        Free_Throw_Percentage,
+                        Offensive_Rebounds,
+                        Defensive_Rebounds,
+                        Total_Rebounds,
+                        Assists,
+                        Turnovers,
+                        Steals,
+                        Blocks,
+                        Blocks_Against,
+                        Personal_Fouls,
+                        Personal_Fouls_Drawn,
+                        Plus_Minus};
+                rownbaSeasonStatsRow.ItemArray = columnValuesArray;
+                this.Rows.Add(rownbaSeasonStatsRow);
+                return rownbaSeasonStatsRow;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public override global::System.Data.DataTable Clone() {
+                nbaSeasonStatsDataTable cln = ((nbaSeasonStatsDataTable)(base.Clone()));
+                cln.InitVars();
+                return cln;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            protected override global::System.Data.DataTable CreateInstance() {
+                return new nbaSeasonStatsDataTable();
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            internal void InitVars() {
+                this.columnTeam = base.Columns["Team"];
+                this.columnGames_Played = base.Columns["Games_Played"];
+                this.columnWins = base.Columns["Wins"];
+                this.columnLosses = base.Columns["Losses"];
+                this.columnWinning_Percentage = base.Columns["Winning_Percentage"];
+                this.columnMinutes_Per_Game = base.Columns["Minutes_Per_Game"];
+                this.columnPoints_Per_Game = base.Columns["Points_Per_Game"];
+                this.columnField_Goals_Made = base.Columns["Field_Goals_Made"];
+                this.columnField_Goals_Attempted = base.Columns["Field_Goals_Attempted"];
+                this.columnField_Goal_Percentage = base.Columns["Field_Goal_Percentage"];
+                this.columnThree_Point_Field_Goals_Made = base.Columns["Three_Point_Field_Goals_Made"];
+                this.columnThree_Point_Field_Goals_Attempted = base.Columns["Three_Point_Field_Goals_Attempted"];
+                this.columnThree_Point_Percentage = base.Columns["Three_Point_Percentage"];
+                this.columnFree_Throws_Made = base.Columns["Free_Throws_Made"];
+                this.columnFree_Throws_Attempted = base.Columns["Free_Throws_Attempted"];
+                this.columnFree_Throw_Percentage = base.Columns["Free_Throw_Percentage"];
+                this.columnOffensive_Rebounds = base.Columns["Offensive_Rebounds"];
+                this.columnDefensive_Rebounds = base.Columns["Defensive_Rebounds"];
+                this.columnTotal_Rebounds = base.Columns["Total_Rebounds"];
+                this.columnAssists = base.Columns["Assists"];
+                this.columnTurnovers = base.Columns["Turnovers"];
+                this.columnSteals = base.Columns["Steals"];
+                this.columnBlocks = base.Columns["Blocks"];
+                this.columnBlocks_Against = base.Columns["Blocks_Against"];
+                this.columnPersonal_Fouls = base.Columns["Personal_Fouls"];
+                this.columnPersonal_Fouls_Drawn = base.Columns["Personal_Fouls_Drawn"];
+                this.columnPlus_Minus = base.Columns["Plus_Minus"];
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            private void InitClass() {
+                this.columnTeam = new global::System.Data.DataColumn("Team", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnTeam);
+                this.columnGames_Played = new global::System.Data.DataColumn("Games_Played", typeof(byte), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnGames_Played);
+                this.columnWins = new global::System.Data.DataColumn("Wins", typeof(byte), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnWins);
+                this.columnLosses = new global::System.Data.DataColumn("Losses", typeof(byte), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnLosses);
+                this.columnWinning_Percentage = new global::System.Data.DataColumn("Winning_Percentage", typeof(double), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnWinning_Percentage);
+                this.columnMinutes_Per_Game = new global::System.Data.DataColumn("Minutes_Per_Game", typeof(double), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnMinutes_Per_Game);
+                this.columnPoints_Per_Game = new global::System.Data.DataColumn("Points_Per_Game", typeof(double), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnPoints_Per_Game);
+                this.columnField_Goals_Made = new global::System.Data.DataColumn("Field_Goals_Made", typeof(double), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnField_Goals_Made);
+                this.columnField_Goals_Attempted = new global::System.Data.DataColumn("Field_Goals_Attempted", typeof(double), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnField_Goals_Attempted);
+                this.columnField_Goal_Percentage = new global::System.Data.DataColumn("Field_Goal_Percentage", typeof(double), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnField_Goal_Percentage);
+                this.columnThree_Point_Field_Goals_Made = new global::System.Data.DataColumn("Three_Point_Field_Goals_Made", typeof(double), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnThree_Point_Field_Goals_Made);
+                this.columnThree_Point_Field_Goals_Attempted = new global::System.Data.DataColumn("Three_Point_Field_Goals_Attempted", typeof(double), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnThree_Point_Field_Goals_Attempted);
+                this.columnThree_Point_Percentage = new global::System.Data.DataColumn("Three_Point_Percentage", typeof(double), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnThree_Point_Percentage);
+                this.columnFree_Throws_Made = new global::System.Data.DataColumn("Free_Throws_Made", typeof(double), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnFree_Throws_Made);
+                this.columnFree_Throws_Attempted = new global::System.Data.DataColumn("Free_Throws_Attempted", typeof(double), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnFree_Throws_Attempted);
+                this.columnFree_Throw_Percentage = new global::System.Data.DataColumn("Free_Throw_Percentage", typeof(double), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnFree_Throw_Percentage);
+                this.columnOffensive_Rebounds = new global::System.Data.DataColumn("Offensive_Rebounds", typeof(double), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnOffensive_Rebounds);
+                this.columnDefensive_Rebounds = new global::System.Data.DataColumn("Defensive_Rebounds", typeof(double), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnDefensive_Rebounds);
+                this.columnTotal_Rebounds = new global::System.Data.DataColumn("Total_Rebounds", typeof(double), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnTotal_Rebounds);
+                this.columnAssists = new global::System.Data.DataColumn("Assists", typeof(double), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnAssists);
+                this.columnTurnovers = new global::System.Data.DataColumn("Turnovers", typeof(double), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnTurnovers);
+                this.columnSteals = new global::System.Data.DataColumn("Steals", typeof(double), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnSteals);
+                this.columnBlocks = new global::System.Data.DataColumn("Blocks", typeof(double), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnBlocks);
+                this.columnBlocks_Against = new global::System.Data.DataColumn("Blocks_Against", typeof(double), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnBlocks_Against);
+                this.columnPersonal_Fouls = new global::System.Data.DataColumn("Personal_Fouls", typeof(double), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnPersonal_Fouls);
+                this.columnPersonal_Fouls_Drawn = new global::System.Data.DataColumn("Personal_Fouls_Drawn", typeof(double), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnPersonal_Fouls_Drawn);
+                this.columnPlus_Minus = new global::System.Data.DataColumn("Plus_Minus", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnPlus_Minus);
+                this.columnTeam.AllowDBNull = false;
+                this.columnTeam.MaxLength = 50;
+                this.columnGames_Played.AllowDBNull = false;
+                this.columnWins.AllowDBNull = false;
+                this.columnLosses.AllowDBNull = false;
+                this.columnWinning_Percentage.AllowDBNull = false;
+                this.columnMinutes_Per_Game.AllowDBNull = false;
+                this.columnPoints_Per_Game.AllowDBNull = false;
+                this.columnField_Goals_Made.AllowDBNull = false;
+                this.columnField_Goals_Attempted.AllowDBNull = false;
+                this.columnField_Goal_Percentage.AllowDBNull = false;
+                this.columnThree_Point_Field_Goals_Made.AllowDBNull = false;
+                this.columnThree_Point_Field_Goals_Attempted.AllowDBNull = false;
+                this.columnThree_Point_Percentage.AllowDBNull = false;
+                this.columnFree_Throws_Made.AllowDBNull = false;
+                this.columnFree_Throws_Attempted.AllowDBNull = false;
+                this.columnFree_Throw_Percentage.AllowDBNull = false;
+                this.columnOffensive_Rebounds.AllowDBNull = false;
+                this.columnDefensive_Rebounds.AllowDBNull = false;
+                this.columnTotal_Rebounds.AllowDBNull = false;
+                this.columnAssists.AllowDBNull = false;
+                this.columnTurnovers.AllowDBNull = false;
+                this.columnSteals.AllowDBNull = false;
+                this.columnBlocks.AllowDBNull = false;
+                this.columnBlocks_Against.AllowDBNull = false;
+                this.columnPersonal_Fouls.AllowDBNull = false;
+                this.columnPersonal_Fouls_Drawn.AllowDBNull = false;
+                this.columnPlus_Minus.MaxLength = 1;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public nbaSeasonStatsRow NewnbaSeasonStatsRow() {
+                return ((nbaSeasonStatsRow)(this.NewRow()));
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            protected override global::System.Data.DataRow NewRowFromBuilder(global::System.Data.DataRowBuilder builder) {
+                return new nbaSeasonStatsRow(builder);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            protected override global::System.Type GetRowType() {
+                return typeof(nbaSeasonStatsRow);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            protected override void OnRowChanged(global::System.Data.DataRowChangeEventArgs e) {
+                base.OnRowChanged(e);
+                if ((this.nbaSeasonStatsRowChanged != null)) {
+                    this.nbaSeasonStatsRowChanged(this, new nbaSeasonStatsRowChangeEvent(((nbaSeasonStatsRow)(e.Row)), e.Action));
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            protected override void OnRowChanging(global::System.Data.DataRowChangeEventArgs e) {
+                base.OnRowChanging(e);
+                if ((this.nbaSeasonStatsRowChanging != null)) {
+                    this.nbaSeasonStatsRowChanging(this, new nbaSeasonStatsRowChangeEvent(((nbaSeasonStatsRow)(e.Row)), e.Action));
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            protected override void OnRowDeleted(global::System.Data.DataRowChangeEventArgs e) {
+                base.OnRowDeleted(e);
+                if ((this.nbaSeasonStatsRowDeleted != null)) {
+                    this.nbaSeasonStatsRowDeleted(this, new nbaSeasonStatsRowChangeEvent(((nbaSeasonStatsRow)(e.Row)), e.Action));
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            protected override void OnRowDeleting(global::System.Data.DataRowChangeEventArgs e) {
+                base.OnRowDeleting(e);
+                if ((this.nbaSeasonStatsRowDeleting != null)) {
+                    this.nbaSeasonStatsRowDeleting(this, new nbaSeasonStatsRowChangeEvent(((nbaSeasonStatsRow)(e.Row)), e.Action));
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public void RemovenbaSeasonStatsRow(nbaSeasonStatsRow row) {
+                this.Rows.Remove(row);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
+                global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
+                global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
+                SportInfoDataSet ds = new SportInfoDataSet();
+                global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
+                any1.Namespace = "http://www.w3.org/2001/XMLSchema";
+                any1.MinOccurs = new decimal(0);
+                any1.MaxOccurs = decimal.MaxValue;
+                any1.ProcessContents = global::System.Xml.Schema.XmlSchemaContentProcessing.Lax;
+                sequence.Items.Add(any1);
+                global::System.Xml.Schema.XmlSchemaAny any2 = new global::System.Xml.Schema.XmlSchemaAny();
+                any2.Namespace = "urn:schemas-microsoft-com:xml-diffgram-v1";
+                any2.MinOccurs = new decimal(1);
+                any2.ProcessContents = global::System.Xml.Schema.XmlSchemaContentProcessing.Lax;
+                sequence.Items.Add(any2);
+                global::System.Xml.Schema.XmlSchemaAttribute attribute1 = new global::System.Xml.Schema.XmlSchemaAttribute();
+                attribute1.Name = "namespace";
+                attribute1.FixedValue = ds.Namespace;
+                type.Attributes.Add(attribute1);
+                global::System.Xml.Schema.XmlSchemaAttribute attribute2 = new global::System.Xml.Schema.XmlSchemaAttribute();
+                attribute2.Name = "tableTypeName";
+                attribute2.FixedValue = "nbaSeasonStatsDataTable";
+                type.Attributes.Add(attribute2);
+                type.Particle = sequence;
+                global::System.Xml.Schema.XmlSchema dsSchema = ds.GetSchemaSerializable();
+                if (xs.Contains(dsSchema.TargetNamespace)) {
+                    global::System.IO.MemoryStream s1 = new global::System.IO.MemoryStream();
+                    global::System.IO.MemoryStream s2 = new global::System.IO.MemoryStream();
+                    try {
+                        global::System.Xml.Schema.XmlSchema schema = null;
+                        dsSchema.Write(s1);
+                        for (global::System.Collections.IEnumerator schemas = xs.Schemas(dsSchema.TargetNamespace).GetEnumerator(); schemas.MoveNext(); ) {
+                            schema = ((global::System.Xml.Schema.XmlSchema)(schemas.Current));
+                            s2.SetLength(0);
+                            schema.Write(s2);
+                            if ((s1.Length == s2.Length)) {
+                                s1.Position = 0;
+                                s2.Position = 0;
+                                for (; ((s1.Position != s1.Length) 
+                                            && (s1.ReadByte() == s2.ReadByte())); ) {
+                                    ;
+                                }
+                                if ((s1.Position == s1.Length)) {
+                                    return type;
+                                }
+                            }
+                        }
+                    }
+                    finally {
+                        if ((s1 != null)) {
+                            s1.Close();
+                        }
+                        if ((s2 != null)) {
+                            s2.Close();
+                        }
+                    }
+                }
+                xs.Add(dsSchema);
+                return type;
+            }
+        }
+        
+        /// <summary>
         ///Represents strongly named DataRow class.
         ///</summary>
         public partial class NBATeamsRow : global::System.Data.DataRow {
@@ -4614,6 +5315,335 @@ namespace sportsApp {
         }
         
         /// <summary>
+        ///Represents strongly named DataRow class.
+        ///</summary>
+        public partial class nbaSeasonStatsRow : global::System.Data.DataRow {
+            
+            private nbaSeasonStatsDataTable tablenbaSeasonStats;
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            internal nbaSeasonStatsRow(global::System.Data.DataRowBuilder rb) : 
+                    base(rb) {
+                this.tablenbaSeasonStats = ((nbaSeasonStatsDataTable)(this.Table));
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public string Team {
+                get {
+                    return ((string)(this[this.tablenbaSeasonStats.TeamColumn]));
+                }
+                set {
+                    this[this.tablenbaSeasonStats.TeamColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public byte Games_Played {
+                get {
+                    return ((byte)(this[this.tablenbaSeasonStats.Games_PlayedColumn]));
+                }
+                set {
+                    this[this.tablenbaSeasonStats.Games_PlayedColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public byte Wins {
+                get {
+                    return ((byte)(this[this.tablenbaSeasonStats.WinsColumn]));
+                }
+                set {
+                    this[this.tablenbaSeasonStats.WinsColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public byte Losses {
+                get {
+                    return ((byte)(this[this.tablenbaSeasonStats.LossesColumn]));
+                }
+                set {
+                    this[this.tablenbaSeasonStats.LossesColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public double Winning_Percentage {
+                get {
+                    return ((double)(this[this.tablenbaSeasonStats.Winning_PercentageColumn]));
+                }
+                set {
+                    this[this.tablenbaSeasonStats.Winning_PercentageColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public double Minutes_Per_Game {
+                get {
+                    return ((double)(this[this.tablenbaSeasonStats.Minutes_Per_GameColumn]));
+                }
+                set {
+                    this[this.tablenbaSeasonStats.Minutes_Per_GameColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public double Points_Per_Game {
+                get {
+                    return ((double)(this[this.tablenbaSeasonStats.Points_Per_GameColumn]));
+                }
+                set {
+                    this[this.tablenbaSeasonStats.Points_Per_GameColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public double Field_Goals_Made {
+                get {
+                    return ((double)(this[this.tablenbaSeasonStats.Field_Goals_MadeColumn]));
+                }
+                set {
+                    this[this.tablenbaSeasonStats.Field_Goals_MadeColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public double Field_Goals_Attempted {
+                get {
+                    return ((double)(this[this.tablenbaSeasonStats.Field_Goals_AttemptedColumn]));
+                }
+                set {
+                    this[this.tablenbaSeasonStats.Field_Goals_AttemptedColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public double Field_Goal_Percentage {
+                get {
+                    return ((double)(this[this.tablenbaSeasonStats.Field_Goal_PercentageColumn]));
+                }
+                set {
+                    this[this.tablenbaSeasonStats.Field_Goal_PercentageColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public double Three_Point_Field_Goals_Made {
+                get {
+                    return ((double)(this[this.tablenbaSeasonStats.Three_Point_Field_Goals_MadeColumn]));
+                }
+                set {
+                    this[this.tablenbaSeasonStats.Three_Point_Field_Goals_MadeColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public double Three_Point_Field_Goals_Attempted {
+                get {
+                    return ((double)(this[this.tablenbaSeasonStats.Three_Point_Field_Goals_AttemptedColumn]));
+                }
+                set {
+                    this[this.tablenbaSeasonStats.Three_Point_Field_Goals_AttemptedColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public double Three_Point_Percentage {
+                get {
+                    return ((double)(this[this.tablenbaSeasonStats.Three_Point_PercentageColumn]));
+                }
+                set {
+                    this[this.tablenbaSeasonStats.Three_Point_PercentageColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public double Free_Throws_Made {
+                get {
+                    return ((double)(this[this.tablenbaSeasonStats.Free_Throws_MadeColumn]));
+                }
+                set {
+                    this[this.tablenbaSeasonStats.Free_Throws_MadeColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public double Free_Throws_Attempted {
+                get {
+                    return ((double)(this[this.tablenbaSeasonStats.Free_Throws_AttemptedColumn]));
+                }
+                set {
+                    this[this.tablenbaSeasonStats.Free_Throws_AttemptedColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public double Free_Throw_Percentage {
+                get {
+                    return ((double)(this[this.tablenbaSeasonStats.Free_Throw_PercentageColumn]));
+                }
+                set {
+                    this[this.tablenbaSeasonStats.Free_Throw_PercentageColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public double Offensive_Rebounds {
+                get {
+                    return ((double)(this[this.tablenbaSeasonStats.Offensive_ReboundsColumn]));
+                }
+                set {
+                    this[this.tablenbaSeasonStats.Offensive_ReboundsColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public double Defensive_Rebounds {
+                get {
+                    return ((double)(this[this.tablenbaSeasonStats.Defensive_ReboundsColumn]));
+                }
+                set {
+                    this[this.tablenbaSeasonStats.Defensive_ReboundsColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public double Total_Rebounds {
+                get {
+                    return ((double)(this[this.tablenbaSeasonStats.Total_ReboundsColumn]));
+                }
+                set {
+                    this[this.tablenbaSeasonStats.Total_ReboundsColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public double Assists {
+                get {
+                    return ((double)(this[this.tablenbaSeasonStats.AssistsColumn]));
+                }
+                set {
+                    this[this.tablenbaSeasonStats.AssistsColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public double Turnovers {
+                get {
+                    return ((double)(this[this.tablenbaSeasonStats.TurnoversColumn]));
+                }
+                set {
+                    this[this.tablenbaSeasonStats.TurnoversColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public double Steals {
+                get {
+                    return ((double)(this[this.tablenbaSeasonStats.StealsColumn]));
+                }
+                set {
+                    this[this.tablenbaSeasonStats.StealsColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public double Blocks {
+                get {
+                    return ((double)(this[this.tablenbaSeasonStats.BlocksColumn]));
+                }
+                set {
+                    this[this.tablenbaSeasonStats.BlocksColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public double Blocks_Against {
+                get {
+                    return ((double)(this[this.tablenbaSeasonStats.Blocks_AgainstColumn]));
+                }
+                set {
+                    this[this.tablenbaSeasonStats.Blocks_AgainstColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public double Personal_Fouls {
+                get {
+                    return ((double)(this[this.tablenbaSeasonStats.Personal_FoulsColumn]));
+                }
+                set {
+                    this[this.tablenbaSeasonStats.Personal_FoulsColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public double Personal_Fouls_Drawn {
+                get {
+                    return ((double)(this[this.tablenbaSeasonStats.Personal_Fouls_DrawnColumn]));
+                }
+                set {
+                    this[this.tablenbaSeasonStats.Personal_Fouls_DrawnColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public string Plus_Minus {
+                get {
+                    try {
+                        return ((string)(this[this.tablenbaSeasonStats.Plus_MinusColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'Plus_Minus\' in table \'nbaSeasonStats\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablenbaSeasonStats.Plus_MinusColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public bool IsPlus_MinusNull() {
+                return this.IsNull(this.tablenbaSeasonStats.Plus_MinusColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public void SetPlus_MinusNull() {
+                this[this.tablenbaSeasonStats.Plus_MinusColumn] = global::System.Convert.DBNull;
+            }
+        }
+        
+        /// <summary>
         ///Row event argument class
         ///</summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
@@ -4871,6 +5901,40 @@ namespace sportsApp {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
             public CurrentUserRow Row {
+                get {
+                    return this.eventRow;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public global::System.Data.DataRowAction Action {
+                get {
+                    return this.eventAction;
+                }
+            }
+        }
+        
+        /// <summary>
+        ///Row event argument class
+        ///</summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+        public class nbaSeasonStatsRowChangeEvent : global::System.EventArgs {
+            
+            private nbaSeasonStatsRow eventRow;
+            
+            private global::System.Data.DataRowAction eventAction;
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public nbaSeasonStatsRowChangeEvent(nbaSeasonStatsRow row, global::System.Data.DataRowAction action) {
+                this.eventRow = row;
+                this.eventAction = action;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+            public nbaSeasonStatsRow Row {
                 get {
                     return this.eventRow;
                 }
@@ -7946,6 +9010,344 @@ SELECT CurrentUserID, UserID, FirstName, FavoriteNBATeamID, FavoriteNFLTeamID FR
     }
     
     /// <summary>
+    ///Represents the connection and commands used to retrieve and save data.
+    ///</summary>
+    [global::System.ComponentModel.DesignerCategoryAttribute("code")]
+    [global::System.ComponentModel.ToolboxItem(true)]
+    [global::System.ComponentModel.DataObjectAttribute(true)]
+    [global::System.ComponentModel.DesignerAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterDesigner, Microsoft.VSDesigner" +
+        ", Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
+    [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+    public partial class nbaSeasonStatsTableAdapter : global::System.ComponentModel.Component {
+        
+        private global::System.Data.SqlClient.SqlDataAdapter _adapter;
+        
+        private global::System.Data.SqlClient.SqlConnection _connection;
+        
+        private global::System.Data.SqlClient.SqlTransaction _transaction;
+        
+        private global::System.Data.SqlClient.SqlCommand[] _commandCollection;
+        
+        private bool _clearBeforeFill;
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+        public nbaSeasonStatsTableAdapter() {
+            this.ClearBeforeFill = true;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+        protected internal global::System.Data.SqlClient.SqlDataAdapter Adapter {
+            get {
+                if ((this._adapter == null)) {
+                    this.InitAdapter();
+                }
+                return this._adapter;
+            }
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+        internal global::System.Data.SqlClient.SqlConnection Connection {
+            get {
+                if ((this._connection == null)) {
+                    this.InitConnection();
+                }
+                return this._connection;
+            }
+            set {
+                this._connection = value;
+                if ((this.Adapter.InsertCommand != null)) {
+                    this.Adapter.InsertCommand.Connection = value;
+                }
+                if ((this.Adapter.DeleteCommand != null)) {
+                    this.Adapter.DeleteCommand.Connection = value;
+                }
+                if ((this.Adapter.UpdateCommand != null)) {
+                    this.Adapter.UpdateCommand.Connection = value;
+                }
+                for (int i = 0; (i < this.CommandCollection.Length); i = (i + 1)) {
+                    if ((this.CommandCollection[i] != null)) {
+                        ((global::System.Data.SqlClient.SqlCommand)(this.CommandCollection[i])).Connection = value;
+                    }
+                }
+            }
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+        internal global::System.Data.SqlClient.SqlTransaction Transaction {
+            get {
+                return this._transaction;
+            }
+            set {
+                this._transaction = value;
+                for (int i = 0; (i < this.CommandCollection.Length); i = (i + 1)) {
+                    this.CommandCollection[i].Transaction = this._transaction;
+                }
+                if (((this.Adapter != null) 
+                            && (this.Adapter.DeleteCommand != null))) {
+                    this.Adapter.DeleteCommand.Transaction = this._transaction;
+                }
+                if (((this.Adapter != null) 
+                            && (this.Adapter.InsertCommand != null))) {
+                    this.Adapter.InsertCommand.Transaction = this._transaction;
+                }
+                if (((this.Adapter != null) 
+                            && (this.Adapter.UpdateCommand != null))) {
+                    this.Adapter.UpdateCommand.Transaction = this._transaction;
+                }
+            }
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+        protected global::System.Data.SqlClient.SqlCommand[] CommandCollection {
+            get {
+                if ((this._commandCollection == null)) {
+                    this.InitCommandCollection();
+                }
+                return this._commandCollection;
+            }
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+        public bool ClearBeforeFill {
+            get {
+                return this._clearBeforeFill;
+            }
+            set {
+                this._clearBeforeFill = value;
+            }
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+        private void InitAdapter() {
+            this._adapter = new global::System.Data.SqlClient.SqlDataAdapter();
+            global::System.Data.Common.DataTableMapping tableMapping = new global::System.Data.Common.DataTableMapping();
+            tableMapping.SourceTable = "Table";
+            tableMapping.DataSetTable = "nbaSeasonStats";
+            tableMapping.ColumnMappings.Add("Team", "Team");
+            tableMapping.ColumnMappings.Add("Games_Played", "Games_Played");
+            tableMapping.ColumnMappings.Add("Wins", "Wins");
+            tableMapping.ColumnMappings.Add("Losses", "Losses");
+            tableMapping.ColumnMappings.Add("Winning_Percentage", "Winning_Percentage");
+            tableMapping.ColumnMappings.Add("Minutes_Per_Game", "Minutes_Per_Game");
+            tableMapping.ColumnMappings.Add("Points_Per_Game", "Points_Per_Game");
+            tableMapping.ColumnMappings.Add("Field_Goals_Made", "Field_Goals_Made");
+            tableMapping.ColumnMappings.Add("Field_Goals_Attempted", "Field_Goals_Attempted");
+            tableMapping.ColumnMappings.Add("Field_Goal_Percentage", "Field_Goal_Percentage");
+            tableMapping.ColumnMappings.Add("Three_Point_Field_Goals_Made", "Three_Point_Field_Goals_Made");
+            tableMapping.ColumnMappings.Add("Three_Point_Field_Goals_Attempted", "Three_Point_Field_Goals_Attempted");
+            tableMapping.ColumnMappings.Add("Three_Point_Percentage", "Three_Point_Percentage");
+            tableMapping.ColumnMappings.Add("Free_Throws_Made", "Free_Throws_Made");
+            tableMapping.ColumnMappings.Add("Free_Throws_Attempted", "Free_Throws_Attempted");
+            tableMapping.ColumnMappings.Add("Free_Throw_Percentage", "Free_Throw_Percentage");
+            tableMapping.ColumnMappings.Add("Offensive_Rebounds", "Offensive_Rebounds");
+            tableMapping.ColumnMappings.Add("Defensive_Rebounds", "Defensive_Rebounds");
+            tableMapping.ColumnMappings.Add("Total_Rebounds", "Total_Rebounds");
+            tableMapping.ColumnMappings.Add("Assists", "Assists");
+            tableMapping.ColumnMappings.Add("Turnovers", "Turnovers");
+            tableMapping.ColumnMappings.Add("Steals", "Steals");
+            tableMapping.ColumnMappings.Add("Blocks", "Blocks");
+            tableMapping.ColumnMappings.Add("Blocks_Against", "Blocks_Against");
+            tableMapping.ColumnMappings.Add("Personal_Fouls", "Personal_Fouls");
+            tableMapping.ColumnMappings.Add("Personal_Fouls_Drawn", "Personal_Fouls_Drawn");
+            tableMapping.ColumnMappings.Add("Plus_Minus", "Plus_Minus");
+            this._adapter.TableMappings.Add(tableMapping);
+            this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
+            this._adapter.InsertCommand.Connection = this.Connection;
+            this._adapter.InsertCommand.CommandText = @"INSERT INTO [nbaSeasonStats] ([Team], [Games_Played], [Wins], [Losses], [Winning_Percentage], [Minutes_Per_Game], [Points_Per_Game], [Field_Goals_Made], [Field_Goals_Attempted], [Field_Goal_Percentage], [Three_Point_Field_Goals_Made], [Three_Point_Field_Goals_Attempted], [Three_Point_Percentage], [Free_Throws_Made], [Free_Throws_Attempted], [Free_Throw_Percentage], [Offensive_Rebounds], [Defensive_Rebounds], [Total_Rebounds], [Assists], [Turnovers], [Steals], [Blocks], [Blocks_Against], [Personal_Fouls], [Personal_Fouls_Drawn], [Plus_Minus]) VALUES (@Team, @Games_Played, @Wins, @Losses, @Winning_Percentage, @Minutes_Per_Game, @Points_Per_Game, @Field_Goals_Made, @Field_Goals_Attempted, @Field_Goal_Percentage, @Three_Point_Field_Goals_Made, @Three_Point_Field_Goals_Attempted, @Three_Point_Percentage, @Free_Throws_Made, @Free_Throws_Attempted, @Free_Throw_Percentage, @Offensive_Rebounds, @Defensive_Rebounds, @Total_Rebounds, @Assists, @Turnovers, @Steals, @Blocks, @Blocks_Against, @Personal_Fouls, @Personal_Fouls_Drawn, @Plus_Minus)";
+            this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Team", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Team", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Games_Played", global::System.Data.SqlDbType.TinyInt, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Games_Played", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Wins", global::System.Data.SqlDbType.TinyInt, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Wins", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Losses", global::System.Data.SqlDbType.TinyInt, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Losses", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Winning_Percentage", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Winning_Percentage", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Minutes_Per_Game", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Minutes_Per_Game", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Points_Per_Game", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Points_Per_Game", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Field_Goals_Made", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Field_Goals_Made", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Field_Goals_Attempted", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Field_Goals_Attempted", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Field_Goal_Percentage", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Field_Goal_Percentage", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Three_Point_Field_Goals_Made", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Three_Point_Field_Goals_Made", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Three_Point_Field_Goals_Attempted", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Three_Point_Field_Goals_Attempted", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Three_Point_Percentage", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Three_Point_Percentage", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Free_Throws_Made", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Free_Throws_Made", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Free_Throws_Attempted", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Free_Throws_Attempted", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Free_Throw_Percentage", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Free_Throw_Percentage", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Offensive_Rebounds", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Offensive_Rebounds", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Defensive_Rebounds", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Defensive_Rebounds", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Total_Rebounds", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Total_Rebounds", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Assists", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Assists", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Turnovers", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Turnovers", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Steals", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Steals", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Blocks", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Blocks", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Blocks_Against", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Blocks_Against", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Personal_Fouls", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Personal_Fouls", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Personal_Fouls_Drawn", global::System.Data.SqlDbType.Float, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Personal_Fouls_Drawn", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Plus_Minus", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Plus_Minus", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+        private void InitConnection() {
+            this._connection = new global::System.Data.SqlClient.SqlConnection();
+            this._connection.ConnectionString = global::sportsApp.Properties.Settings.Default.SportInfoDBConnectionString;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+        private void InitCommandCollection() {
+            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
+            this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[0].Connection = this.Connection;
+            this._commandCollection[0].CommandText = "select * from nbaSeasonStats\r\n";
+            this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
+        public virtual int Fill(SportInfoDataSet.nbaSeasonStatsDataTable dataTable) {
+            this.Adapter.SelectCommand = this.CommandCollection[0];
+            if ((this.ClearBeforeFill == true)) {
+                dataTable.Clear();
+            }
+            int returnValue = this.Adapter.Fill(dataTable);
+            return returnValue;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
+        public virtual SportInfoDataSet.nbaSeasonStatsDataTable GetData() {
+            this.Adapter.SelectCommand = this.CommandCollection[0];
+            SportInfoDataSet.nbaSeasonStatsDataTable dataTable = new SportInfoDataSet.nbaSeasonStatsDataTable();
+            this.Adapter.Fill(dataTable);
+            return dataTable;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        public virtual int Update(SportInfoDataSet.nbaSeasonStatsDataTable dataTable) {
+            return this.Adapter.Update(dataTable);
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        public virtual int Update(SportInfoDataSet dataSet) {
+            return this.Adapter.Update(dataSet, "nbaSeasonStats");
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        public virtual int Update(global::System.Data.DataRow dataRow) {
+            return this.Adapter.Update(new global::System.Data.DataRow[] {
+                        dataRow});
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        public virtual int Update(global::System.Data.DataRow[] dataRows) {
+            return this.Adapter.Update(dataRows);
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Insert, true)]
+        public virtual int Insert(
+                    string Team, 
+                    byte Games_Played, 
+                    byte Wins, 
+                    byte Losses, 
+                    double Winning_Percentage, 
+                    double Minutes_Per_Game, 
+                    double Points_Per_Game, 
+                    double Field_Goals_Made, 
+                    double Field_Goals_Attempted, 
+                    double Field_Goal_Percentage, 
+                    double Three_Point_Field_Goals_Made, 
+                    double Three_Point_Field_Goals_Attempted, 
+                    double Three_Point_Percentage, 
+                    double Free_Throws_Made, 
+                    double Free_Throws_Attempted, 
+                    double Free_Throw_Percentage, 
+                    double Offensive_Rebounds, 
+                    double Defensive_Rebounds, 
+                    double Total_Rebounds, 
+                    double Assists, 
+                    double Turnovers, 
+                    double Steals, 
+                    double Blocks, 
+                    double Blocks_Against, 
+                    double Personal_Fouls, 
+                    double Personal_Fouls_Drawn, 
+                    string Plus_Minus) {
+            if ((Team == null)) {
+                throw new global::System.ArgumentNullException("Team");
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[0].Value = ((string)(Team));
+            }
+            this.Adapter.InsertCommand.Parameters[1].Value = ((byte)(Games_Played));
+            this.Adapter.InsertCommand.Parameters[2].Value = ((byte)(Wins));
+            this.Adapter.InsertCommand.Parameters[3].Value = ((byte)(Losses));
+            this.Adapter.InsertCommand.Parameters[4].Value = ((double)(Winning_Percentage));
+            this.Adapter.InsertCommand.Parameters[5].Value = ((double)(Minutes_Per_Game));
+            this.Adapter.InsertCommand.Parameters[6].Value = ((double)(Points_Per_Game));
+            this.Adapter.InsertCommand.Parameters[7].Value = ((double)(Field_Goals_Made));
+            this.Adapter.InsertCommand.Parameters[8].Value = ((double)(Field_Goals_Attempted));
+            this.Adapter.InsertCommand.Parameters[9].Value = ((double)(Field_Goal_Percentage));
+            this.Adapter.InsertCommand.Parameters[10].Value = ((double)(Three_Point_Field_Goals_Made));
+            this.Adapter.InsertCommand.Parameters[11].Value = ((double)(Three_Point_Field_Goals_Attempted));
+            this.Adapter.InsertCommand.Parameters[12].Value = ((double)(Three_Point_Percentage));
+            this.Adapter.InsertCommand.Parameters[13].Value = ((double)(Free_Throws_Made));
+            this.Adapter.InsertCommand.Parameters[14].Value = ((double)(Free_Throws_Attempted));
+            this.Adapter.InsertCommand.Parameters[15].Value = ((double)(Free_Throw_Percentage));
+            this.Adapter.InsertCommand.Parameters[16].Value = ((double)(Offensive_Rebounds));
+            this.Adapter.InsertCommand.Parameters[17].Value = ((double)(Defensive_Rebounds));
+            this.Adapter.InsertCommand.Parameters[18].Value = ((double)(Total_Rebounds));
+            this.Adapter.InsertCommand.Parameters[19].Value = ((double)(Assists));
+            this.Adapter.InsertCommand.Parameters[20].Value = ((double)(Turnovers));
+            this.Adapter.InsertCommand.Parameters[21].Value = ((double)(Steals));
+            this.Adapter.InsertCommand.Parameters[22].Value = ((double)(Blocks));
+            this.Adapter.InsertCommand.Parameters[23].Value = ((double)(Blocks_Against));
+            this.Adapter.InsertCommand.Parameters[24].Value = ((double)(Personal_Fouls));
+            this.Adapter.InsertCommand.Parameters[25].Value = ((double)(Personal_Fouls_Drawn));
+            if ((Plus_Minus == null)) {
+                this.Adapter.InsertCommand.Parameters[26].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[26].Value = ((string)(Plus_Minus));
+            }
+            global::System.Data.ConnectionState previousConnectionState = this.Adapter.InsertCommand.Connection.State;
+            if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open) 
+                        != global::System.Data.ConnectionState.Open)) {
+                this.Adapter.InsertCommand.Connection.Open();
+            }
+            try {
+                int returnValue = this.Adapter.InsertCommand.ExecuteNonQuery();
+                return returnValue;
+            }
+            finally {
+                if ((previousConnectionState == global::System.Data.ConnectionState.Closed)) {
+                    this.Adapter.InsertCommand.Connection.Close();
+                }
+            }
+        }
+    }
+    
+    /// <summary>
     ///TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
     ///</summary>
     [global::System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7972,6 +9374,8 @@ SELECT CurrentUserID, UserID, FirstName, FavoriteNBATeamID, FavoriteNFLTeamID FR
         private nfl_PlayersCurrentTableAdapter _nfl_PlayersCurrentTableAdapter;
         
         private CurrentUserTableAdapter _currentUserTableAdapter;
+        
+        private nbaSeasonStatsTableAdapter _nbaSeasonStatsTableAdapter;
         
         private bool _backupDataSetBeforeUpdate;
         
@@ -8102,6 +9506,20 @@ SELECT CurrentUserID, UserID, FirstName, FavoriteNBATeamID, FavoriteNFLTeamID FR
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+        [global::System.ComponentModel.EditorAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterManagerPropertyEditor, Microso" +
+            "ft.VSDesigner, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3" +
+            "a", "System.Drawing.Design.UITypeEditor")]
+        public nbaSeasonStatsTableAdapter nbaSeasonStatsTableAdapter {
+            get {
+                return this._nbaSeasonStatsTableAdapter;
+            }
+            set {
+                this._nbaSeasonStatsTableAdapter = value;
+            }
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
         public bool BackupDataSetBeforeUpdate {
             get {
                 return this._backupDataSetBeforeUpdate;
@@ -8151,6 +9569,10 @@ SELECT CurrentUserID, UserID, FirstName, FavoriteNBATeamID, FavoriteNFLTeamID FR
                             && (this._currentUserTableAdapter.Connection != null))) {
                     return this._currentUserTableAdapter.Connection;
                 }
+                if (((this._nbaSeasonStatsTableAdapter != null) 
+                            && (this._nbaSeasonStatsTableAdapter.Connection != null))) {
+                    return this._nbaSeasonStatsTableAdapter.Connection;
+                }
                 return null;
             }
             set {
@@ -8186,6 +9608,9 @@ SELECT CurrentUserID, UserID, FirstName, FavoriteNBATeamID, FavoriteNFLTeamID FR
                     count = (count + 1);
                 }
                 if ((this._currentUserTableAdapter != null)) {
+                    count = (count + 1);
+                }
+                if ((this._nbaSeasonStatsTableAdapter != null)) {
                     count = (count + 1);
                 }
                 return count;
@@ -8271,6 +9696,15 @@ SELECT CurrentUserID, UserID, FirstName, FavoriteNBATeamID, FavoriteNFLTeamID FR
                     allChangedRows.AddRange(updatedRows);
                 }
             }
+            if ((this._nbaSeasonStatsTableAdapter != null)) {
+                global::System.Data.DataRow[] updatedRows = dataSet.nbaSeasonStats.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
+                updatedRows = this.GetRealUpdatedRows(updatedRows, allAddedRows);
+                if (((updatedRows != null) 
+                            && (0 < updatedRows.Length))) {
+                    result = (result + this._nbaSeasonStatsTableAdapter.Update(updatedRows));
+                    allChangedRows.AddRange(updatedRows);
+                }
+            }
             return result;
         }
         
@@ -8345,6 +9779,14 @@ SELECT CurrentUserID, UserID, FirstName, FavoriteNBATeamID, FavoriteNFLTeamID FR
                     allAddedRows.AddRange(addedRows);
                 }
             }
+            if ((this._nbaSeasonStatsTableAdapter != null)) {
+                global::System.Data.DataRow[] addedRows = dataSet.nbaSeasonStats.Select(null, null, global::System.Data.DataViewRowState.Added);
+                if (((addedRows != null) 
+                            && (0 < addedRows.Length))) {
+                    result = (result + this._nbaSeasonStatsTableAdapter.Update(addedRows));
+                    allAddedRows.AddRange(addedRows);
+                }
+            }
             return result;
         }
         
@@ -8355,6 +9797,14 @@ SELECT CurrentUserID, UserID, FirstName, FavoriteNBATeamID, FavoriteNFLTeamID FR
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
         private int UpdateDeletedRows(SportInfoDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
             int result = 0;
+            if ((this._nbaSeasonStatsTableAdapter != null)) {
+                global::System.Data.DataRow[] deletedRows = dataSet.nbaSeasonStats.Select(null, null, global::System.Data.DataViewRowState.Deleted);
+                if (((deletedRows != null) 
+                            && (0 < deletedRows.Length))) {
+                    result = (result + this._nbaSeasonStatsTableAdapter.Update(deletedRows));
+                    allChangedRows.AddRange(deletedRows);
+                }
+            }
             if ((this._currentUserTableAdapter != null)) {
                 global::System.Data.DataRow[] deletedRows = dataSet.CurrentUser.Select(null, null, global::System.Data.DataViewRowState.Deleted);
                 if (((deletedRows != null) 
@@ -8498,6 +9948,11 @@ SELECT CurrentUserID, UserID, FirstName, FavoriteNBATeamID, FavoriteNFLTeamID FR
                 throw new global::System.ArgumentException("All TableAdapters managed by a TableAdapterManager must use the same connection s" +
                         "tring.");
             }
+            if (((this._nbaSeasonStatsTableAdapter != null) 
+                        && (this.MatchTableAdapterConnection(this._nbaSeasonStatsTableAdapter.Connection) == false))) {
+                throw new global::System.ArgumentException("All TableAdapters managed by a TableAdapterManager must use the same connection s" +
+                        "tring.");
+            }
             global::System.Data.IDbConnection workConnection = this.Connection;
             if ((workConnection == null)) {
                 throw new global::System.ApplicationException("TableAdapterManager contains no connection information. Set each TableAdapterMana" +
@@ -8602,6 +10057,15 @@ SELECT CurrentUserID, UserID, FirstName, FavoriteNBATeamID, FavoriteNFLTeamID FR
                         adaptersWithAcceptChangesDuringUpdate.Add(this._currentUserTableAdapter.Adapter);
                     }
                 }
+                if ((this._nbaSeasonStatsTableAdapter != null)) {
+                    revertConnections.Add(this._nbaSeasonStatsTableAdapter, this._nbaSeasonStatsTableAdapter.Connection);
+                    this._nbaSeasonStatsTableAdapter.Connection = ((global::System.Data.SqlClient.SqlConnection)(workConnection));
+                    this._nbaSeasonStatsTableAdapter.Transaction = ((global::System.Data.SqlClient.SqlTransaction)(workTransaction));
+                    if (this._nbaSeasonStatsTableAdapter.Adapter.AcceptChangesDuringUpdate) {
+                        this._nbaSeasonStatsTableAdapter.Adapter.AcceptChangesDuringUpdate = false;
+                        adaptersWithAcceptChangesDuringUpdate.Add(this._nbaSeasonStatsTableAdapter.Adapter);
+                    }
+                }
                 // 
                 //---- Perform updates -----------
                 //
@@ -8691,6 +10155,10 @@ SELECT CurrentUserID, UserID, FirstName, FavoriteNBATeamID, FavoriteNFLTeamID FR
                 if ((this._currentUserTableAdapter != null)) {
                     this._currentUserTableAdapter.Connection = ((global::System.Data.SqlClient.SqlConnection)(revertConnections[this._currentUserTableAdapter]));
                     this._currentUserTableAdapter.Transaction = null;
+                }
+                if ((this._nbaSeasonStatsTableAdapter != null)) {
+                    this._nbaSeasonStatsTableAdapter.Connection = ((global::System.Data.SqlClient.SqlConnection)(revertConnections[this._nbaSeasonStatsTableAdapter]));
+                    this._nbaSeasonStatsTableAdapter.Transaction = null;
                 }
                 if ((0 < adaptersWithAcceptChangesDuringUpdate.Count)) {
                     global::System.Data.Common.DataAdapter[] adapters = new System.Data.Common.DataAdapter[adaptersWithAcceptChangesDuringUpdate.Count];
