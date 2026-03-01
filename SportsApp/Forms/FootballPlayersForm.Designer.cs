@@ -46,11 +46,17 @@
             this.sportInfoDataSet = new sportsApp.SportInfoDataSet();
             this.nfl_PlayersCurrentTableAdapter = new sportsApp.SportInfoDataSetTableAdapters.nfl_PlayersCurrentTableAdapter();
             this.tableAdapterManager = new sportsApp.SportInfoDataSetTableAdapters.TableAdapterManager();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.buttonClearFilters = new System.Windows.Forms.Button();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.sortByDropdown = new System.Windows.Forms.ComboBox();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nfl_PlayersCurrentDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nfl_PlayersCurrentBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sportInfoDataSet)).BeginInit();
+            this.groupBox4.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -66,7 +72,7 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.searchTextbox);
-            this.groupBox2.Location = new System.Drawing.Point(392, 67);
+            this.groupBox2.Location = new System.Drawing.Point(392, 40);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(200, 58);
             this.groupBox2.TabIndex = 10;
@@ -84,7 +90,7 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.teamDropdown);
-            this.groupBox1.Location = new System.Drawing.Point(12, 67);
+            this.groupBox1.Location = new System.Drawing.Point(12, 40);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(200, 58);
             this.groupBox1.TabIndex = 11;
@@ -230,20 +236,72 @@
             // tableAdapterManager
             // 
             this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.CurrentUserTableAdapter = null;
             this.tableAdapterManager.nbaCurrentPlayersTableAdapter = null;
             this.tableAdapterManager.NBAScheduleTableAdapter = null;
+            this.tableAdapterManager.nbaSeasonStatsTableAdapter = null;
             this.tableAdapterManager.NBATeamsTableAdapter = null;
             this.tableAdapterManager.nfl_PlayersCurrentTableAdapter = this.nfl_PlayersCurrentTableAdapter;
             this.tableAdapterManager.nflScheduleTableAdapter = null;
+            this.tableAdapterManager.nflSeasonStatsTableAdapter = null;
             this.tableAdapterManager.NFLTeamsTableAdapter = null;
             this.tableAdapterManager.UpdateOrder = sportsApp.SportInfoDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             this.tableAdapterManager.UsersTableAdapter = null;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.buttonClearFilters);
+            this.groupBox4.Location = new System.Drawing.Point(392, 116);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(200, 58);
+            this.groupBox4.TabIndex = 14;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Clear";
+            // 
+            // buttonClearFilters
+            // 
+            this.buttonClearFilters.Location = new System.Drawing.Point(45, 22);
+            this.buttonClearFilters.Name = "buttonClearFilters";
+            this.buttonClearFilters.Size = new System.Drawing.Size(100, 23);
+            this.buttonClearFilters.TabIndex = 0;
+            this.buttonClearFilters.Text = "Clear Filters";
+            this.buttonClearFilters.UseVisualStyleBackColor = true;
+            this.buttonClearFilters.Click += new System.EventHandler(this.buttonClearFilters_Click);
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.sortByDropdown);
+            this.groupBox3.Location = new System.Drawing.Point(12, 104);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(200, 58);
+            this.groupBox3.TabIndex = 13;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Sort By";
+            // 
+            // sortByDropdown
+            // 
+            this.sortByDropdown.FormattingEnabled = true;
+            this.sortByDropdown.Items.AddRange(new object[] {
+            "Player",
+            "Position",
+            "Height",
+            "Weight",
+            "College",
+            "YearsPlayed",
+            "DateOfBirth"});
+            this.sortByDropdown.Location = new System.Drawing.Point(40, 22);
+            this.sortByDropdown.Name = "sortByDropdown";
+            this.sortByDropdown.Size = new System.Drawing.Size(121, 23);
+            this.sortByDropdown.TabIndex = 3;
+            this.sortByDropdown.SelectedIndexChanged += new System.EventHandler(this.sortByDropdown_SelectedIndexChanged);
             // 
             // FootballPlayersForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(604, 491);
+            this.Controls.Add(this.groupBox4);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.nfl_PlayersCurrentDataGridView);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -260,6 +318,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.nfl_PlayersCurrentDataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nfl_PlayersCurrentBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sportInfoDataSet)).EndInit();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -284,5 +344,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.Button buttonClearFilters;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.ComboBox sortByDropdown;
     }
 }

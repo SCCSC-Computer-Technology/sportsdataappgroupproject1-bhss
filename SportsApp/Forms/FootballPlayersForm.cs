@@ -37,6 +37,10 @@ namespace sportsApp.Forms
             int nflTeam = Convert.ToInt32(currentUserAdapter.GetNFLTeam());
             //show favorite team on load
             nfl_PlayersCurrentBindingSource.Filter = $"TeamID = {nflTeam}";
+            if (nflTeam > 0 && nflTeam <= 32)
+            {
+                teamDropdown.SelectedIndex = nflTeam - 1;
+            }
         }
 
         private void teamDropdown_SelectedIndexChanged(object sender, EventArgs e)
@@ -202,6 +206,19 @@ namespace sportsApp.Forms
                 $"[YearsPlayed] LIKE '%{searchText}%'";
 
             nfl_PlayersCurrentBindingSource.Filter = filter;
+        }
+
+        private void buttonClearFilters_Click(object sender, EventArgs e)
+        {
+            nfl_PlayersCurrentBindingSource.RemoveFilter();
+            teamDropdown.SelectedIndex = -1;
+            sortByDropdown.SelectedIndex = -1;
+            searchTextbox.Clear();
+        }
+
+        private void sortByDropdown_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }
