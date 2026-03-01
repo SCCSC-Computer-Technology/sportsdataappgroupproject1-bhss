@@ -151,6 +151,7 @@
             this.tableAdapterManager.NBATeamsTableAdapter = null;
             this.tableAdapterManager.nfl_PlayersCurrentTableAdapter = null;
             this.tableAdapterManager.nflScheduleTableAdapter = null;
+            this.tableAdapterManager.nflSeasonStatsTableAdapter = null;
             this.tableAdapterManager.NFLTeamsTableAdapter = null;
             this.tableAdapterManager.UpdateOrder = sportsApp.SportInfoDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             this.tableAdapterManager.UsersTableAdapter = null;
@@ -212,10 +213,10 @@
             // dataGridViewTextBoxColumn2
             // 
             this.dataGridViewTextBoxColumn2.DataPropertyName = "Games_Played";
-            this.dataGridViewTextBoxColumn2.HeaderText = "Games_Played";
+            this.dataGridViewTextBoxColumn2.HeaderText = "Games Played";
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             this.dataGridViewTextBoxColumn2.ReadOnly = true;
-            this.dataGridViewTextBoxColumn2.Width = 108;
+            this.dataGridViewTextBoxColumn2.Width = 106;
             // 
             // dataGridViewTextBoxColumn3
             // 
@@ -236,122 +237,122 @@
             // dataGridViewTextBoxColumn5
             // 
             this.dataGridViewTextBoxColumn5.DataPropertyName = "Winning_Percentage";
-            this.dataGridViewTextBoxColumn5.HeaderText = "Winning_Percentage";
+            this.dataGridViewTextBoxColumn5.HeaderText = "Winning Percentage";
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
             this.dataGridViewTextBoxColumn5.ReadOnly = true;
-            this.dataGridViewTextBoxColumn5.Width = 141;
+            this.dataGridViewTextBoxColumn5.Width = 127;
             // 
             // dataGridViewTextBoxColumn6
             // 
             this.dataGridViewTextBoxColumn6.DataPropertyName = "Minutes_Per_Game";
-            this.dataGridViewTextBoxColumn6.HeaderText = "Minutes_Per_Game";
+            this.dataGridViewTextBoxColumn6.HeaderText = "Minutes Per Game";
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
             this.dataGridViewTextBoxColumn6.ReadOnly = true;
-            this.dataGridViewTextBoxColumn6.Width = 133;
+            this.dataGridViewTextBoxColumn6.Width = 90;
             // 
             // dataGridViewTextBoxColumn7
             // 
             this.dataGridViewTextBoxColumn7.DataPropertyName = "Points_Per_Game";
-            this.dataGridViewTextBoxColumn7.HeaderText = "Points_Per_Game";
+            this.dataGridViewTextBoxColumn7.HeaderText = "Points Per Game";
             this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
             this.dataGridViewTextBoxColumn7.ReadOnly = true;
-            this.dataGridViewTextBoxColumn7.Width = 123;
+            this.dataGridViewTextBoxColumn7.Width = 109;
             // 
             // dataGridViewTextBoxColumn8
             // 
             this.dataGridViewTextBoxColumn8.DataPropertyName = "Field_Goals_Made";
-            this.dataGridViewTextBoxColumn8.HeaderText = "Field_Goals_Made";
+            this.dataGridViewTextBoxColumn8.HeaderText = "Field Goals Made";
             this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
             this.dataGridViewTextBoxColumn8.ReadOnly = true;
-            this.dataGridViewTextBoxColumn8.Width = 126;
+            this.dataGridViewTextBoxColumn8.Width = 112;
             // 
             // dataGridViewTextBoxColumn9
             // 
             this.dataGridViewTextBoxColumn9.DataPropertyName = "Field_Goals_Attempted";
-            this.dataGridViewTextBoxColumn9.HeaderText = "Field_Goals_Attempted";
+            this.dataGridViewTextBoxColumn9.HeaderText = "Field Goals Attempted";
             this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
             this.dataGridViewTextBoxColumn9.ReadOnly = true;
-            this.dataGridViewTextBoxColumn9.Width = 153;
+            this.dataGridViewTextBoxColumn9.Width = 136;
             // 
             // dataGridViewTextBoxColumn10
             // 
             this.dataGridViewTextBoxColumn10.DataPropertyName = "Field_Goal_Percentage";
-            this.dataGridViewTextBoxColumn10.HeaderText = "Field_Goal_Percentage";
+            this.dataGridViewTextBoxColumn10.HeaderText = "Field Goal Percentage";
             this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
             this.dataGridViewTextBoxColumn10.ReadOnly = true;
-            this.dataGridViewTextBoxColumn10.Width = 150;
+            this.dataGridViewTextBoxColumn10.Width = 133;
             // 
             // dataGridViewTextBoxColumn11
             // 
             this.dataGridViewTextBoxColumn11.DataPropertyName = "Three_Point_Field_Goals_Made";
-            this.dataGridViewTextBoxColumn11.HeaderText = "Three_Point_Field_Goals_Made";
+            this.dataGridViewTextBoxColumn11.HeaderText = "Three Point Field Goals Made";
             this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
             this.dataGridViewTextBoxColumn11.ReadOnly = true;
-            this.dataGridViewTextBoxColumn11.Width = 194;
+            this.dataGridViewTextBoxColumn11.Width = 142;
             // 
             // dataGridViewTextBoxColumn12
             // 
             this.dataGridViewTextBoxColumn12.DataPropertyName = "Three_Point_Field_Goals_Attempted";
-            this.dataGridViewTextBoxColumn12.HeaderText = "Three_Point_Field_Goals_Attempted";
+            this.dataGridViewTextBoxColumn12.HeaderText = "Three Point Field Goals Attempted";
             this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
             this.dataGridViewTextBoxColumn12.ReadOnly = true;
-            this.dataGridViewTextBoxColumn12.Width = 221;
+            this.dataGridViewTextBoxColumn12.Width = 142;
             // 
             // dataGridViewTextBoxColumn13
             // 
             this.dataGridViewTextBoxColumn13.DataPropertyName = "Three_Point_Percentage";
-            this.dataGridViewTextBoxColumn13.HeaderText = "Three_Point_Percentage";
+            this.dataGridViewTextBoxColumn13.HeaderText = "Three Point Percentage";
             this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
             this.dataGridViewTextBoxColumn13.ReadOnly = true;
-            this.dataGridViewTextBoxColumn13.Width = 159;
+            this.dataGridViewTextBoxColumn13.Width = 142;
             // 
             // dataGridViewTextBoxColumn14
             // 
             this.dataGridViewTextBoxColumn14.DataPropertyName = "Free_Throws_Made";
-            this.dataGridViewTextBoxColumn14.HeaderText = "Free_Throws_Made";
+            this.dataGridViewTextBoxColumn14.HeaderText = "Free Throws Made";
             this.dataGridViewTextBoxColumn14.Name = "dataGridViewTextBoxColumn14";
             this.dataGridViewTextBoxColumn14.ReadOnly = true;
-            this.dataGridViewTextBoxColumn14.Width = 133;
+            this.dataGridViewTextBoxColumn14.Width = 118;
             // 
             // dataGridViewTextBoxColumn15
             // 
             this.dataGridViewTextBoxColumn15.DataPropertyName = "Free_Throws_Attempted";
-            this.dataGridViewTextBoxColumn15.HeaderText = "Free_Throws_Attempted";
+            this.dataGridViewTextBoxColumn15.HeaderText = "Free Throws Attempted";
             this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
             this.dataGridViewTextBoxColumn15.ReadOnly = true;
-            this.dataGridViewTextBoxColumn15.Width = 160;
+            this.dataGridViewTextBoxColumn15.Width = 142;
             // 
             // dataGridViewTextBoxColumn16
             // 
             this.dataGridViewTextBoxColumn16.DataPropertyName = "Free_Throw_Percentage";
-            this.dataGridViewTextBoxColumn16.HeaderText = "Free_Throw_Percentage";
+            this.dataGridViewTextBoxColumn16.HeaderText = "Free Throw Percentage";
             this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
             this.dataGridViewTextBoxColumn16.ReadOnly = true;
-            this.dataGridViewTextBoxColumn16.Width = 157;
+            this.dataGridViewTextBoxColumn16.Width = 140;
             // 
             // dataGridViewTextBoxColumn17
             // 
             this.dataGridViewTextBoxColumn17.DataPropertyName = "Offensive_Rebounds";
-            this.dataGridViewTextBoxColumn17.HeaderText = "Offensive_Rebounds";
+            this.dataGridViewTextBoxColumn17.HeaderText = "Offensive Rebounds";
             this.dataGridViewTextBoxColumn17.Name = "dataGridViewTextBoxColumn17";
             this.dataGridViewTextBoxColumn17.ReadOnly = true;
-            this.dataGridViewTextBoxColumn17.Width = 140;
+            this.dataGridViewTextBoxColumn17.Width = 126;
             // 
             // dataGridViewTextBoxColumn18
             // 
             this.dataGridViewTextBoxColumn18.DataPropertyName = "Defensive_Rebounds";
-            this.dataGridViewTextBoxColumn18.HeaderText = "Defensive_Rebounds";
+            this.dataGridViewTextBoxColumn18.HeaderText = "Defensive Rebounds";
             this.dataGridViewTextBoxColumn18.Name = "dataGridViewTextBoxColumn18";
             this.dataGridViewTextBoxColumn18.ReadOnly = true;
-            this.dataGridViewTextBoxColumn18.Width = 141;
+            this.dataGridViewTextBoxColumn18.Width = 127;
             // 
             // dataGridViewTextBoxColumn19
             // 
             this.dataGridViewTextBoxColumn19.DataPropertyName = "Total_Rebounds";
-            this.dataGridViewTextBoxColumn19.HeaderText = "Total_Rebounds";
+            this.dataGridViewTextBoxColumn19.HeaderText = "Total Rebounds";
             this.dataGridViewTextBoxColumn19.Name = "dataGridViewTextBoxColumn19";
             this.dataGridViewTextBoxColumn19.ReadOnly = true;
-            this.dataGridViewTextBoxColumn19.Width = 116;
+            this.dataGridViewTextBoxColumn19.Width = 105;
             // 
             // dataGridViewTextBoxColumn20
             // 
@@ -388,34 +389,33 @@
             // dataGridViewTextBoxColumn24
             // 
             this.dataGridViewTextBoxColumn24.DataPropertyName = "Blocks_Against";
-            this.dataGridViewTextBoxColumn24.HeaderText = "Blocks_Against";
+            this.dataGridViewTextBoxColumn24.HeaderText = "Blocks Against";
             this.dataGridViewTextBoxColumn24.Name = "dataGridViewTextBoxColumn24";
             this.dataGridViewTextBoxColumn24.ReadOnly = true;
-            this.dataGridViewTextBoxColumn24.Width = 111;
             // 
             // dataGridViewTextBoxColumn25
             // 
             this.dataGridViewTextBoxColumn25.DataPropertyName = "Personal_Fouls";
-            this.dataGridViewTextBoxColumn25.HeaderText = "Personal_Fouls";
+            this.dataGridViewTextBoxColumn25.HeaderText = "Personal Fouls";
             this.dataGridViewTextBoxColumn25.Name = "dataGridViewTextBoxColumn25";
             this.dataGridViewTextBoxColumn25.ReadOnly = true;
-            this.dataGridViewTextBoxColumn25.Width = 110;
+            this.dataGridViewTextBoxColumn25.Width = 99;
             // 
             // dataGridViewTextBoxColumn26
             // 
             this.dataGridViewTextBoxColumn26.DataPropertyName = "Personal_Fouls_Drawn";
-            this.dataGridViewTextBoxColumn26.HeaderText = "Personal_Fouls_Drawn";
+            this.dataGridViewTextBoxColumn26.HeaderText = "Personal Fouls Drawn";
             this.dataGridViewTextBoxColumn26.Name = "dataGridViewTextBoxColumn26";
             this.dataGridViewTextBoxColumn26.ReadOnly = true;
-            this.dataGridViewTextBoxColumn26.Width = 149;
+            this.dataGridViewTextBoxColumn26.Width = 102;
             // 
             // dataGridViewTextBoxColumn27
             // 
             this.dataGridViewTextBoxColumn27.DataPropertyName = "Plus_Minus";
-            this.dataGridViewTextBoxColumn27.HeaderText = "Plus_Minus";
+            this.dataGridViewTextBoxColumn27.HeaderText = "Plus Minus";
             this.dataGridViewTextBoxColumn27.Name = "dataGridViewTextBoxColumn27";
             this.dataGridViewTextBoxColumn27.ReadOnly = true;
-            this.dataGridViewTextBoxColumn27.Width = 92;
+            this.dataGridViewTextBoxColumn27.Width = 83;
             // 
             // BasketballStatsForm
             // 
