@@ -67,18 +67,14 @@ namespace sportsApp.Forms
             {
                 if (email == "dev")
                 {
-                    MessageBox.Show($"Welcome Dev!", "Developer Sign In Status Approved", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    //clear table for safety
-                    currentUserAdapter.LogOutCurrentUser();
+                    MessageBox.Show($"Welcome Dev!", "Developer Sign In Status Approved", MessageBoxButtons.OK, MessageBoxIcon.Information);                    
                     //add current user
                     currentUserAdapter.LogInCurrentUser(email);
                     this.Close();
                 }
                 else
                 {
-                    MessageBox.Show($"User '{email}' Signed In", "Sign In Status Approved", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    //clear table for safety
-                    currentUserAdapter.LogOutCurrentUser();
+                    MessageBox.Show($"User '{email}' Signed In", "Sign In Status Approved", MessageBoxButtons.OK, MessageBoxIcon.Information);                    
                     //add current user
                     currentUserAdapter.LogInCurrentUser(email);
                     this.Close();
