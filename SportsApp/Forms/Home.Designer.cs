@@ -43,7 +43,10 @@
             this.headerLabel = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.contentPanel = new System.Windows.Forms.Panel();
+            this.buttonDashboard = new System.Windows.Forms.Button();
+            this.lblHeader = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            this.contentPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // scheduleButton
@@ -56,9 +59,9 @@
             this.scheduleButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.scheduleButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.scheduleButton.ForeColor = System.Drawing.Color.White;
-            this.scheduleButton.Location = new System.Drawing.Point(0, 268);
+            this.scheduleButton.Location = new System.Drawing.Point(0, 310);
             this.scheduleButton.Name = "scheduleButton";
-            this.scheduleButton.Size = new System.Drawing.Size(216, 55);
+            this.scheduleButton.Size = new System.Drawing.Size(216, 48);
             this.scheduleButton.TabIndex = 15;
             this.scheduleButton.Text = "Schedules";
             this.scheduleButton.UseVisualStyleBackColor = false;
@@ -74,9 +77,9 @@
             this.statsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.statsButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.statsButton.ForeColor = System.Drawing.Color.White;
-            this.statsButton.Location = new System.Drawing.Point(0, 213);
+            this.statsButton.Location = new System.Drawing.Point(0, 255);
             this.statsButton.Name = "statsButton";
-            this.statsButton.Size = new System.Drawing.Size(216, 55);
+            this.statsButton.Size = new System.Drawing.Size(216, 48);
             this.statsButton.TabIndex = 14;
             this.statsButton.Text = "Stats";
             this.statsButton.UseVisualStyleBackColor = false;
@@ -128,9 +131,9 @@
             this.playersButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.playersButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.playersButton.ForeColor = System.Drawing.Color.White;
-            this.playersButton.Location = new System.Drawing.Point(0, 158);
+            this.playersButton.Location = new System.Drawing.Point(0, 200);
             this.playersButton.Name = "playersButton";
-            this.playersButton.Size = new System.Drawing.Size(216, 55);
+            this.playersButton.Size = new System.Drawing.Size(216, 48);
             this.playersButton.TabIndex = 12;
             this.playersButton.Text = "Players";
             this.playersButton.UseVisualStyleBackColor = false;
@@ -146,9 +149,9 @@
             this.teamsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.teamsButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.teamsButton.ForeColor = System.Drawing.Color.White;
-            this.teamsButton.Location = new System.Drawing.Point(0, 103);
+            this.teamsButton.Location = new System.Drawing.Point(0, 145);
             this.teamsButton.Name = "teamsButton";
-            this.teamsButton.Size = new System.Drawing.Size(216, 55);
+            this.teamsButton.Size = new System.Drawing.Size(216, 48);
             this.teamsButton.TabIndex = 13;
             this.teamsButton.Text = "Teams";
             this.teamsButton.UseVisualStyleBackColor = false;
@@ -164,9 +167,9 @@
             this.standingsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.standingsButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.standingsButton.ForeColor = System.Drawing.Color.White;
-            this.standingsButton.Location = new System.Drawing.Point(0, 323);
+            this.standingsButton.Location = new System.Drawing.Point(0, 365);
             this.standingsButton.Name = "standingsButton";
-            this.standingsButton.Size = new System.Drawing.Size(216, 55);
+            this.standingsButton.Size = new System.Drawing.Size(216, 48);
             this.standingsButton.TabIndex = 9;
             this.standingsButton.Text = "Standings";
             this.standingsButton.UseVisualStyleBackColor = false;
@@ -183,7 +186,7 @@
             this.footballButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.footballButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.footballButton.ForeColor = System.Drawing.Color.White;
-            this.footballButton.Location = new System.Drawing.Point(108, 59);
+            this.footballButton.Location = new System.Drawing.Point(108, 46);
             this.footballButton.Name = "footballButton";
             this.footballButton.Size = new System.Drawing.Size(108, 38);
             this.footballButton.TabIndex = 6;
@@ -203,7 +206,7 @@
             this.basketballButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.basketballButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.basketballButton.ForeColor = System.Drawing.Color.White;
-            this.basketballButton.Location = new System.Drawing.Point(0, 59);
+            this.basketballButton.Location = new System.Drawing.Point(0, 46);
             this.basketballButton.Name = "basketballButton";
             this.basketballButton.Size = new System.Drawing.Size(108, 38);
             this.basketballButton.TabIndex = 7;
@@ -217,7 +220,7 @@
             this.headerLabel.AutoSize = true;
             this.headerLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.headerLabel.ForeColor = System.Drawing.Color.White;
-            this.headerLabel.Location = new System.Drawing.Point(53, 19);
+            this.headerLabel.Location = new System.Drawing.Point(53, 9);
             this.headerLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.headerLabel.Name = "headerLabel";
             this.headerLabel.Size = new System.Drawing.Size(111, 25);
@@ -227,6 +230,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(34)))), ((int)(((byte)(124)))));
+            this.panel1.Controls.Add(this.buttonDashboard);
             this.panel1.Controls.Add(this.closeButton);
             this.panel1.Controls.Add(this.scheduleButton);
             this.panel1.Controls.Add(this.basketballButton);
@@ -245,10 +249,41 @@
             // 
             // contentPanel
             // 
+            this.contentPanel.Controls.Add(this.lblHeader);
             this.contentPanel.Location = new System.Drawing.Point(215, 0);
             this.contentPanel.Name = "contentPanel";
             this.contentPanel.Size = new System.Drawing.Size(604, 491);
             this.contentPanel.TabIndex = 17;
+            // 
+            // buttonDashboard
+            // 
+            this.buttonDashboard.BackColor = System.Drawing.Color.Transparent;
+            this.buttonDashboard.FlatAppearance.BorderSize = 0;
+            this.buttonDashboard.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
+            this.buttonDashboard.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
+            this.buttonDashboard.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(144)))), ((int)(((byte)(238)))));
+            this.buttonDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonDashboard.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonDashboard.ForeColor = System.Drawing.Color.White;
+            this.buttonDashboard.Location = new System.Drawing.Point(0, 90);
+            this.buttonDashboard.Name = "buttonDashboard";
+            this.buttonDashboard.Size = new System.Drawing.Size(216, 48);
+            this.buttonDashboard.TabIndex = 16;
+            this.buttonDashboard.Text = "Dashboard";
+            this.buttonDashboard.UseVisualStyleBackColor = false;
+            this.buttonDashboard.Click += new System.EventHandler(this.buttonDashboard_Click);
+            // 
+            // lblHeader
+            // 
+            this.lblHeader.AutoSize = true;
+            this.lblHeader.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHeader.ForeColor = System.Drawing.Color.Black;
+            this.lblHeader.Location = new System.Drawing.Point(168, 39);
+            this.lblHeader.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblHeader.Name = "lblHeader";
+            this.lblHeader.Size = new System.Drawing.Size(268, 40);
+            this.lblHeader.TabIndex = 9;
+            this.lblHeader.Text = "Welcome, (name)!";
             // 
             // Home
             // 
@@ -266,6 +301,8 @@
             this.Text = "Sports Stats";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.contentPanel.ResumeLayout(false);
+            this.contentPanel.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -284,6 +321,8 @@
         private System.Windows.Forms.Label headerLabel;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel contentPanel;
+        private System.Windows.Forms.Button buttonDashboard;
+        private System.Windows.Forms.Label lblHeader;
     }
 }
 

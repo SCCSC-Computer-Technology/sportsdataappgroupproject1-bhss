@@ -91,5 +91,12 @@ namespace sportsApp.Forms
         {
             ApplySearchFilter();
         }
+
+        private void buttonClearFilters_Click(object sender, EventArgs e)
+        {
+            nBATeamsBindingSource.Sort = "TeamName";
+            sortByDropdown.SelectedIndex = 0;
+            searchTextbox.Clear();
+        }
     }
 }

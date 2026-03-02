@@ -49,11 +49,17 @@
             this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.buttonClearFilters = new System.Windows.Forms.Button();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.comboBoxSortTeams = new System.Windows.Forms.ComboBox();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sportInfoDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nbaCurrentPlayersBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nbaCurrentPlayersDataGridView)).BeginInit();
+            this.groupBox4.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -69,7 +75,7 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.searchTextbox);
-            this.groupBox2.Location = new System.Drawing.Point(392, 69);
+            this.groupBox2.Location = new System.Drawing.Point(392, 43);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(200, 58);
             this.groupBox2.TabIndex = 8;
@@ -87,7 +93,7 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.teamDropdown);
-            this.groupBox1.Location = new System.Drawing.Point(12, 69);
+            this.groupBox1.Location = new System.Drawing.Point(12, 43);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(200, 58);
             this.groupBox1.TabIndex = 9;
@@ -151,9 +157,14 @@
             // tableAdapterManager
             // 
             this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.CurrentUserTableAdapter = null;
             this.tableAdapterManager.nbaCurrentPlayersTableAdapter = this.nbaCurrentPlayersTableAdapter;
             this.tableAdapterManager.NBAScheduleTableAdapter = null;
+            this.tableAdapterManager.nbaSeasonStatsTableAdapter = null;
             this.tableAdapterManager.NBATeamsTableAdapter = null;
+            this.tableAdapterManager.nfl_PlayersCurrentTableAdapter = null;
+            this.tableAdapterManager.nflScheduleTableAdapter = null;
+            this.tableAdapterManager.nflSeasonStatsTableAdapter = null;
             this.tableAdapterManager.NFLTeamsTableAdapter = null;
             this.tableAdapterManager.UpdateOrder = sportsApp.SportInfoDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             this.tableAdapterManager.UsersTableAdapter = null;
@@ -265,11 +276,63 @@
             this.dataGridViewTextBoxColumn12.ReadOnly = true;
             this.dataGridViewTextBoxColumn12.Width = 80;
             // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.buttonClearFilters);
+            this.groupBox4.Location = new System.Drawing.Point(392, 107);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(200, 58);
+            this.groupBox4.TabIndex = 16;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Clear";
+            // 
+            // buttonClearFilters
+            // 
+            this.buttonClearFilters.Location = new System.Drawing.Point(45, 22);
+            this.buttonClearFilters.Name = "buttonClearFilters";
+            this.buttonClearFilters.Size = new System.Drawing.Size(100, 23);
+            this.buttonClearFilters.TabIndex = 0;
+            this.buttonClearFilters.Text = "Clear Filters";
+            this.buttonClearFilters.UseVisualStyleBackColor = true;
+            this.buttonClearFilters.Click += new System.EventHandler(this.buttonClearFilters_Click);
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.comboBoxSortTeams);
+            this.groupBox3.Location = new System.Drawing.Point(12, 107);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(200, 58);
+            this.groupBox3.TabIndex = 15;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Sort By";
+            // 
+            // comboBoxSortTeams
+            // 
+            this.comboBoxSortTeams.FormattingEnabled = true;
+            this.comboBoxSortTeams.Items.AddRange(new object[] {
+            "Name",
+            "Position",
+            "Height",
+            "Weight",
+            "YearsInLeague",
+            "BornIn",
+            "BirthYear",
+            "DraftYear",
+            "DraftRound",
+            "DraftPick"});
+            this.comboBoxSortTeams.Location = new System.Drawing.Point(40, 23);
+            this.comboBoxSortTeams.Name = "comboBoxSortTeams";
+            this.comboBoxSortTeams.Size = new System.Drawing.Size(121, 23);
+            this.comboBoxSortTeams.TabIndex = 4;
+            this.comboBoxSortTeams.SelectedIndexChanged += new System.EventHandler(this.comboBoxSortTeams_SelectedIndexChanged);
+            // 
             // BasketballPlayersForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(604, 491);
+            this.Controls.Add(this.groupBox4);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.nbaCurrentPlayersDataGridView);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -286,6 +349,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.sportInfoDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nbaCurrentPlayersBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nbaCurrentPlayersDataGridView)).EndInit();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -313,5 +378,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn11;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn12;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.Button buttonClearFilters;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.ComboBox comboBoxSortTeams;
     }
 }

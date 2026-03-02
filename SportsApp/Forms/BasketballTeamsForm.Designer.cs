@@ -45,11 +45,14 @@
             this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.buttonClearFilters = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sportInfoDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nBATeamsBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nBATeamsDataGridView)).BeginInit();
+            this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -65,7 +68,7 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.searchTextbox);
-            this.groupBox2.Location = new System.Drawing.Point(392, 69);
+            this.groupBox2.Location = new System.Drawing.Point(392, 41);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(200, 58);
             this.groupBox2.TabIndex = 6;
@@ -122,7 +125,14 @@
             // tableAdapterManager
             // 
             this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.CurrentUserTableAdapter = null;
+            this.tableAdapterManager.nbaCurrentPlayersTableAdapter = null;
+            this.tableAdapterManager.NBAScheduleTableAdapter = null;
+            this.tableAdapterManager.nbaSeasonStatsTableAdapter = null;
             this.tableAdapterManager.NBATeamsTableAdapter = this.nBATeamsTableAdapter;
+            this.tableAdapterManager.nfl_PlayersCurrentTableAdapter = null;
+            this.tableAdapterManager.nflScheduleTableAdapter = null;
+            this.tableAdapterManager.nflSeasonStatsTableAdapter = null;
             this.tableAdapterManager.NFLTeamsTableAdapter = null;
             this.tableAdapterManager.UpdateOrder = sportsApp.SportInfoDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             this.tableAdapterManager.UsersTableAdapter = null;
@@ -198,11 +208,32 @@
             this.dataGridViewTextBoxColumn5.ReadOnly = true;
             this.dataGridViewTextBoxColumn5.Width = 63;
             // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.buttonClearFilters);
+            this.groupBox4.Location = new System.Drawing.Point(392, 105);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(200, 58);
+            this.groupBox4.TabIndex = 16;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Clear";
+            // 
+            // buttonClearFilters
+            // 
+            this.buttonClearFilters.Location = new System.Drawing.Point(45, 22);
+            this.buttonClearFilters.Name = "buttonClearFilters";
+            this.buttonClearFilters.Size = new System.Drawing.Size(100, 23);
+            this.buttonClearFilters.TabIndex = 0;
+            this.buttonClearFilters.Text = "Clear Filters";
+            this.buttonClearFilters.UseVisualStyleBackColor = true;
+            this.buttonClearFilters.Click += new System.EventHandler(this.buttonClearFilters_Click);
+            // 
             // BasketballTeamsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(604, 491);
+            this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.nBATeamsDataGridView);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -219,6 +250,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.sportInfoDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nBATeamsBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nBATeamsDataGridView)).EndInit();
+            this.groupBox4.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -242,5 +274,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.Button buttonClearFilters;
     }
 }

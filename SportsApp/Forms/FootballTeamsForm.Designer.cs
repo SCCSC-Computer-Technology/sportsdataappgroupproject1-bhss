@@ -47,11 +47,14 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.searchTextbox = new System.Windows.Forms.TextBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.buttonClearFilters = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.sportInfoDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nFLTeamsBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nFLTeamsDataGridView)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -81,7 +84,14 @@
             // tableAdapterManager
             // 
             this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.CurrentUserTableAdapter = null;
+            this.tableAdapterManager.nbaCurrentPlayersTableAdapter = null;
+            this.tableAdapterManager.NBAScheduleTableAdapter = null;
+            this.tableAdapterManager.nbaSeasonStatsTableAdapter = null;
             this.tableAdapterManager.NBATeamsTableAdapter = null;
+            this.tableAdapterManager.nfl_PlayersCurrentTableAdapter = null;
+            this.tableAdapterManager.nflScheduleTableAdapter = null;
+            this.tableAdapterManager.nflSeasonStatsTableAdapter = null;
             this.tableAdapterManager.NFLTeamsTableAdapter = this.nFLTeamsTableAdapter;
             this.tableAdapterManager.UpdateOrder = sportsApp.SportInfoDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             this.tableAdapterManager.UsersTableAdapter = null;
@@ -195,7 +205,7 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.searchTextbox);
-            this.groupBox2.Location = new System.Drawing.Point(392, 69);
+            this.groupBox2.Location = new System.Drawing.Point(392, 39);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(200, 58);
             this.groupBox2.TabIndex = 5;
@@ -204,17 +214,38 @@
             // 
             // searchTextbox
             // 
-            this.searchTextbox.Location = new System.Drawing.Point(45, 24);
+            this.searchTextbox.Location = new System.Drawing.Point(45, 22);
             this.searchTextbox.Name = "searchTextbox";
             this.searchTextbox.Size = new System.Drawing.Size(100, 23);
             this.searchTextbox.TabIndex = 0;
             this.searchTextbox.TextChanged += new System.EventHandler(this.searchTextbox_TextChanged);
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.buttonClearFilters);
+            this.groupBox4.Location = new System.Drawing.Point(392, 103);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(200, 58);
+            this.groupBox4.TabIndex = 15;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Clear";
+            // 
+            // buttonClearFilters
+            // 
+            this.buttonClearFilters.Location = new System.Drawing.Point(45, 22);
+            this.buttonClearFilters.Name = "buttonClearFilters";
+            this.buttonClearFilters.Size = new System.Drawing.Size(100, 23);
+            this.buttonClearFilters.TabIndex = 0;
+            this.buttonClearFilters.Text = "Clear Filters";
+            this.buttonClearFilters.UseVisualStyleBackColor = true;
+            this.buttonClearFilters.Click += new System.EventHandler(this.buttonClearFilters_Click);
             // 
             // FootballTeamsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(604, 491);
+            this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.nFLTeamsDataGridView);
@@ -231,6 +262,7 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -254,5 +286,7 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.TextBox searchTextbox;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.Button buttonClearFilters;
     }
 }

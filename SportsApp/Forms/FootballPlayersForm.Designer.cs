@@ -251,7 +251,7 @@
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.buttonClearFilters);
-            this.groupBox4.Location = new System.Drawing.Point(392, 116);
+            this.groupBox4.Location = new System.Drawing.Point(392, 104);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(200, 58);
             this.groupBox4.TabIndex = 14;

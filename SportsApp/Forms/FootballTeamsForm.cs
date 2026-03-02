@@ -92,5 +92,11 @@ namespace sportsApp.Forms
             nFLTeamsBindingSource.Filter = filter;
         }
 
+        private void buttonClearFilters_Click(object sender, EventArgs e)
+        {
+            sortByDropdown.SelectedIndex = 0;
+            searchTextbox.Clear();
+            nFLTeamsBindingSource.Sort = "TeamName";
+        }
     }
 }

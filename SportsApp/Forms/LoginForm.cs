@@ -25,6 +25,9 @@ namespace sportsApp.Forms
 
         private void registerLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            emailTextbox.Clear();
+            passwordTextbox.Clear();
+            emailTextbox.Focus();
             RegisterForm registerForm = new RegisterForm();
             registerForm.ShowDialog();
         }
@@ -69,14 +72,14 @@ namespace sportsApp.Forms
                 {
                     MessageBox.Show($"Welcome Dev!", "Developer Sign In Status Approved", MessageBoxButtons.OK, MessageBoxIcon.Information);                    
                     //add current user
-                    currentUserAdapter.LogInCurrentUser(email);
+                    currentUserAdapter.LogInCurrentUser(email);                    
                     this.Close();
                 }
                 else
                 {
                     MessageBox.Show($"User '{email}' Signed In", "Sign In Status Approved", MessageBoxButtons.OK, MessageBoxIcon.Information);                    
                     //add current user
-                    currentUserAdapter.LogInCurrentUser(email);
+                    currentUserAdapter.LogInCurrentUser(email);                    
                     this.Close();
                 }
                 

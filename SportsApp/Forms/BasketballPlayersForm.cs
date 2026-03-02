@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Net.Sockets;
+using System.Runtime.Remoting.Metadata.W3cXsd2001;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -36,7 +37,6 @@ namespace sportsApp.Forms
 
         private void sortByDropdown_SelectedIndexChanged(object sender, EventArgs e)
         {
-
             if (teamDropdown.SelectedItem == null)
             {
                 return;
@@ -195,6 +195,65 @@ namespace sportsApp.Forms
                 $"Convert([DraftPick], 'System.String') LIKE '%{searchText}%'";
 
             nbaCurrentPlayersBindingSource.Filter = filter;
+        }
+
+        private void buttonClearFilters_Click(object sender, EventArgs e)
+        {
+            teamDropdown.SelectedIndex = -1;
+            comboBoxSortTeams.SelectedIndex = -1;
+            searchTextbox.Clear();
+            nbaCurrentPlayersBindingSource.RemoveFilter();
+            nbaCurrentPlayersBindingSource.Sort = "name";
+        }
+
+        private void sortByDropdown_SelectedIndexChanged_1(object sender, EventArgs e)
+        {            
+        }
+
+        private void comboBoxSortTeams_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //sort
+            if (comboBoxSortTeams.SelectedIndex != -1) { return; }
+            else if (comboBoxSortTeams.SelectedItem == "Name")
+            {
+                nbaCurrentPlayersBindingSource.Sort = "Name ASC";
+            }
+            else if (comboBoxSortTeams.SelectedItem == "Position")
+            {
+                nbaCurrentPlayersBindingSource.Sort = "Position ASC";
+            }
+            else if (comboBoxSortTeams.SelectedItem == "Height")
+            {
+                nbaCurrentPlayersBindingSource.Sort = "Height ASC";
+            }
+            else if (comboBoxSortTeams.SelectedItem == "Weight")
+            {
+                nbaCurrentPlayersBindingSource.Sort = "Weight ASC";
+            }
+            else if (comboBoxSortTeams.SelectedItem == "YearsInLeague")
+            {
+                nbaCurrentPlayersBindingSource.Sort = "YearsInLeague ASC";
+            }
+            else if (comboBoxSortTeams.SelectedItem == "BornIn")
+            {
+                nbaCurrentPlayersBindingSource.Sort = "BornIn ASC";
+            }
+            else if (comboBoxSortTeams.SelectedItem == "BirthYear")
+            {
+                nbaCurrentPlayersBindingSource.Sort = "BirthYear ASC";
+            }
+            else if (comboBoxSortTeams.SelectedItem == "DraftYear")
+            {
+                nbaCurrentPlayersBindingSource.Sort = "DraftYear ASC";
+            }
+            else if (comboBoxSortTeams.SelectedItem == "DraftRound")
+            {
+                nbaCurrentPlayersBindingSource.Sort = "DraftRound ASC";
+            }
+            else if (comboBoxSortTeams.SelectedItem == "DraftPick")
+            {
+                nbaCurrentPlayersBindingSource.Sort = "DraftPick ASC";
+            }
         }
     }
 }

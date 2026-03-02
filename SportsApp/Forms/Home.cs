@@ -22,6 +22,11 @@ namespace sportsApp
             loginform.ShowDialog();
             basketballButton.Checked = false;
             footballButton.Checked = false;
+            var currentUserAdapter = new SportInfoDataSetTableAdapters.CurrentUserTableAdapter();
+            var dataTable = new SportInfoDataSet.CurrentUserDataTable();
+            currentUserAdapter.Fill(dataTable);
+            string name = currentUserAdapter.GetName();
+            lblHeader.Text = $"Welcome, {name}!";
         }
 
         private void logOutButton_Click(object sender, EventArgs e)
@@ -31,6 +36,11 @@ namespace sportsApp
             // display loginform again if user logs out.
             LoginForm loginform = new LoginForm();
             loginform.ShowDialog();
+            var currentUserAdapter = new SportInfoDataSetTableAdapters.CurrentUserTableAdapter();
+            var dataTable = new SportInfoDataSet.CurrentUserDataTable();
+            currentUserAdapter.Fill(dataTable);
+            string name = currentUserAdapter.GetName();
+            lblHeader.Text = $"Welcome, {name}!";
         }
 
         private void closeButton_Click(object sender, EventArgs e)
@@ -110,5 +120,11 @@ namespace sportsApp
             child.Show();
         }
 
+        private void buttonDashboard_Click(object sender, EventArgs e)
+        {
+            //clear main panel
+            contentPanel.Controls.Clear();            
+            contentPanel.Controls.Add(lblHeader);
+        }
     }
 }
