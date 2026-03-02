@@ -498,7 +498,7 @@ SELECT CurrentUserID, UserID, FirstName, FavoriteNBATeamID, FavoriteNFLTeamID FR
               <Mapping SourceColumn="FavoriteNFLTeamID" DataSetColumn="FavoriteNFLTeamID" />
             </Mappings>
             <Sources>
-              <DbSource ConnectionRef="SportInfoDBConnectionString (Settings)" DbObjectName="dbo.CurrentUser" DbObjectType="Table" GenerateShortCommands="true" GeneratorSourceName="GetName" Modifier="Public" Name="GetName" QueryType="Scalar" ScalarCallRetval="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy3" UserSourceName="GetName">
+              <DbSource ConnectionRef="SportInfoDBConnectionString (Settings)" DbObjectName="dbo.CurrentUser" DbObjectType="Table" GenerateShortCommands="true" GeneratorSourceName="GetName" Modifier="Public" Name="GetName" QueryType="Scalar" ScalarCallRetval="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="GetName">
                 <SelectCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="true">
                     <CommandText>SELECT FirstName FROM CurrentUser</CommandText>
@@ -506,7 +506,16 @@ SELECT CurrentUserID, UserID, FirstName, FavoriteNBATeamID, FavoriteNFLTeamID FR
                   </DbCommand>
                 </SelectCommand>
               </DbSource>
-              <DbSource ConnectionRef="SportInfoDBConnectionString (Settings)" DbObjectName="dbo.CurrentUser" DbObjectType="Table" GenerateShortCommands="true" GeneratorSourceName="GetNFLTeam" Modifier="Public" Name="GetNFLTeam" QueryType="Scalar" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="GetNFLTeam">
+              <DbSource ConnectionRef="SportInfoDBConnectionString (Settings)" DbObjectName="dbo.CurrentUser" DbObjectType="Table" GenerateShortCommands="true" GeneratorSourceName="GetNBATeam" Modifier="Public" Name="GetNBATeam" QueryType="Scalar" ScalarCallRetval="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy4" UserSourceName="GetNBATeam">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>Select FavoriteNBATeamID FROM CurrentUser
+</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="SportInfoDBConnectionString (Settings)" DbObjectName="dbo.CurrentUser" DbObjectType="Table" GenerateShortCommands="true" GeneratorSourceName="GetNFLTeam" Modifier="Public" Name="GetNFLTeam" QueryType="Scalar" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="GetNFLTeam">
                 <SelectCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="true">
                     <CommandText>SELECT FavoriteNFLTeamID
@@ -515,7 +524,7 @@ FROM CurrentUser;</CommandText>
                   </DbCommand>
                 </SelectCommand>
               </DbSource>
-              <DbSource ConnectionRef="SportInfoDBConnectionString (Settings)" DbObjectName="" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="LogInCurrentUser" Modifier="Public" Name="LogInCurrentUser" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="LogInCurrentUser">
+              <DbSource ConnectionRef="SportInfoDBConnectionString (Settings)" DbObjectName="" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="LogInCurrentUser" Modifier="Public" Name="LogInCurrentUser" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy2" UserSourceName="LogInCurrentUser">
                 <InsertCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="true">
                     <CommandText>
@@ -530,7 +539,7 @@ WHERE Email = @Email;</CommandText>
                   </DbCommand>
                 </InsertCommand>
               </DbSource>
-              <DbSource ConnectionRef="SportInfoDBConnectionString (Settings)" DbObjectName="" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="LogOutCurrentUser" Modifier="Public" Name="LogOutCurrentUser" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy2" UserSourceName="LogOutCurrentUser">
+              <DbSource ConnectionRef="SportInfoDBConnectionString (Settings)" DbObjectName="" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="LogOutCurrentUser" Modifier="Public" Name="LogOutCurrentUser" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy3" UserSourceName="LogOutCurrentUser">
                 <UpdateCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="true">
                     <CommandText>DELETE FROM CurrentUser;</CommandText>
@@ -1027,25 +1036,25 @@ WHERE Email = @Email;</CommandText>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="nflSeasonStats" msprop:Generator_RowClassName="nflSeasonStatsRow" msprop:Generator_RowEvHandlerName="nflSeasonStatsRowChangeEventHandler" msprop:Generator_RowDeletedName="nflSeasonStatsRowDeleted" msprop:Generator_RowDeletingName="nflSeasonStatsRowDeleting" msprop:Generator_RowEvArgName="nflSeasonStatsRowChangeEvent" msprop:Generator_TablePropName="nflSeasonStats" msprop:Generator_RowChangedName="nflSeasonStatsRowChanged" msprop:Generator_UserTableName="nflSeasonStats" msprop:Generator_RowChangingName="nflSeasonStatsRowChanging" msprop:Generator_TableClassName="nflSeasonStatsDataTable" msprop:Generator_TableVarName="tablenflSeasonStats">
+        <xs:element name="nflSeasonStats" msprop:Generator_RowEvHandlerName="nflSeasonStatsRowChangeEventHandler" msprop:Generator_RowDeletedName="nflSeasonStatsRowDeleted" msprop:Generator_RowDeletingName="nflSeasonStatsRowDeleting" msprop:Generator_RowEvArgName="nflSeasonStatsRowChangeEvent" msprop:Generator_TablePropName="nflSeasonStats" msprop:Generator_RowChangedName="nflSeasonStatsRowChanged" msprop:Generator_UserTableName="nflSeasonStats" msprop:Generator_RowChangingName="nflSeasonStatsRowChanging" msprop:Generator_RowClassName="nflSeasonStatsRow" msprop:Generator_TableClassName="nflSeasonStatsDataTable" msprop:Generator_TableVarName="tablenflSeasonStats">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="Team" msprop:Generator_UserColumnName="Team" msprop:Generator_ColumnPropNameInTable="TeamColumn" msprop:Generator_ColumnPropNameInRow="Team" msprop:Generator_ColumnVarNameInTable="columnTeam">
+              <xs:element name="Team" msprop:Generator_ColumnPropNameInTable="TeamColumn" msprop:Generator_ColumnPropNameInRow="Team" msprop:Generator_UserColumnName="Team" msprop:Generator_ColumnVarNameInTable="columnTeam">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="50" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="GP" msprop:Generator_UserColumnName="GP" msprop:Generator_ColumnPropNameInTable="GPColumn" msprop:Generator_ColumnPropNameInRow="GP" msprop:Generator_ColumnVarNameInTable="columnGP" type="xs:unsignedByte" />
-              <xs:element name="Total_Yards" msprop:Generator_UserColumnName="Total_Yards" msprop:Generator_ColumnPropNameInTable="Total_YardsColumn" msprop:Generator_ColumnPropNameInRow="Total_Yards" msprop:Generator_ColumnVarNameInTable="columnTotal_Yards" type="xs:short" />
-              <xs:element name="Total_Yards_Per_Game" msprop:Generator_UserColumnName="Total_Yards_Per_Game" msprop:Generator_ColumnPropNameInTable="Total_Yards_Per_GameColumn" msprop:Generator_ColumnPropNameInRow="Total_Yards_Per_Game" msprop:Generator_ColumnVarNameInTable="columnTotal_Yards_Per_Game" type="xs:decimal" />
-              <xs:element name="Passing_Yards" msprop:Generator_UserColumnName="Passing_Yards" msprop:Generator_ColumnPropNameInTable="Passing_YardsColumn" msprop:Generator_ColumnPropNameInRow="Passing_Yards" msprop:Generator_ColumnVarNameInTable="columnPassing_Yards" type="xs:short" />
-              <xs:element name="Passing_Yards_Per_Game" msprop:Generator_UserColumnName="Passing_Yards_Per_Game" msprop:Generator_ColumnPropNameInTable="Passing_Yards_Per_GameColumn" msprop:Generator_ColumnPropNameInRow="Passing_Yards_Per_Game" msprop:Generator_ColumnVarNameInTable="columnPassing_Yards_Per_Game" type="xs:decimal" />
-              <xs:element name="Rushing_Yards" msprop:Generator_UserColumnName="Rushing_Yards" msprop:Generator_ColumnPropNameInTable="Rushing_YardsColumn" msprop:Generator_ColumnPropNameInRow="Rushing_Yards" msprop:Generator_ColumnVarNameInTable="columnRushing_Yards" type="xs:short" />
-              <xs:element name="Rushing_Yards_Per_Game" msprop:Generator_UserColumnName="Rushing_Yards_Per_Game" msprop:Generator_ColumnPropNameInTable="Rushing_Yards_Per_GameColumn" msprop:Generator_ColumnPropNameInRow="Rushing_Yards_Per_Game" msprop:Generator_ColumnVarNameInTable="columnRushing_Yards_Per_Game" type="xs:decimal" />
-              <xs:element name="Points" msprop:Generator_UserColumnName="Points" msprop:Generator_ColumnPropNameInTable="PointsColumn" msprop:Generator_ColumnPropNameInRow="Points" msprop:Generator_ColumnVarNameInTable="columnPoints" type="xs:short" />
-              <xs:element name="Points_Per_Game" msprop:Generator_UserColumnName="Points_Per_Game" msprop:Generator_ColumnPropNameInTable="Points_Per_GameColumn" msprop:Generator_ColumnPropNameInRow="Points_Per_Game" msprop:Generator_ColumnVarNameInTable="columnPoints_Per_Game" type="xs:decimal" />
+              <xs:element name="GP" msprop:Generator_ColumnPropNameInTable="GPColumn" msprop:Generator_ColumnPropNameInRow="GP" msprop:Generator_UserColumnName="GP" msprop:Generator_ColumnVarNameInTable="columnGP" type="xs:unsignedByte" />
+              <xs:element name="Total_Yards" msprop:Generator_ColumnPropNameInTable="Total_YardsColumn" msprop:Generator_ColumnPropNameInRow="Total_Yards" msprop:Generator_UserColumnName="Total_Yards" msprop:Generator_ColumnVarNameInTable="columnTotal_Yards" type="xs:short" />
+              <xs:element name="Total_Yards_Per_Game" msprop:Generator_ColumnPropNameInTable="Total_Yards_Per_GameColumn" msprop:Generator_ColumnPropNameInRow="Total_Yards_Per_Game" msprop:Generator_UserColumnName="Total_Yards_Per_Game" msprop:Generator_ColumnVarNameInTable="columnTotal_Yards_Per_Game" type="xs:decimal" />
+              <xs:element name="Passing_Yards" msprop:Generator_ColumnPropNameInTable="Passing_YardsColumn" msprop:Generator_ColumnPropNameInRow="Passing_Yards" msprop:Generator_UserColumnName="Passing_Yards" msprop:Generator_ColumnVarNameInTable="columnPassing_Yards" type="xs:short" />
+              <xs:element name="Passing_Yards_Per_Game" msprop:Generator_ColumnPropNameInTable="Passing_Yards_Per_GameColumn" msprop:Generator_ColumnPropNameInRow="Passing_Yards_Per_Game" msprop:Generator_UserColumnName="Passing_Yards_Per_Game" msprop:Generator_ColumnVarNameInTable="columnPassing_Yards_Per_Game" type="xs:decimal" />
+              <xs:element name="Rushing_Yards" msprop:Generator_ColumnPropNameInTable="Rushing_YardsColumn" msprop:Generator_ColumnPropNameInRow="Rushing_Yards" msprop:Generator_UserColumnName="Rushing_Yards" msprop:Generator_ColumnVarNameInTable="columnRushing_Yards" type="xs:short" />
+              <xs:element name="Rushing_Yards_Per_Game" msprop:Generator_ColumnPropNameInTable="Rushing_Yards_Per_GameColumn" msprop:Generator_ColumnPropNameInRow="Rushing_Yards_Per_Game" msprop:Generator_UserColumnName="Rushing_Yards_Per_Game" msprop:Generator_ColumnVarNameInTable="columnRushing_Yards_Per_Game" type="xs:decimal" />
+              <xs:element name="Points" msprop:Generator_ColumnPropNameInTable="PointsColumn" msprop:Generator_ColumnPropNameInRow="Points" msprop:Generator_UserColumnName="Points" msprop:Generator_ColumnVarNameInTable="columnPoints" type="xs:short" />
+              <xs:element name="Points_Per_Game" msprop:Generator_ColumnPropNameInTable="Points_Per_GameColumn" msprop:Generator_ColumnPropNameInRow="Points_Per_Game" msprop:Generator_UserColumnName="Points_Per_Game" msprop:Generator_ColumnVarNameInTable="columnPoints_Per_Game" type="xs:decimal" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>
@@ -1070,11 +1079,11 @@ WHERE Email = @Email;</CommandText>
   </xs:element>
   <xs:annotation>
     <xs:appinfo>
-      <msdata:Relationship name="FK_FavoriteNBATeam" msdata:parent="NBATeams" msdata:child="Users" msdata:parentkey="NBATeamID" msdata:childkey="FavoriteNBATeamID" msprop:Generator_UserParentTable="NBATeams" msprop:Generator_UserChildTable="Users" msprop:Generator_RelationVarName="relationFK_FavoriteNBATeam" msprop:Generator_ChildPropName="GetUsersRows" msprop:Generator_ParentPropName="NBATeamsRow" msprop:Generator_UserRelationName="FK_FavoriteNBATeam" />
-      <msdata:Relationship name="FK_FavoriteNFLTeam" msdata:parent="NFLTeams" msdata:child="Users" msdata:parentkey="NFLTeamID" msdata:childkey="FavoriteNFLTeamID" msprop:Generator_UserParentTable="NFLTeams" msprop:Generator_UserChildTable="Users" msprop:Generator_RelationVarName="relationFK_FavoriteNFLTeam" msprop:Generator_ChildPropName="GetUsersRows" msprop:Generator_ParentPropName="NFLTeamsRow" msprop:Generator_UserRelationName="FK_FavoriteNFLTeam" />
-      <msdata:Relationship name="FK_CurrentUser_NBATeams" msdata:parent="NBATeams" msdata:child="CurrentUser" msdata:parentkey="NBATeamID" msdata:childkey="FavoriteNBATeamID" msprop:Generator_UserParentTable="NBATeams" msprop:Generator_UserChildTable="CurrentUser" msprop:Generator_RelationVarName="relationFK_CurrentUser_NBATeams" msprop:Generator_ChildPropName="GetCurrentUserRows" msprop:Generator_UserRelationName="FK_CurrentUser_NBATeams" msprop:Generator_ParentPropName="NBATeamsRow" />
-      <msdata:Relationship name="FK_CurrentUser_NFLTeams" msdata:parent="NFLTeams" msdata:child="CurrentUser" msdata:parentkey="NFLTeamID" msdata:childkey="FavoriteNFLTeamID" msprop:Generator_UserParentTable="NFLTeams" msprop:Generator_UserChildTable="CurrentUser" msprop:Generator_RelationVarName="relationFK_CurrentUser_NFLTeams" msprop:Generator_ChildPropName="GetCurrentUserRows" msprop:Generator_UserRelationName="FK_CurrentUser_NFLTeams" msprop:Generator_ParentPropName="NFLTeamsRow" />
-      <msdata:Relationship name="FK_CurrentUser_Users" msdata:parent="Users" msdata:child="CurrentUser" msdata:parentkey="UserID" msdata:childkey="UserID" msprop:Generator_UserParentTable="Users" msprop:Generator_UserChildTable="CurrentUser" msprop:Generator_RelationVarName="relationFK_CurrentUser_Users" msprop:Generator_ChildPropName="GetCurrentUserRows" msprop:Generator_UserRelationName="FK_CurrentUser_Users" msprop:Generator_ParentPropName="UsersRow" />
+      <msdata:Relationship name="FK_FavoriteNBATeam" msdata:parent="NBATeams" msdata:child="Users" msdata:parentkey="NBATeamID" msdata:childkey="FavoriteNBATeamID" msprop:Generator_UserParentTable="NBATeams" msprop:Generator_UserChildTable="Users" msprop:Generator_RelationVarName="relationFK_FavoriteNBATeam" msprop:Generator_ChildPropName="GetUsersRows" msprop:Generator_UserRelationName="FK_FavoriteNBATeam" msprop:Generator_ParentPropName="NBATeamsRow" />
+      <msdata:Relationship name="FK_FavoriteNFLTeam" msdata:parent="NFLTeams" msdata:child="Users" msdata:parentkey="NFLTeamID" msdata:childkey="FavoriteNFLTeamID" msprop:Generator_UserParentTable="NFLTeams" msprop:Generator_UserChildTable="Users" msprop:Generator_RelationVarName="relationFK_FavoriteNFLTeam" msprop:Generator_ChildPropName="GetUsersRows" msprop:Generator_UserRelationName="FK_FavoriteNFLTeam" msprop:Generator_ParentPropName="NFLTeamsRow" />
+      <msdata:Relationship name="FK_CurrentUser_NBATeams" msdata:parent="NBATeams" msdata:child="CurrentUser" msdata:parentkey="NBATeamID" msdata:childkey="FavoriteNBATeamID" msprop:Generator_UserParentTable="NBATeams" msprop:Generator_UserChildTable="CurrentUser" msprop:Generator_RelationVarName="relationFK_CurrentUser_NBATeams" msprop:Generator_ChildPropName="GetCurrentUserRows" msprop:Generator_ParentPropName="NBATeamsRow" msprop:Generator_UserRelationName="FK_CurrentUser_NBATeams" />
+      <msdata:Relationship name="FK_CurrentUser_NFLTeams" msdata:parent="NFLTeams" msdata:child="CurrentUser" msdata:parentkey="NFLTeamID" msdata:childkey="FavoriteNFLTeamID" msprop:Generator_UserParentTable="NFLTeams" msprop:Generator_UserChildTable="CurrentUser" msprop:Generator_RelationVarName="relationFK_CurrentUser_NFLTeams" msprop:Generator_ChildPropName="GetCurrentUserRows" msprop:Generator_ParentPropName="NFLTeamsRow" msprop:Generator_UserRelationName="FK_CurrentUser_NFLTeams" />
+      <msdata:Relationship name="FK_CurrentUser_Users" msdata:parent="Users" msdata:child="CurrentUser" msdata:parentkey="UserID" msdata:childkey="UserID" msprop:Generator_UserParentTable="Users" msprop:Generator_UserChildTable="CurrentUser" msprop:Generator_RelationVarName="relationFK_CurrentUser_Users" msprop:Generator_ChildPropName="GetCurrentUserRows" msprop:Generator_ParentPropName="UsersRow" msprop:Generator_UserRelationName="FK_CurrentUser_Users" />
     </xs:appinfo>
   </xs:annotation>
 </xs:schema>

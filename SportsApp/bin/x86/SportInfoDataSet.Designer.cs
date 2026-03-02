@@ -9284,7 +9284,7 @@ SELECT CurrentUserID, UserID, FirstName, FavoriteNBATeamID, FavoriteNFLTeamID FR
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
         private void InitCommandCollection() {
-            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[5];
+            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[6];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
             this._commandCollection[0].CommandText = "Select * from CurrentUser";
@@ -9295,19 +9295,23 @@ SELECT CurrentUserID, UserID, FirstName, FavoriteNBATeamID, FavoriteNFLTeamID FR
             this._commandCollection[1].CommandType = global::System.Data.CommandType.Text;
             this._commandCollection[2] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[2].Connection = this.Connection;
-            this._commandCollection[2].CommandText = "SELECT FavoriteNFLTeamID\r\nFROM CurrentUser;";
+            this._commandCollection[2].CommandText = "Select FavoriteNBATeamID FROM CurrentUser\r\n";
             this._commandCollection[2].CommandType = global::System.Data.CommandType.Text;
             this._commandCollection[3] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[3].Connection = this.Connection;
-            this._commandCollection[3].CommandText = "\r\nDELETE FROM CurrentUser;\r\nINSERT INTO CurrentUser (UserID, FirstName, FavoriteN" +
-                "BATeamID, FavoriteNFLTeamID)\r\nSELECT UserID, FirstName, FavoriteNBATeamID, Favor" +
-                "iteNFLTeamID\r\nFROM Users\r\nWHERE Email = @Email;";
+            this._commandCollection[3].CommandText = "SELECT FavoriteNFLTeamID\r\nFROM CurrentUser;";
             this._commandCollection[3].CommandType = global::System.Data.CommandType.Text;
-            this._commandCollection[3].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Email", global::System.Data.SqlDbType.NVarChar, 100, global::System.Data.ParameterDirection.Input, 0, 0, "Email", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._commandCollection[4] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[4].Connection = this.Connection;
-            this._commandCollection[4].CommandText = "DELETE FROM CurrentUser;";
+            this._commandCollection[4].CommandText = "\r\nDELETE FROM CurrentUser;\r\nINSERT INTO CurrentUser (UserID, FirstName, FavoriteN" +
+                "BATeamID, FavoriteNFLTeamID)\r\nSELECT UserID, FirstName, FavoriteNBATeamID, Favor" +
+                "iteNFLTeamID\r\nFROM Users\r\nWHERE Email = @Email;";
             this._commandCollection[4].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[4].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Email", global::System.Data.SqlDbType.NVarChar, 100, global::System.Data.ParameterDirection.Input, 0, 0, "Email", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._commandCollection[5] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[5].Connection = this.Connection;
+            this._commandCollection[5].CommandText = "DELETE FROM CurrentUser;";
+            this._commandCollection[5].CommandType = global::System.Data.CommandType.Text;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -9541,8 +9545,36 @@ SELECT CurrentUserID, UserID, FirstName, FavoriteNBATeamID, FavoriteNFLTeamID FR
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual object GetNFLTeam() {
+        public virtual global::System.Nullable<int> GetNBATeam() {
             global::System.Data.SqlClient.SqlCommand command = this.CommandCollection[2];
+            global::System.Data.ConnectionState previousConnectionState = command.Connection.State;
+            if (((command.Connection.State & global::System.Data.ConnectionState.Open) 
+                        != global::System.Data.ConnectionState.Open)) {
+                command.Connection.Open();
+            }
+            object returnValue;
+            try {
+                returnValue = command.ExecuteScalar();
+            }
+            finally {
+                if ((previousConnectionState == global::System.Data.ConnectionState.Closed)) {
+                    command.Connection.Close();
+                }
+            }
+            if (((returnValue == null) 
+                        || (returnValue.GetType() == typeof(global::System.DBNull)))) {
+                return new global::System.Nullable<int>();
+            }
+            else {
+                return new global::System.Nullable<int>(((int)(returnValue)));
+            }
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "18.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        public virtual object GetNFLTeam() {
+            global::System.Data.SqlClient.SqlCommand command = this.CommandCollection[3];
             global::System.Data.ConnectionState previousConnectionState = command.Connection.State;
             if (((command.Connection.State & global::System.Data.ConnectionState.Open) 
                         != global::System.Data.ConnectionState.Open)) {
@@ -9571,7 +9603,7 @@ SELECT CurrentUserID, UserID, FirstName, FavoriteNBATeamID, FavoriteNFLTeamID FR
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Insert, false)]
         public virtual int LogInCurrentUser(string Email) {
-            global::System.Data.SqlClient.SqlCommand command = this.CommandCollection[3];
+            global::System.Data.SqlClient.SqlCommand command = this.CommandCollection[4];
             if ((Email == null)) {
                 throw new global::System.ArgumentNullException("Email");
             }
@@ -9600,7 +9632,7 @@ SELECT CurrentUserID, UserID, FirstName, FavoriteNBATeamID, FavoriteNFLTeamID FR
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, false)]
         public virtual int LogOutCurrentUser() {
-            global::System.Data.SqlClient.SqlCommand command = this.CommandCollection[4];
+            global::System.Data.SqlClient.SqlCommand command = this.CommandCollection[5];
             global::System.Data.ConnectionState previousConnectionState = command.Connection.State;
             if (((command.Connection.State & global::System.Data.ConnectionState.Open) 
                         != global::System.Data.ConnectionState.Open)) {

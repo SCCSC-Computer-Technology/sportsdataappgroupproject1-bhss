@@ -37,7 +37,19 @@ namespace sportsApp.Forms
         {
             // TODO: This line of code loads data into the 'sportInfoDataSet.nbaCurrentPlayers' table. You can move, or remove it, as needed.
             this.nbaCurrentPlayersTableAdapter.Fill(this.sportInfoDataSet.nbaCurrentPlayers);
+            var currentUserAdapter = new SportInfoDataSetTableAdapters.CurrentUserTableAdapter();
+            var dataTable = new SportInfoDataSet.CurrentUserDataTable();
+            currentUserAdapter.Fill(dataTable);
+            int nbaTeam = Convert.ToInt32(currentUserAdapter.GetNBATeam());
 
+            //show favorite team on load
+            nbaCurrentPlayersBindingSource.Filter = $"TeamID = {nbaTeam}";
+            nbaCurrentPlayersBindingSource.Sort = currentSort;
+
+            if (nbaTeam > 0 && nbaTeam <= 32)
+            {
+                teamDropdown.SelectedIndex = nbaTeam - 1;
+            }
         }
 
         // team sort
