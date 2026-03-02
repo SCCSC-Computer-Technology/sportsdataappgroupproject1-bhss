@@ -42,8 +42,8 @@
             this.basketballButton = new System.Windows.Forms.RadioButton();
             this.headerLabel = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.contentPanel = new System.Windows.Forms.Panel();
             this.buttonDashboard = new System.Windows.Forms.Button();
+            this.contentPanel = new System.Windows.Forms.Panel();
             this.lblHeader = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.contentPanel.SuspendLayout();
@@ -247,14 +247,6 @@
             this.panel1.Size = new System.Drawing.Size(216, 491);
             this.panel1.TabIndex = 16;
             // 
-            // contentPanel
-            // 
-            this.contentPanel.Controls.Add(this.lblHeader);
-            this.contentPanel.Location = new System.Drawing.Point(215, 0);
-            this.contentPanel.Name = "contentPanel";
-            this.contentPanel.Size = new System.Drawing.Size(604, 491);
-            this.contentPanel.TabIndex = 17;
-            // 
             // buttonDashboard
             // 
             this.buttonDashboard.BackColor = System.Drawing.Color.Transparent;
@@ -273,12 +265,23 @@
             this.buttonDashboard.UseVisualStyleBackColor = false;
             this.buttonDashboard.Click += new System.EventHandler(this.buttonDashboard_Click);
             // 
+            // contentPanel
+            // 
+            this.contentPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("contentPanel.BackgroundImage")));
+            this.contentPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.contentPanel.Controls.Add(this.lblHeader);
+            this.contentPanel.Location = new System.Drawing.Point(215, 0);
+            this.contentPanel.Name = "contentPanel";
+            this.contentPanel.Size = new System.Drawing.Size(604, 491);
+            this.contentPanel.TabIndex = 17;
+            // 
             // lblHeader
             // 
             this.lblHeader.AutoSize = true;
+            this.lblHeader.BackColor = System.Drawing.Color.Transparent;
             this.lblHeader.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHeader.ForeColor = System.Drawing.Color.Black;
-            this.lblHeader.Location = new System.Drawing.Point(168, 39);
+            this.lblHeader.ForeColor = System.Drawing.Color.White;
+            this.lblHeader.Location = new System.Drawing.Point(168, 9);
             this.lblHeader.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblHeader.Name = "lblHeader";
             this.lblHeader.Size = new System.Drawing.Size(268, 40);

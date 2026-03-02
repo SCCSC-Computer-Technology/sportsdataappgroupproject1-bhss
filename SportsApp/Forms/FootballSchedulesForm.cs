@@ -15,11 +15,14 @@ namespace sportsApp.Forms
         public FootballSchedulesForm()
         {
             InitializeComponent();
-            comboBoxMonths.Items.Add("January");            
             comboBoxMonths.Items.Add("September");
             comboBoxMonths.Items.Add("October");
             comboBoxMonths.Items.Add("November");
             comboBoxMonths.Items.Add("December");            
+            comboBoxMonths.Items.Add("January");
+
+            sortByDropdown.SelectedItem = "Date";
+            comboBoxMonths.SelectedIndex = 0;
         }
 
         private void nflScheduleBindingNavigatorSaveItem_Click(object sender, EventArgs e)

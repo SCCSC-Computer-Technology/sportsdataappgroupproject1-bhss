@@ -15,6 +15,7 @@ namespace sportsApp.Forms
         public FootballStatsForm()
         {
             InitializeComponent();
+            sortByDropdown.SelectedItem = "Team";
         }
 
         private void nflSeasonStatsBindingNavigatorSaveItem_Click(object sender, EventArgs e)
