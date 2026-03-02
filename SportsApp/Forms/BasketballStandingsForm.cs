@@ -15,6 +15,7 @@ namespace sportsApp.Forms
         public BasketballStandingsForm()
         {
             InitializeComponent();
+            sortByDropdown.SelectedItem = "Wins";
         }
 
         private void nBATeamsBindingNavigatorSaveItem_Click(object sender, EventArgs e)
@@ -32,6 +33,7 @@ namespace sportsApp.Forms
 
         }
 
+        // sort method
         private void sortByDropdown_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (sortByDropdown.SelectedItem == null)
@@ -48,12 +50,8 @@ namespace sportsApp.Forms
             }
         }
 
+        // search method
         private void searchTextbox_TextChanged(object sender, EventArgs e)
-        {
-            ApplySearchFilter();
-        }
-
-        private void ApplySearchFilter()
         {
             string searchText = searchTextbox.Text.Trim();
 

@@ -17,6 +17,7 @@ namespace sportsApp.Forms
         {
             InitializeComponent();
             sortByDropdown.SelectedItem = nbaSeasonStatsBindingSource.Sort == "Wins";
+            sortByDropdown.SelectedItem = "Wins";
         }
 
         private void nbaSeasonStatsBindingNavigatorSaveItem_Click(object sender, EventArgs e)
@@ -34,6 +35,7 @@ namespace sportsApp.Forms
 
         }
 
+        // sorting method based on dropdown selection
         private void sortByDropdown_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (sortByDropdown.SelectedItem == null)
@@ -66,12 +68,8 @@ namespace sportsApp.Forms
             }
         }
 
+        // search method based on character changes in textbox
         private void searchTextbox_TextChanged(object sender, EventArgs e)
-        {
-            ApplySearchFilter();
-        }
-
-        private void ApplySearchFilter()
         {
             string searchText = searchTextbox.Text.Trim();
 

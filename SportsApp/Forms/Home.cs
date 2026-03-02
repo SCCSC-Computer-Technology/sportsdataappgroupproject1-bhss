@@ -20,11 +20,17 @@ namespace sportsApp
             // show loginform first
             LoginForm loginform = new LoginForm();
             loginform.ShowDialog();
+
+            // ensure that the radio buttons are not selected
             basketballButton.Checked = false;
             footballButton.Checked = false;
+
+            // auto added via dgv to pull name signed in
             var currentUserAdapter = new SportInfoDataSetTableAdapters.CurrentUserTableAdapter();
             var dataTable = new SportInfoDataSet.CurrentUserDataTable();
             currentUserAdapter.Fill(dataTable);
+
+            // assign signed in name to welcome label
             string name = currentUserAdapter.GetName();
             lblHeader.Text = $"Welcome, {name}!";
         }
@@ -48,6 +54,7 @@ namespace sportsApp
             this.Close();
         }
 
+        // loads teams form based on radio button selected
         private void teamsButton_Click(object sender, EventArgs e)
         {
             if (basketballButton.Checked)
@@ -60,6 +67,7 @@ namespace sportsApp
 
         }
 
+        // loads players form based on radio button selected
         private void playersButton_Click(object sender, EventArgs e)
         {
             if (basketballButton.Checked)
@@ -72,6 +80,7 @@ namespace sportsApp
             }
         }
 
+        // loads stats form based on radio button selected
         private void statsButton_Click(object sender, EventArgs e)
         {
             if (basketballButton.Checked)
@@ -84,6 +93,7 @@ namespace sportsApp
             }
         }
 
+        // loads schedules form based on radio button selected
         private void scheduleButton_Click(object sender, EventArgs e)
         {
             if (basketballButton.Checked)
@@ -95,6 +105,8 @@ namespace sportsApp
                 LoadIntoContent(new FootballSchedulesForm());
             }
         }
+
+        // loads scores form based on radio button selected
         private void scoresButton_Click(object sender, EventArgs e)
         {
             if (basketballButton.Checked)
@@ -120,6 +132,8 @@ namespace sportsApp
             child.Show();
         }
 
+        // this clears any forms loaded into the content panel
+        // then adds header label
         private void buttonDashboard_Click(object sender, EventArgs e)
         {
             //clear main panel
