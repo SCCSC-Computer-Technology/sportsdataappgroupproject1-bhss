@@ -13,6 +13,8 @@ namespace sportsApp
 {
     public partial class Home : Form
     {
+        private bool isSelected = false;
+
         public Home()
         {
             InitializeComponent();
@@ -64,6 +66,13 @@ namespace sportsApp
             {
                 LoadIntoContent(new FootballTeamsForm());
             }
+            //set colors for menu            
+            buttonDashboard.BackColor = Color.Transparent;            
+            playersButton.BackColor = Color.Transparent;
+            statsButton.BackColor = Color.Transparent;
+            scheduleButton.BackColor = Color.Transparent;
+            standingsButton.BackColor = Color.Transparent;
+            teamsButton.BackColor = Color.CornflowerBlue;
 
         }
 
@@ -78,6 +87,13 @@ namespace sportsApp
             {
                 LoadIntoContent(new FootballPlayersForm());
             }
+            //set colors for menu
+            buttonDashboard.BackColor = Color.Transparent;
+            teamsButton.BackColor = Color.Transparent;            
+            statsButton.BackColor = Color.Transparent;
+            scheduleButton.BackColor = Color.Transparent;
+            standingsButton.BackColor = Color.Transparent;
+            playersButton.BackColor = Color.CornflowerBlue;
         }
 
         // loads stats form based on radio button selected
@@ -91,6 +107,13 @@ namespace sportsApp
             {
                 LoadIntoContent(new FootballStatsForm());
             }
+            //set colors
+            buttonDashboard.BackColor = Color.Transparent;
+            teamsButton.BackColor = Color.Transparent;
+            playersButton.BackColor = Color.Transparent;
+            scheduleButton.BackColor = Color.Transparent;
+            standingsButton.BackColor = Color.Transparent;
+            statsButton.BackColor = Color.CornflowerBlue;
         }
 
         // loads schedules form based on radio button selected
@@ -104,6 +127,13 @@ namespace sportsApp
             {
                 LoadIntoContent(new FootballSchedulesForm());
             }
+            //colors
+            buttonDashboard.BackColor = Color.Transparent;
+            teamsButton.BackColor = Color.Transparent;
+            playersButton.BackColor = Color.Transparent;
+            statsButton.BackColor = Color.Transparent;            
+            standingsButton.BackColor = Color.Transparent;
+            scheduleButton.BackColor = Color.CornflowerBlue;
         }
 
         // loads scores form based on radio button selected
@@ -117,6 +147,13 @@ namespace sportsApp
             {
                 LoadIntoContent(new FootballStandingsForm());
             }
+            //colors
+            buttonDashboard.BackColor = Color.Transparent;
+            teamsButton.BackColor = Color.Transparent;
+            playersButton.BackColor = Color.Transparent;
+            statsButton.BackColor = Color.Transparent;
+            scheduleButton.BackColor = Color.Transparent;
+            standingsButton.BackColor = Color.CornflowerBlue;
         }
 
         // this is a method to place the selected tab's form
@@ -138,7 +175,13 @@ namespace sportsApp
         {
             //clear main panel
             contentPanel.Controls.Clear();            
-            contentPanel.Controls.Add(lblHeader);
+            contentPanel.Controls.Add(lblHeader);            
+            teamsButton.BackColor = Color.Transparent;
+            playersButton.BackColor = Color.Transparent;
+            statsButton.BackColor = Color.Transparent;
+            scheduleButton.BackColor = Color.Transparent;
+            standingsButton.BackColor = Color.Transparent;
+            buttonDashboard.BackColor = Color.CornflowerBlue;
         }
     }
 }

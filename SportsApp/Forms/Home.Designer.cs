@@ -223,7 +223,7 @@
             this.headerLabel.Location = new System.Drawing.Point(53, 9);
             this.headerLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.headerLabel.Name = "headerLabel";
-            this.headerLabel.Size = new System.Drawing.Size(111, 25);
+            this.headerLabel.Size = new System.Drawing.Size(138, 32);
             this.headerLabel.TabIndex = 8;
             this.headerLabel.Text = "Sport Stats";
             // 
@@ -284,13 +284,13 @@
             this.lblHeader.Location = new System.Drawing.Point(168, 9);
             this.lblHeader.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblHeader.Name = "lblHeader";
-            this.lblHeader.Size = new System.Drawing.Size(268, 40);
+            this.lblHeader.Size = new System.Drawing.Size(340, 50);
             this.lblHeader.TabIndex = 9;
             this.lblHeader.Text = "Welcome, (name)!";
             // 
             // Home
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(818, 491);
             this.Controls.Add(this.contentPanel);
