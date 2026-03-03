@@ -35,6 +35,8 @@ namespace sportsApp
             // assign signed in name to welcome label
             string name = currentUserAdapter.GetName();
             lblHeader.Text = $"Welcome, {name}!";
+
+            buttonDashboard.BackColor = Color.CornflowerBlue;
         }
 
         private void logOutButton_Click(object sender, EventArgs e)
